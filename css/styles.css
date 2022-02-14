@@ -21,6 +21,14 @@ h2 {
   color: #326257;
 }
 
+#skip {
+  position: absolute;
+  left: -200vw;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
 /* nav */
 .top-bar, .top-bar ul {
   background-color: #326257;

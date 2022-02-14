@@ -23,6 +23,14 @@ h2 {
     color: $viridian;
 }
 
+#skip {
+    position: absolute;
+    left: -200vw;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
 /* nav */
 
 .top-bar {
@@ -44,7 +52,6 @@ h2 {
             color: $uranian-blue;
             background-image: url(../images/nav/icon.png);
             @include setbox(84px, 84px, null, null);
-
         }
     }
 }

@@ -13,6 +13,8 @@
 
   <body>
 
+    <a id="skip" href="#main" accesskey="S"> Skip navigation </a>
+
     <div class="title-bar" data-responsive-toggle="responsive-menu"
       data-hide-for="medium">
 
@@ -27,26 +29,27 @@
 
         <ul class="grid-x text-center vertical medium-horizontal menu"
           data-dropdown-menu>
-          <li class="cell small-6 medium-2 large-1 menu-text align-self-middle
+          <li role="img" aria-label="Georges Garden Shop" class="cell small-6
+            medium-2 large-1 menu-text align-self-middle
             show-for-medium"><span class="hide">Georges Garden Shop</span></li>
           <li class="cell small-6 medium-2 medium-offset-2 large-1
             large-offset-7
             align-self-middle">
-            <h1><a href="./index.html">HOME</a></h1>
+            <h1><a accesskey="1" href="./index.html">HOME</a></h1>
           </li>
           <li class="cell small-6 medium-2 large-1 align-self-middle"><a
-              href="./contact.php">CONTACT</a></li>
+              accesskey="2" href="./contact.php">CONTACT</a></li>
           <li class="cell small-6 medium-2 large-1 align-self-middle"><a
-              href="./gallery.html">GALLERY</a></li>
+              accesskey="3" href="./gallery.html">GALLERY</a></li>
           <li class="cell small-6 medium-2 large-1 align-self-middle"><a
-              href="./video.html">VIDEO</a></li>
+              accesskey="4" href="./video.html">VIDEO</a></li>
         </ul>
 
       </div>
 
     </header>
 
-    <div class="orbit" role="region" aria-label="Favorite Space Pictures"
+    <div id="main" class="orbit" role="region" aria-label="Favorite Space Pictures"
       data-orbit>
       <h2>Georges Garden Shop</h2>
       <div class="orbit-wrapper">
@@ -63,7 +66,7 @@
       </div>
     </div>
 
-    <main class="grid-container">
+    <main id="main" class="grid-container">
 
       <div class="grid-x align-center stack-for-small text-center media-object">
         <div class="cell medium-order-2 medium-6 grid-x align-justify

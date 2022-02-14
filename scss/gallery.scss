@@ -7,7 +7,7 @@
 }
 
 @for $i from 1 through 20 {
-    #img-#{$i} {
+    #product-#{$i} {
         @include setbox(220px, 220px, null, auto auto 3% auto);
         background-image: url(../images/gallery/product-#{$i}.jpg);
         background-size: contain;

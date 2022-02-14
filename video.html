@@ -12,6 +12,8 @@
 
     <body>
 
+        <a id="skip" href="#main" accesskey="S"> Skip navigation </a>
+
         <div class="title-bar" data-responsive-toggle="responsive-menu"
             data-hide-for="medium">
 
@@ -28,22 +30,23 @@
                 <ul class="grid-x text-center vertical medium-horizontal
                     menu"
                     data-dropdown-menu>
-                    <li class="cell small-6 medium-2 large-1 menu-text
+                    <li role="img" aria-label="Georges Garden Shop" class="cell
+                        small-6 medium-2 large-1 menu-text
                         align-self-middle
                         show-for-medium"><span class="hide">Georges Garden Shop</span></li>
                     <li class="cell small-6 medium-2 medium-offset-2 large-1
                         large-offset-7
                         align-self-middle">
-                        <a href="./index.html">HOME</a>
+                        <a accesskey="1" href="./index.html">HOME</a>
                     </li>
                     <li class="cell small-6 medium-2 large-1
-                        align-self-middle"><a
+                        align-self-middle"><a accesskey="2"
                             href="./contact.php">CONTACT</a></li>
                     <li class="cell small-6 medium-2 large-1
-                        align-self-middle"><a
+                        align-self-middle"><a accesskey="3"
                             href="./gallery.html">GALLERY</a></li>
                     <li class="cell small-6 medium-2 large-1
-                        align-self-middle"><h1><a
+                        align-self-middle"><h1><a accesskey="4"
                                 href="./video.html">VIDEO</a></h1></li>
                 </ul>
 
@@ -51,7 +54,7 @@
 
         </header>
 
-        <main class="grid-container">
+        <main id="main" class="grid-container">
 
             <h2 class="margin-bottom-3 text-center medium-text-right">Lorem
                 ipsum</h2>
