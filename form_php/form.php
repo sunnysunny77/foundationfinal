@@ -10,7 +10,7 @@ if (!isset($_POST["action"])) {
     <span class="badge secondary">3</span>
     <form method="post" action="?">
                 <label>Purchase one or more products to proceed
-                    <select size="10" name="product[]" multiple>
+                    <select required size="10" name="product[]" multiple>
                         <option value="product-1">Product-1</option>
                         <option value="product-2">Product-2</option>
                         <option value="product-3">Product-3</option>
@@ -47,17 +47,16 @@ if (isset($_POST["action"]) && $_POST["action"] == "Submit") {
     echo "<span class=\"badge primary\">1</span>
         <span class=\"badge primary\">2</span>
         <span class=\"badge secondary\">3</span>";
+        echo "<form method=\"post\" action=\"?\">";
     foreach ($_POST["product"] as $key => $product) {
         echo "
-      
-        <form method=\"post\" action=\"?\">
         <div class=\"grid-x\">
                 <fieldset class=\"large-5 cell\">
                 <legend>Choose your quantity</legend>
                     <div class=\"medium-6 cell\">
                         <label>
                         $product 
-                        <input name=\"$key\" type=\"number\" min=\"1\" value=\"1\">
+                        <input required name=\"$key\" type=\"number\" min=\"1\" value=\"1\">
                         </label>
                     </div>
                 </fieldset> 
@@ -66,17 +65,17 @@ if (isset($_POST["action"]) && $_POST["action"] == "Submit") {
 
     echo '<div class="medium-6 cell">
             <label>Name
-              <input name="name" type="text">
+              <input required name="name" type="text">
             </label>
           </div>
           <div class="medium-6 cell">
             <label>email
-                <input name="email" type="email" >
+                <input required name="email" type="email" >
             </label>
         </div>
          <div class="medium-6 cell">
             <label>Phone
-                <input name="phone" type="tel" >
+                <input required name="phone" type="tel" >
             </label>
         </div>
         <label>
@@ -97,7 +96,7 @@ if (isset($_POST["action"]) && $_POST["action"] == "Order") {
     <span class=\"badge primary\">1</span>
     <span class=\"badge primary\">2</span>
     <span class=\"badge primary\">3</span>
-    <div class=\"callout\">
+    <section class=\"callout\">
 
     <h3>Order</h3>
 
@@ -135,5 +134,5 @@ if (isset($_POST["action"]) && $_POST["action"] == "Order") {
 
     echo "</tbody>
     </table>
-  </div>";
+  </section>";
 }

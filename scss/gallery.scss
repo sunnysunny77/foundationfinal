@@ -4,6 +4,9 @@
     & .cell {
         @include setbox(220px, 400px, null, 1% 3%);
     }
+    & h3 {
+        font-size: medium;
+    }
 }
 
 @for $i from 1 through 20 {

@@ -17,7 +17,7 @@
 
     <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
 
-        <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+        <button class="menu-icon" type="button" data-toggle="responsive-menu"><span class="hide">Menu</span></button>
         <div class="title-bar-title">Menu</div>
 
     </div>
