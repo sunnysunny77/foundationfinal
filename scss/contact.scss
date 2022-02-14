@@ -6,10 +6,10 @@
 
 form {
     & .button {
-        background-color: lightnesShift($middle-blue-green); 
-        color: $viridian;
+        background-color: lightnesShift($colorOne); 
+        color: $colorFive;
         &:hover {
-            background-color: $middle-blue-green; 
+            background-color: $colorOne; 
             color: $black;
         }
     }

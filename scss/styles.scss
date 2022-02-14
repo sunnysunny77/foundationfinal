@@ -3,7 +3,7 @@
 @import "variables";
 
 body {
-    background-color: rgba($blue-bell, 0.01);
+    background-color: rgba($colorFour, 0.01);
     max-width: 1920px;
     margin: auto;
 }
@@ -15,26 +15,18 @@ main {
 h3,
 h4,
 h5 {
-    color: $viridian;
+    color: $colorFive;
 }
 
 h2 {
     @include setbox(null, null, 0.5%, 40px auto auto auto);
-    color: $viridian;
-}
-
-#skip {
-    position: absolute;
-    left: -200vw;
-    width: 0;
-    height: 0;
-    overflow: hidden;
+    color: $colorFive;
 }
 
 /* nav */
 
 .top-bar {
-    background-color: $viridian;
+    background-color: $colorFive;
     & ul {
         min-height: 100px;
         @extend .top-bar;
@@ -43,7 +35,7 @@ h2 {
             @include zerobox();
         }
         & a {
-            color: $columbia-blue;
+            color: $colorTwo;
             &:hover {
                 color: $white;
             }
@@ -60,12 +52,12 @@ h2 {
 }
 
 .title-bar {
-    background-color: $viridian;
+    background-color: $colorFive;
     & .menu-icon {
-        color: $uranian-blue;
+        color: $colorThree;
     }
     & .title-bar-title {
-        color: $columbia-blue;
+        color: $colorTwo;
     }
 }
 
@@ -73,9 +65,9 @@ h2 {
 
 footer {
     padding-top: 15px;
-    background-color: $blue-bell;
+    background-color: $colorFour;
     & li {
-        color: $columbia-blue;
+        color: $colorTwo;
     }
     & a {
         @extend li;

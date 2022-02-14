@@ -13,7 +13,7 @@
 
 <body>
 
-    <a id="skip" href="#main" accesskey="S"> Skip navigation </a>
+    <a class="hide" href="#main" accesskey="S"> Skip navigation </a>
 
     <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
 
