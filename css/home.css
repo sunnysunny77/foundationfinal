@@ -20,7 +20,6 @@
 
 .media-object-section img {
   width: 100%;
-  padding: 1%;
   border-radius: 10px;
 }
 
@@ -59,8 +58,8 @@
     padding: 2%;
     margin: 2%;
   }
-  .media-object-section img {
-    padding: 5%;
+  .media-object-section:nth-child(2) {
+    padding: 3%;
   }
 }
 /*# sourceMappingURL=home.css.map */

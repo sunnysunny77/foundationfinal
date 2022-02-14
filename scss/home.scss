@@ -7,7 +7,7 @@
         position: absolute;
         z-index: 999;
         right: 20px;
-        background-color: lightnesShift(rgba($white,0.3));
+        background-color: lightnesShift(rgba($white, 0.3));
         border-radius: 10px;
         color: $white;
         font-style: oblique;
@@ -18,11 +18,12 @@
     }
 }
 
-.media-object-section img {
-    @include setbox(100%, null, 1%, null);
-    border-radius: 10px;
+.media-object-section {
+    & img {
+        @include setbox(100%, null, null, null);
+        border-radius: 10px;
+    }
 }
-
 .card {
     background-color: $transparent;
     border: none;
@@ -53,8 +54,8 @@
         &:nth-child(1) {
             @include setbox(null, null, 2%, 2%);
         }
-        & img {
-            @include setbox(null, null, 5%, null);
+        &:nth-child(2) {
+            @include setbox(null, null, 3%, null);
         }
     }
 }
