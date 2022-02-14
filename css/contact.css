@@ -1,0 +1,22 @@
+.badge {
+  margin-bottom: 10px;
+}
+
+form .button {
+  background-color: #ace7d8;
+  color: #326257;
+}
+
+form .button:hover {
+  background-color: #84dcc6;
+  color: #0a0a0a;
+}
+
+form textarea {
+  resize: none;
+}
+
+.callout {
+  background-color: transparent;
+}
+/*# sourceMappingURL=contact.css.map */

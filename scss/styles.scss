@@ -1,0 +1,83 @@
+/* global */
+
+@import "variables";
+
+body {
+    background-color: rgba($blue-bell, 0.01);
+    max-width: 1920px;
+    margin: auto;
+}
+
+main {
+    min-height: 69vh;
+}
+
+h3,
+h4,
+h5 {
+    color: $viridian;
+}
+
+h2 {
+    @include setbox(null, null, 0.5%, 40px auto auto auto);
+    color: $viridian;
+}
+
+/* nav */
+
+.top-bar {
+    background-color: $viridian;
+    & ul {
+        min-height: 100px;
+        @extend .top-bar;
+        & h1 {
+            font-size: inherit;
+            @include zerobox();
+        }
+        & a {
+            color: $columbia-blue;
+            &:hover {
+                color: $white;
+            }
+        }
+        & .menu-text {
+            color: $uranian-blue;
+            background-image: url(../images/nav/icon.png);
+            @include setbox(84px, 84px, null, null);
+
+        }
+    }
+}
+
+.title-bar {
+    background-color: $viridian;
+    & .menu-icon {
+        color: $uranian-blue;
+    }
+    & .title-bar-title {
+        color: $columbia-blue;
+    }
+}
+
+/* footer */
+
+footer {
+    padding-top: 15px;
+    background-color: $blue-bell;
+    & li {
+        color: $columbia-blue;
+    }
+    & a {
+        @extend li;
+        &:hover {
+            color: $white;
+        }
+    }
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+    main > * {
+        margin-bottom: 50px;
+    }
+}
