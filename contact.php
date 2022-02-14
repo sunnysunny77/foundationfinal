@@ -14,7 +14,7 @@
 <body>
 
     <a id="skip" href="#main" accesskey="S"> Skip navigation </a>
-    
+
     <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
 
         <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
@@ -28,9 +28,9 @@
 
             <ul class="grid-x text-center vertical medium-horizontal
                         menu" data-dropdown-menu>
-                <li role="img" aria-label="Georges Garden Shop"class="cell small-6 medium-2 large-1 menu-text
-                            align-self-middle
-                            show-for-medium"><span class="hide">Georges Garden Shop</span></li>
+                <li class="cell small-6
+            medium-2 large-1 menu-text align-self-middle
+            show-for-medium"><span role="img" aria-label="Georges Garden Shop"><span class="hide">Georges Garden Shop</span></span></li>
                 <li class="cell small-6 medium-2 medium-offset-2 large-1
                             large-offset-7
                             align-self-middle">
@@ -47,7 +47,7 @@
             </ul>
 
         </div>
-    
+
     </header>
 
     <main id="main" class="grid-container">

@@ -49,9 +49,12 @@ h2 {
             }
         }
         & .menu-text {
-            color: $uranian-blue;
-            background-image: url(../images/nav/icon.png);
-            @include setbox(84px, 84px, null, null);
+            @include zerobox();
+            & span {
+                display: inline-block;
+                background-image: url(../images/nav/icon.png);
+                @include setbox(84px, 84px, null, null);
+            }
         }
     }
 }
