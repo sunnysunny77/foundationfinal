@@ -61,5 +61,8 @@
   .media-object-section:nth-child(2) {
     padding: 3%;
   }
+  .card img {
+    border-radius: unset;
+  }
 }
 /*# sourceMappingURL=home.css.map */

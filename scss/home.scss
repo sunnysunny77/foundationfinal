@@ -58,4 +58,7 @@
             @include setbox(null, null, 3%, null);
         }
     }
+    .card img {
+        border-radius: unset;
+    }
 }
