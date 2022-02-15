@@ -1,4 +1,9 @@
+// _settings.scss foundation styles custom 
+$customColor: transparent;
+$mediaobject-image-width-stacked-custom: 97%;
+$callout-margin-bot: 50px;
 
+// colors 
 $colorOne: rgb(132, 220, 198);
 $colorTwo: rgb(214, 237, 255);
 $colorThree: rgb(172, 215, 236);
@@ -6,9 +11,10 @@ $colorFour: rgb(95, 95, 155);
 $colorFive: rgb(50, 98, 87);
 $white: snow;
 $black: #0a0a0a;
-$grey :#cacaca;
+$grey: #cacaca;
 $transparent: transparent;
 
+// functions 
 @mixin zerobox() {
     margin: 0;
     padding: 0;
