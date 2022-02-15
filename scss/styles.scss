@@ -27,22 +27,22 @@ h2 {
 
 .top-bar {
     background-color: $colorFive;
-    & ul {
+     ul {
         min-height: 100px;
         @extend .top-bar;
-        & h1 {
+         h1 {
             font-size: inherit;
             @include zerobox();
         }
-        & a {
+         a {
             color: $colorTwo;
             &:hover {
                 color: $white;
             }
         }
-        & .menu-text {
+         .menu-text {
             @include zerobox();
-            & span {
+             span {
                 display: inline-block;
                 background-image: url(../images/nav/icon.png);
                 @include setbox(84px, 84px, null, null);
@@ -53,10 +53,10 @@ h2 {
 
 .title-bar {
     background-color: $colorFive;
-    & .menu-icon {
+     .menu-icon {
         color: $colorThree;
     }
-    & .title-bar-title {
+     .title-bar-title {
         color: $colorTwo;
     }
 }
@@ -66,10 +66,10 @@ h2 {
 footer {
     padding-top: 15px;
     background-color: $colorFour;
-    & li {
+     li {
         color: $colorTwo;
     }
-    & a {
+     a {
         @extend li;
         &:hover {
             color: $white;

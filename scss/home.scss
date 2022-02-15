@@ -3,7 +3,7 @@
 .orbit {
     max-width: 1200px;
     @include setbox(null, null, null, auto auto 2rem auto);
-    & h2 {
+     h2 {
         position: absolute;
         z-index: 999;
         right: 20px;
@@ -13,7 +13,7 @@
         font-style: oblique;
         text-shadow: 0 0 2.5px lightnesShift($black);
     }
-    & .orbit-container img {
+     .orbit-container img {
         max-height: 700px;
     }
 }
@@ -26,16 +26,16 @@
 .card {
     background-color: $transparent;
     border: none;
-    & .card-divider {
+     .card-divider {
         background-color: $transparent;
         font-size: larger;
         color: $colorFive;
         @include zerobox();
     }
-    & .card-section {
+     .card-section {
         @include zerobox();
     }
-    & img {
+     img {
         @include setbox(null, null, null, 2% 2% 7% 2%);
         border-radius: 10px;
     }

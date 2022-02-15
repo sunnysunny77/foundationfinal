@@ -5,7 +5,7 @@
 }
 
 form {
-    & .button {
+     .button {
         background-color: lightnesShift($colorOne);
         color: $colorFive;
         &:hover {
@@ -13,7 +13,7 @@ form {
             color: $black;
         }
     }
-    & textarea {
+     textarea {
         resize: none;
     }
 }
