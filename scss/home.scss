@@ -18,12 +18,11 @@
     }
 }
 
-.media-object-section {
-    & img {
-        @include setbox(100%, null, null, null);
-        border-radius: 10px;
-    }
+.media-object-section img {
+    @include setbox(100%, null, null, null);
+    border-radius: 10px;
 }
+
 .card {
     background-color: $transparent;
     border: none;

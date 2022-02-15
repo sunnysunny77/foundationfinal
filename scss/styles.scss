@@ -5,7 +5,7 @@
 body {
     background-color: rgba($colorFour, 0.01);
     max-width: 1920px;
-    margin: auto;
+    @include setbox(null, null, null, auto);
 }
 
 main {
