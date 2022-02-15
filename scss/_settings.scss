@@ -1,3 +1,8 @@
+// 1. custom
+// ---------
+$customColor: transparent;
+$mediaobject-image-width-stacked-custom: 97%;
+
 //  Foundation for Sites Settings
 //  -----------------------------
 //
@@ -235,7 +240,7 @@ $input-error-font-weight: $global-weight-bold;
 // 7. Accordion
 // ------------
 
-$accordion-background: transparent;
+$accordion-background: $customColor;
 $accordion-plusminus: true;
 $accordion-plus-content: '\002B';
 $accordion-minus-content: '\2013';
@@ -243,7 +248,7 @@ $accordion-title-font-size: rem-calc(12);
 $accordion-item-color: $primary-color;
 $accordion-item-background-hover: $light-gray;
 $accordion-item-padding: 1.25rem 1rem;
-$accordion-content-background:  transparent;
+$accordion-content-background:  $customColor;
 $accordion-content-border: 1px solid $light-gray;
 $accordion-content-color: $body-font-color;
 $accordion-content-padding: 1rem;
@@ -333,7 +338,7 @@ $buttongroup-radius-on-each: true;
 $callout-background: $white;
 $callout-background-fade: 85%;
 $callout-border: 1px solid rgba($black, 0.25);
-$callout-margin: 0 0 100px 0;
+$callout-margin: 0 0 1rem 0;
 $callout-sizes: (
   small: 0.5rem,
   default: 1rem,
@@ -448,7 +453,7 @@ $form-label-color: $black;
 $form-label-font-size: rem-calc(14);
 $form-label-font-weight: $global-weight-normal;
 $form-label-line-height: 1.8;
-$select-background: transparent;
+$select-background: $customColor;
 $select-triangle-color: $dark-gray;
 $select-radius: $global-radius;
 $input-color: $black;
@@ -457,8 +462,8 @@ $input-font-family: inherit;
 $input-font-size: rem-calc(16);
 $input-font-weight: $global-weight-normal;
 $input-line-height: $global-lineheight;
-$input-background: transparent;
-$input-background-focus: transparent;
+$input-background: $customColor;
+$input-background-focus: $customColor;
 $input-background-disabled: $light-gray;
 $input-border: 1px solid $medium-gray;
 $input-border-focus: 1px solid $dark-gray;
@@ -487,7 +492,7 @@ $label-radius: $global-radius;
 
 $mediaobject-margin-bottom: $global-margin;
 $mediaobject-section-padding: $global-padding;
-$mediaobject-image-width-stacked: 97%;
+$mediaobject-image-width-stacked: $mediaobject-image-width-stacked-custom;
 
 // 23. Menu
 // --------
@@ -797,7 +802,7 @@ $switch-cursor-disabled: not-allowed;
 // 50. Table
 // ---------
 
-$table-background: transparent;
+$table-background: $customColor;
 $table-color-scale: 5%;
 $table-border: 1px solid smart-scale($table-background, $table-color-scale);
 $table-padding: rem-calc(8 10 10);
