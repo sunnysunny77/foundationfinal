@@ -2,6 +2,7 @@
 // ---------
 $customColor: transparent;
 $mediaobject-image-width-stacked-custom: 97%;
+$callout-margin-bot: 50px;
 
 //  Foundation for Sites Settings
 //  -----------------------------
@@ -338,7 +339,7 @@ $buttongroup-radius-on-each: true;
 $callout-background: $white;
 $callout-background-fade: 85%;
 $callout-border: 1px solid rgba($black, 0.25);
-$callout-margin: 0 0 1rem 0;
+$callout-margin: 0 0 $callout-margin-bot 0;
 $callout-sizes: (
   small: 0.5rem,
   default: 1rem,
