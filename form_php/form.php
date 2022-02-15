@@ -120,8 +120,8 @@ if (isset($_POST["action"]) && $_POST["action"] == "Order") {
         <table>
             <thead>
                 <tr>
-                    <th>Product</th>
-                    <th>Quantity</th>
+                    <th id="product">Product</th>
+                    <th id="quantity">Quantity</th>
                 </tr>
             </thead>
             <tbody>
@@ -129,8 +129,8 @@ if (isset($_POST["action"]) && $_POST["action"] == "Order") {
             <?php foreach ($_SESSION["product"] as $key => $product) { ?>
 
                 <tr>
-                    <td> <?php htmlout($product); ?> </td>
-                    <td> <?php htmlout($_POST[$key]); ?> </td>
+                    <td headers="product"> <?php htmlout($product); ?> </td>
+                    <td headers="quantity"> <?php htmlout($_POST[$key]); ?> </td>
                 </tr>
             
             <?php } ?>
