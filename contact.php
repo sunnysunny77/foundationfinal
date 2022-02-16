@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Georges Garden Shop - Contact</title>
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/icons/foundation-icons.css">
 </head>
@@ -95,9 +96,9 @@
     </footer>
 
     <script src="js/vendor/jquery.js"></script>
-        <script src="js/vendor/what-input.js"></script>
-        <script src="js/vendor/foundation.js"></script>
-        <script src="js/app.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

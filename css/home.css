@@ -23,6 +23,10 @@
   border-radius: 10px;
 }
 
+.stack-for-small .media-object-section img {
+  width: 96%;
+}
+
 .card {
   background-color: transparent;
   border: none;
