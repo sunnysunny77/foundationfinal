@@ -54,11 +54,11 @@
   .media-object {
     margin: auto auto 50px auto;
   }
-  .media-object-section:nth-child(1) {
+  .media-object .media-object-section:nth-child(1) {
     padding: 2%;
     margin: 2%;
   }
-  .media-object-section:nth-child(2) {
+  .media-object .media-object-section:nth-child(2) {
     padding: 3%;
   }
   .card img {
