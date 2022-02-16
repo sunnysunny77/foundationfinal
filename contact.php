@@ -38,7 +38,7 @@
                 </li>
                 <li class="cell small-6 medium-2 large-1
                             align-self-middle">
-                    <h1><a accesskey="2" href="./contact.php">CONTACT</a></h1>
+                    <a accesskey="2" href="./contact.php"><h1>CONTACT</h1></a>
                 </li>
                 <li class="cell small-6 medium-2 large-1
                             align-self-middle"><a accesskey="3" href="./gallery.html">GALLERY</a></li>
@@ -95,9 +95,9 @@
     </footer>
 
     <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script src="js/app.js"></script>
 </body>
 
 </html>
