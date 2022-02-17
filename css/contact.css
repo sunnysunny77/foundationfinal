@@ -3,17 +3,21 @@
 }
 
 form .button {
-  background-color: #ace7d8;
+  background-color: #84dcc6;
   color: #326257;
 }
 
 form .button:hover {
-  background-color: #84dcc6;
+  background-color: #5cd1b4;
   color: #0a0a0a;
 }
 
 form textarea {
   resize: none;
+}
+
+blockquote, blockquote cite {
+  color: #717171;
 }
 
 @media screen and (min-width: 40em) {

@@ -21,6 +21,10 @@ h2 {
   color: #326257;
 }
 
+.subheader {
+  color: #717171;
+}
+
 /* nav */
 .top-bar, .top-bar ul {
   background-color: #326257;

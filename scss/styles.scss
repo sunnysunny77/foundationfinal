@@ -23,6 +23,10 @@ h2 {
     color: $colorFive;
 }
 
+.subheader {
+    color: lightnesShift($colorSix);;
+}
+
 /* nav */
 
 .top-bar {

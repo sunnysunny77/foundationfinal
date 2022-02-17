@@ -6,15 +6,22 @@
 
 form {
      .button {
-        background-color: lightnesShift($colorOne);
+        background-color: $colorOne;
         color: $colorFive;
         &:hover {
-            background-color: $colorOne;
+            background-color: lightnesShift($colorOne);
             color: $black;
         }
     }
      textarea {
         resize: none;
+    }
+}
+
+blockquote {
+    color: lightnesShift($colorSix);
+    cite {
+        @extend blockquote;
     }
 }
 
