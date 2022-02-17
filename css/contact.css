@@ -3,12 +3,12 @@
 }
 
 form .button {
-  background-color: #5cd1b4;
-  color: #326257;
+  background-color: #84dcc6;
+  color: #214039;
 }
 
 form .button:hover {
-  background-color: #84dcc6;
+  background-color: #5cd1b4;
   color: #0a0a0a;
 }
 
