@@ -4,11 +4,11 @@
 
 form .button {
   background-color: #84dcc6;
-  color: #214039;
+  color: #1d3933;
 }
 
 form .button:hover {
-  background-color: #5cd1b4;
+  background-color: #b4eadc;
   color: #0a0a0a;
 }
 
@@ -17,7 +17,7 @@ form textarea {
 }
 
 blockquote, blockquote cite {
-  color: #717171;
+  color: #6b6b6b;
 }
 
 @media screen and (min-width: 40em) {

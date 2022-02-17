@@ -10,6 +10,7 @@ $white: rgb(255, 250, 250);
 $black: rgb(10, 10, 10);
 $grey: rgb(202, 202, 202);
 
+
 $transparent: transparent;
 
 // functions 
@@ -25,10 +26,11 @@ $transparent: transparent;
     margin: $margin;
 }
 
-@function lightnesShift($color) {
-    @if (lightness($color) > 75%) {
-        @return lighten($color, 25%);
+@function darkShift($color) {
+    @if (lightness($color) > 60%) {
+        @return lighten($color, 12%);
     } @else {
-        @return darken($color, 10%);
+        @return darken($color, 12%);
     }
 }
+

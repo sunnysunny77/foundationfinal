@@ -7,11 +7,11 @@
         position: absolute;
         z-index: 999;
         right: 20px;
-        background-color: lightnesShift(rgba($white, 0.3));
+        background-color: darkShift(rgba($white, 0.3));
         border-radius: 10px;
         color: $white;
         font-style: oblique;
-        text-shadow: 0 0 2.5px lightnesShift($black);
+        text-shadow: 0 0 2.5px darkShift($black);
     }
     .orbit-container img {
         max-height: 700px;

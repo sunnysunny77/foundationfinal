@@ -7,9 +7,9 @@
 form {
      .button {
         background-color: $colorOne;
-        color: lightnesShift($colorFive);
+        color: darkShift($colorFive);
         &:hover {
-            background-color: lightnesShift($colorOne);
+            background-color: darkShift($colorOne);
             color: $black;
         }
     }
@@ -19,7 +19,7 @@ form {
 }
 
 blockquote {
-    color: lightnesShift($colorSix);
+    color: darkShift($colorSix);
     cite {
         @extend blockquote;
     }
