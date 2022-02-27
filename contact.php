@@ -77,7 +77,7 @@
 
         <i class="fi-clipboard"></i>
 
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur
+        <p id="scroll" class="text-center">Lorem ipsum dolor sit amet, consectetur
             adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua.</p>
 
@@ -119,6 +119,7 @@
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/form.js"></script>
 </body>
 
 </html>
