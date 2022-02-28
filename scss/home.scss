@@ -45,8 +45,9 @@
     }
 }
 
+
 /* Medium and up */
-@media screen and (min-width: 40em) {
+@include medium_and_up() {
     .orbit {
         @include setbox(null, null, null, auto auto 50px auto);
     }
@@ -65,3 +66,4 @@
         border-radius: unset;
     }
 }
+

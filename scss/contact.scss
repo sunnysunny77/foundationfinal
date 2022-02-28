@@ -25,7 +25,7 @@ blockquote {
     }
 }
 
-@media screen and (min-width: 40em) {
+@include medium_and_up() {
     .callout {
         @include setbox(null, null, null, 0 0 50px 0);
     }

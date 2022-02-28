@@ -1,7 +1,5 @@
 /* global */
 
-@import "variables";
-
 body {
     background-color: rgba($colorFour, 0.01);
     max-width: 1920px;
@@ -81,8 +79,11 @@ footer {
     }
 }
 
+
+
+
 /* Medium and up */
-@media screen and (min-width: 40em) {
+@include medium_and_up () {
     main > * {
         margin-bottom: 50px;
     }

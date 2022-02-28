@@ -1,8 +1,93 @@
+@import "app.css";
+@import "icons/foundation-icons.css";
+/* global */
+body {
+  background-color: rgba(95, 95, 155, 0.01);
+  max-width: 1920px;
+  margin: auto;
+}
+
+main {
+  min-height: 69vh;
+}
+
+h3,
+h4,
+h5 {
+  color: #326257;
+}
+
+h2 {
+  padding: 0.5%;
+  margin: 40px auto auto auto;
+  color: #326257;
+}
+
+.subheader {
+  color: #6b6b6b;
+}
+
+/* nav */
+.top-bar, .top-bar ul {
+  background-color: #326257;
+}
+.top-bar ul {
+  min-height: 100px;
+}
+.top-bar ul h1 {
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+}
+.top-bar ul a {
+  color: #d6edff;
+}
+.top-bar ul a:hover {
+  color: snow;
+}
+.top-bar ul .menu-text {
+  margin: 0;
+  padding: 0;
+}
+.top-bar ul .menu-text span {
+  display: inline-block;
+  background-image: url(../images/nav/icon.png);
+  width: 84px;
+  height: 84px;
+}
+
+.title-bar {
+  background-color: #326257;
+}
+.title-bar .menu-icon {
+  color: #acd7ec;
+}
+.title-bar .title-bar-title {
+  color: #d6edff;
+}
+
+/* footer */
+footer {
+  padding-top: 15px;
+  background-color: #5f5f9b;
+}
+footer li, footer a {
+  color: #d6edff;
+}
+footer a:hover {
+  color: snow;
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  main > * {
+    margin-bottom: 50px;
+  }
+}
 .orbit {
   max-width: 1200px;
   margin: auto auto 2rem auto;
 }
-
 .orbit h2 {
   position: absolute;
   z-index: 999;
@@ -13,7 +98,6 @@
   font-style: oblique;
   text-shadow: 0 0 2.5px black;
 }
-
 .orbit .orbit-container img {
   max-height: 700px;
 }
@@ -31,7 +115,6 @@
   background-color: transparent;
   border: none;
 }
-
 .card .card-divider {
   background-color: transparent;
   font-size: larger;
@@ -39,12 +122,10 @@
   margin: 0;
   padding: 0;
 }
-
 .card .card-section {
   margin: 0;
   padding: 0;
 }
-
 .card img {
   margin: 2% 2% 7% 2%;
   border-radius: 10px;
@@ -55,6 +136,7 @@
   .orbit {
     margin: auto auto 50px auto;
   }
+
   .media-object {
     margin: auto auto 50px auto;
   }
@@ -65,8 +147,10 @@
   .media-object .media-object-section:nth-child(2) {
     padding: 3%;
   }
+
   .card img {
     border-radius: unset;
   }
 }
+
 /*# sourceMappingURL=home.css.map */

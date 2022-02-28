@@ -1,9 +1,94 @@
+@import "app.css";
+@import "icons/foundation-icons.css";
+/* global */
+body {
+  background-color: rgba(95, 95, 155, 0.01);
+  max-width: 1920px;
+  margin: auto;
+}
+
+main {
+  min-height: 69vh;
+}
+
+h3,
+h4,
+h5 {
+  color: #326257;
+}
+
+h2 {
+  padding: 0.5%;
+  margin: 40px auto auto auto;
+  color: #326257;
+}
+
+.subheader {
+  color: #6b6b6b;
+}
+
+/* nav */
+.top-bar, .top-bar ul {
+  background-color: #326257;
+}
+.top-bar ul {
+  min-height: 100px;
+}
+.top-bar ul h1 {
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+}
+.top-bar ul a {
+  color: #d6edff;
+}
+.top-bar ul a:hover {
+  color: snow;
+}
+.top-bar ul .menu-text {
+  margin: 0;
+  padding: 0;
+}
+.top-bar ul .menu-text span {
+  display: inline-block;
+  background-image: url(../images/nav/icon.png);
+  width: 84px;
+  height: 84px;
+}
+
+.title-bar {
+  background-color: #326257;
+}
+.title-bar .menu-icon {
+  color: #acd7ec;
+}
+.title-bar .title-bar-title {
+  color: #d6edff;
+}
+
+/* footer */
+footer {
+  padding-top: 15px;
+  background-color: #5f5f9b;
+}
+footer li, footer a {
+  color: #d6edff;
+}
+footer a:hover {
+  color: snow;
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  main > * {
+    margin-bottom: 50px;
+  }
+}
 .gallery .cell {
   width: 220px;
   height: 400px;
   margin: 1% 3%;
 }
-
 .gallery h3 {
   font-size: medium;
 }
@@ -187,4 +272,5 @@
   background-size: contain;
   border: 1px solid #cacaca;
 }
+
 /*# sourceMappingURL=gallery.css.map */
