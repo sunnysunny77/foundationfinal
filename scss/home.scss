@@ -57,9 +57,7 @@
     img {
         @include setbox(null, null, null, 2% 2% 7% 2%);
         border-radius: 10px;
-    }
-    @include medium_and_up() {
-        .card img {
+         @include medium_and_up() {
             border-radius: unset;
         }
     }

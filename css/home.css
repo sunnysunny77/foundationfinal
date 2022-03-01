@@ -148,7 +148,7 @@ footer a:hover, footer a:focus {
   border-radius: 10px;
 }
 @media screen and (min-width: 40em) {
-  .card .card img {
+  .card img {
     border-radius: unset;
   }
 }
