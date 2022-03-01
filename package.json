@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "foundation theme",
   "scripts": {
-    "build": "node ./node_modules/sass/sass.js ./assets/scss:./assets/css",
-    "watch": "node ./node_modules/sass/sass.js ./assets/scss:./assets/css -w"
+    "build": "node ./node_modules/sass/sass.js ./scss:./css",
+    "watch": "node ./node_modules/sass/sass.js ./scss:./css -w"
   },
   "repository": {
     "type": "git",

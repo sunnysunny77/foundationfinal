@@ -6,10 +6,6 @@ body {
     @include setbox(null, null, null, auto);
 }
 
-main {
-    min-height: 69vh;
-}
-
 h3,
 h4,
 h5 {
@@ -21,30 +17,39 @@ h2 {
     color: $colorFive;
 }
 
+main {
+    min-height: 69vh;
+    @include medium_and_up() {
+        * {
+            margin-bottom: 50px;
+        }
+    }
+}
+
 .subheader {
-    color: darkShift($colorSix);;
+    color: darkShift($colorSix);
 }
 
 /* nav */
 
 .top-bar {
     background-color: $colorFive;
-     ul {
+    ul {
         min-height: 100px;
         @extend .top-bar;
-         h1 {
+        h1 {
             font-size: inherit;
             @include zerobox();
         }
-         a {
+        a {
             color: $colorTwo;
-            &:hover {
+            &:hover, &:focus {
                 color: $white;
             }
         }
-         .menu-text {
+        .menu-text {
             @include zerobox();
-             span {
+            span {
                 display: inline-block;
                 background-image: url(../images/nav/icon.png);
                 @include setbox(84px, 84px, null, null);
@@ -55,10 +60,10 @@ h2 {
 
 .title-bar {
     background-color: $colorFive;
-     .menu-icon {
+    .menu-icon {
         color: $colorThree;
     }
-     .title-bar-title {
+    .title-bar-title {
         color: $colorTwo;
     }
 }
@@ -68,23 +73,13 @@ h2 {
 footer {
     padding-top: 15px;
     background-color: $colorFour;
-     li {
+    li {
         color: $colorTwo;
     }
-     a {
+    a {
         @extend li;
-        &:hover {
+        &:hover, &:focus {
             color: $white;
         }
-    }
-}
-
-
-
-
-/* Medium and up */
-@include medium_and_up () {
-    main > * {
-        margin-bottom: 50px;
     }
 }

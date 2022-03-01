@@ -7,10 +7,6 @@ body {
   margin: auto;
 }
 
-main {
-  min-height: 69vh;
-}
-
 h3,
 h4,
 h5 {
@@ -21,6 +17,15 @@ h2 {
   padding: 0.5%;
   margin: 40px auto auto auto;
   color: #326257;
+}
+
+main {
+  min-height: 69vh;
+}
+@media screen and (min-width: 40em) {
+  main * {
+    margin-bottom: 50px;
+  }
 }
 
 .subheader {
@@ -42,7 +47,7 @@ h2 {
 .top-bar ul a {
   color: #d6edff;
 }
-.top-bar ul a:hover {
+.top-bar ul a:hover, .top-bar ul a:focus {
   color: snow;
 }
 .top-bar ul .menu-text {
@@ -74,16 +79,10 @@ footer {
 footer li, footer a {
   color: #d6edff;
 }
-footer a:hover {
+footer a:hover, footer a:focus {
   color: snow;
 }
 
-/* Medium and up */
-@media screen and (min-width: 40em) {
-  main > * {
-    margin-bottom: 50px;
-  }
-}
 .orbit {
   max-width: 1200px;
   margin: auto auto 2rem auto;
@@ -101,14 +100,32 @@ footer a:hover {
 .orbit .orbit-container img {
   max-height: 700px;
 }
-
-.media-object-section img {
-  width: 100%;
-  border-radius: 10px;
+@media screen and (min-width: 40em) {
+  .orbit {
+    margin: auto auto 50px auto;
+  }
 }
 
-.stack-for-small .media-object-section img {
+.media-object .media-object-section:nth-child(2) img {
   width: 96%;
+  border-radius: 10px;
+}
+@media screen and (min-width: 40em) {
+  .media-object .media-object-section:nth-child(2) img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 40em) {
+  .media-object {
+    margin: auto auto 50px auto;
+  }
+  .media-object .media-object-section:nth-child(1) {
+    padding: 2%;
+    margin: 2%;
+  }
+  .media-object .media-object-section:nth-child(2) {
+    padding: 3%;
+  }
 }
 
 .card {
@@ -130,25 +147,8 @@ footer a:hover {
   margin: 2% 2% 7% 2%;
   border-radius: 10px;
 }
-
-/* Medium and up */
 @media screen and (min-width: 40em) {
-  .orbit {
-    margin: auto auto 50px auto;
-  }
-
-  .media-object {
-    margin: auto auto 50px auto;
-  }
-  .media-object .media-object-section:nth-child(1) {
-    padding: 2%;
-    margin: 2%;
-  }
-  .media-object .media-object-section:nth-child(2) {
-    padding: 3%;
-  }
-
-  .card img {
+  .card .card img {
     border-radius: unset;
   }
 }

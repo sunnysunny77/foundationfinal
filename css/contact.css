@@ -7,10 +7,6 @@ body {
   margin: auto;
 }
 
-main {
-  min-height: 69vh;
-}
-
 h3,
 h4,
 h5 {
@@ -21,6 +17,15 @@ h2 {
   padding: 0.5%;
   margin: 40px auto auto auto;
   color: #326257;
+}
+
+main {
+  min-height: 69vh;
+}
+@media screen and (min-width: 40em) {
+  main * {
+    margin-bottom: 50px;
+  }
 }
 
 .subheader {
@@ -42,7 +47,7 @@ h2 {
 .top-bar ul a {
   color: #d6edff;
 }
-.top-bar ul a:hover {
+.top-bar ul a:hover, .top-bar ul a:focus {
   color: snow;
 }
 .top-bar ul .menu-text {
@@ -74,16 +79,10 @@ footer {
 footer li, footer a {
   color: #d6edff;
 }
-footer a:hover {
+footer a:hover, footer a:focus {
   color: snow;
 }
 
-/* Medium and up */
-@media screen and (min-width: 40em) {
-  main > * {
-    margin-bottom: 50px;
-  }
-}
 .badge {
   margin: 0 0 10px 0;
 }
