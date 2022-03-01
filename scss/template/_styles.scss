@@ -20,7 +20,7 @@ h2 {
 main {
     min-height: 69vh;
     @include medium_and_up() {
-        * {
+        > * {
             margin-bottom: 50px;
         }
     }
