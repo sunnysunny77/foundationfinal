@@ -5,15 +5,16 @@
 }
 
 form {
-     .button {
+    .button {
         background-color: $colorOne;
         color: darkShift($colorFive);
-        &:hover {
+        &:hover,
+        &:focus {
             background-color: darkShift($colorOne);
             color: $black;
         }
     }
-     textarea {
+    textarea {
         resize: none;
     }
 }

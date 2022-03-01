@@ -20,6 +20,7 @@ h2 {
 main {
     min-height: 69vh;
     @include medium_and_up() {
+        min-height: 70vh;
         > * {
             margin-bottom: 50px;
         }
@@ -30,56 +31,6 @@ main {
     color: darkShift($colorSix);
 }
 
-/* nav */
+@import "header";
 
-.top-bar {
-    background-color: $colorFive;
-    ul {
-        min-height: 100px;
-        @extend .top-bar;
-        h1 {
-            font-size: inherit;
-            @include zerobox();
-        }
-        a {
-            color: $colorTwo;
-            &:hover, &:focus {
-                color: $white;
-            }
-        }
-        .menu-text {
-            @include zerobox();
-            span {
-                display: inline-block;
-                background-image: url(../images/nav/icon.png);
-                @include setbox(84px, 84px, null, null);
-            }
-        }
-    }
-}
-
-.title-bar {
-    background-color: $colorFive;
-    .menu-icon {
-        color: $colorThree;
-    }
-    .title-bar-title {
-        color: $colorTwo;
-    }
-}
-
-/* footer */
-
-footer {
-    padding-top: 15px;
-    background-color: $colorFour;
-    li {
-        color: $colorTwo;
-    }
-    a {
-        @extend li;
-        &:hover, &:focus {
-            color: $white;
-        }
-    }
-}
+@import "footer";

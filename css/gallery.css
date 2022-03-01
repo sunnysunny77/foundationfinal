@@ -23,6 +23,9 @@ main {
   min-height: 69vh;
 }
 @media screen and (min-width: 40em) {
+  main {
+    min-height: 70vh;
+  }
   main > * {
     margin-bottom: 50px;
   }
@@ -32,7 +35,7 @@ main {
   color: #6b6b6b;
 }
 
-/* nav */
+/* header */
 .top-bar, .top-bar ul {
   background-color: #326257;
 }
