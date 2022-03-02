@@ -16,9 +16,9 @@
     <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
 
         <button aria-label="Menu" class="menu-icon" type="button" data-toggle="responsive-menu">
-        
+
             <span class="hide">
-            Menu
+                Menu
             </span>
 
         </button>
@@ -35,19 +35,19 @@
 
             <ul class="menu ">
 
-            <li class="menu-text">
+                <li class="menu-text">
 
-                <span role="img" aria-label="Georges Garden Shop">
+                    <span role="img" aria-label="Georges Garden Shop">
 
-                <span class="hide">
+                        <span class="hide">
 
-                    Georges Garden Shop
+                            Georges Garden Shop
 
-                </span>
+                        </span>
 
-                </span>
+                    </span>
 
-            </li>
+                </li>
 
             </ul>
 
@@ -56,11 +56,13 @@
         <div class="grid-x top-bar-right">
 
             <ul class="cell text-center vertical medium-horizontal dropdown menu" data-dropdown-menu>
-            
-            <li class="align-self-middle"><a accesskey="1" href="./index.html">HOME</a></li>
-            <li class="align-self-middle"><a accesskey="2" href="./contact.php"><h1>CONTACT</h1></a></li>
-            <li class="align-self-middle"><a accesskey="3" href="./gallery.html">GALLERY</a></li>
-            <li class="align-self-middle"><a accesskey="4" href="./video.html">VIDEO</a></li>
+
+                <li class="align-self-middle"><a accesskey="1" href="./index.html">HOME</a></li>
+                <li class="align-self-middle"><a accesskey="2" href="./contact.php">
+                        <h1>CONTACT</h1>
+                    </a></li>
+                <li class="align-self-middle"><a accesskey="3" href="./gallery.html">GALLERY</a></li>
+                <li class="align-self-middle"><a accesskey="4" href="./video.html">VIDEO</a></li>
 
             </ul>
 
@@ -70,21 +72,19 @@
 
     <main id="main" class="grid-container">
 
-        <h2 class="margin-bottom-3 text-center medium-text-right">Lorem ipsum</h2>
+        <h2 class="margin-bottom-3 text-center medium-text-right">Contact us</h2>
 
         <i class="fi-clipboard"></i>
 
-        <p id="scroll" class="text-center">Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.</p>
+        <p id="scroll" class="text-center">Order products online and get a quote</p>
 
         <?php require_once "./form_php/form.php"; ?>
 
         <div class="grid-x align-center text-center">
             <blockquote class="cell small-10 medium-6">
-                Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit.
-                <cite>Lorem</cite>
+                A garden is a grand teacher. It teaches patience and careful watchfulness; 
+                it teaches industry and thrift; above all it teaches entire trust.
+                <cite>Gertrude Jekyll</cite>
             </blockquote>
         </div>
 
