@@ -73,7 +73,7 @@ if (isset($_POST["action"]) && $_POST["action"] == "Submit") {
         <label class="cell">Name
             <input required name="name" type="text">
         </label>
-        <label class="cell">email
+        <label class="cell">Email
             <input required name="email" type="email">
         </label>
         <label class="cell">Phone
