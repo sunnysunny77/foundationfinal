@@ -2,9 +2,22 @@
 @import "icons/foundation-icons.css";
 /* global */
 body {
-  background-color: rgba(95, 95, 155, 0.01);
   max-width: 1920px;
   margin: auto;
+  position: relative;
+}
+body::before {
+  position: absolute;
+  content: "";
+  background-image: url(../images/body/body-texture.jpg);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -999;
+  background-color: #5f5f9b;
+  background-blend-mode: screen;
+  opacity: 0.5;
 }
 
 h3,
