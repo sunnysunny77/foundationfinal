@@ -15,9 +15,9 @@ body::before {
   bottom: 0;
   left: 0;
   z-index: -999;
-  background-color: #5f5f9b;
   background-blend-mode: screen;
-  opacity: 0.5;
+  opacity: 0.25;
+  background-color: rgba(95, 95, 155, 0.125);
 }
 
 h3,
