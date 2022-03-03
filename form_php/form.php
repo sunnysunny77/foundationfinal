@@ -6,6 +6,29 @@ function htmlout($x) {
     echo htmlspecialchars($x);
 }
 
+$products = [
+    'product-1' => 'Smyka',
+    'product-2' => 'Hard Wood Mulch',
+    'product-3' => 'Tuff Turf',
+    'product-4' => 'Pine Bark Mulch',
+    'product-5' => 'Pinegro',
+    'product-6' => 'Gardenia augusta',
+    'product-7' => 'Rhododendron',
+    'product-8' => 'Camellia Japonica',
+    'product-9' => 'Azalea Encore',
+    'product-10' => 'Rustic Windmill',
+    'product-11' => 'X5 Axe',
+    'product-12' => 'Birds Garden Setting',
+    'product-13' => 'Ozito PXC',
+    'product-14' => 'Seasol 2',
+    'product-15' => 'Scotts Lawn Builder',
+    'product-16' => 'Seedling Tray',
+    'product-17' => 'Plant Grow Light',
+    'product-18' => 'Fiskars Garden Scissors',
+    'product-19' => 'Water Filled Roller',
+    'product-20' => 'Garden Fork',
+];
+
 if (!isset($_POST["action"])) {  
 
 ?>
@@ -17,26 +40,17 @@ if (!isset($_POST["action"])) {
     <form class="grid-x align-center" method="post" action="?">
         <label class="cell">Purchase one or more products to proceed
             <select required size="10" name="product[]" multiple>
-                <option value="product-1">Product-1</option>
-                <option value="product-2">Product-2</option>
-                <option value="product-3">Product-3</option>
-                <option value="product-4">Product-4</option>
-                <option value="product-5">Product-5</option>
-                <option value="product-6">Product-6</option>
-                <option value="product-7">Product-7</option>
-                <option value="product-8">Product-8</option>
-                <option value="product-9">Product-9</option>
-                <option value="product-10">Product-10</option>
-                <option value="product-11">Product-11</option>
-                <option value="product-12">Product-12</option>
-                <option value="product-13">Product-13</option>
-                <option value="product-14">Product-14</option>
-                <option value="product-15">Product-15</option>
-                <option value="product-16">Product-16</option>
-                <option value="product-17">Product-17</option>
-                <option value="product-18">Product-18</option>
-                <option value="product-19">Product-19</option>
-                <option value="product-20">Product-20</option>
+              <?php
+              
+                foreach ( $products as $key => $product) {
+
+                    ?>
+                    <option value="<?php htmlout($key); ?>" ><?php htmlout($product); ?></option>
+                    <?php
+
+                }
+
+              ?>
             </select>
         </label>
         <input name="action" type="submit" class="button" value="Submit">
@@ -129,7 +143,7 @@ if (isset($_POST["action"]) && $_POST["action"] == "Order") {
             <?php foreach ($_SESSION["product"] as $key => $product) { ?>
 
                 <tr>
-                    <td headers="product"> <?php htmlout($product); ?> </td>
+                    <td headers="product"> <?php htmlout($products[$product]); ?> </td>
                     <td headers="quantity"> <?php htmlout($_POST[$key]); ?> </td>
                 </tr>
             
