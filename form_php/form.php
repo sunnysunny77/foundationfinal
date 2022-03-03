@@ -77,7 +77,7 @@ if (isset($_POST["action"]) && $_POST["action"] == "Submit") {
         <fieldset class="cell grid-x">
             <legend class="cell large-6" >Choose your quantity</legend>
             <label  class="cell large-6">
-                <?php htmlout($product); ?>
+                <?php htmlout($products[$product]); ?>
                 <input required name=" <?php htmlout($key); ?>" type="number" min="1" value="1">
             </label>
         </fieldset>
