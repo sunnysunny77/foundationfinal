@@ -76,7 +76,7 @@
 
         <i class="fi-clipboard"></i>
 
-        <p id="scroll" class="text-center">Order products online and get a quote</p>
+        <p class="text-center">Order products online and get a quote</p>
 
         <?php require_once "./form_php/form.php"; ?>
 
