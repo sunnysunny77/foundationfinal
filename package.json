@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/sunnysunny77/foundationfinal#readme",
   "dependencies": {
-    "sass": "^1.34.0"
+    "sass": "latest"
   }
 }
