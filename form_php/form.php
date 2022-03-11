@@ -37,7 +37,7 @@ if (!isset($_POST["action"])) {
     <span class="badge secondary">2</span>
     <span class="badge secondary">3</span>
 
-    <form class="grid-x align-center" method="post" action="?">
+    <form class="grid-x align-center" method="post" id="form">
         <label class="cell">Purchase one or more products to proceed
             <select required size="10" name="product[]" multiple>
               <?php
@@ -70,7 +70,7 @@ if (isset($_POST["action"]) && $_POST["action"] == "Submit") {
     <span class="badge primary">2</span>
     <span class="badge secondary">3</span>
 
-    <form class="grid-x align-center" method="post" action="?">
+    <form class="grid-x align-center" method="post" id="form">
 
         <?php foreach ($_POST["product"] as $key => $product) { ?>
 
@@ -96,6 +96,7 @@ if (isset($_POST["action"]) && $_POST["action"] == "Submit") {
         <label class="cell"> Comments
             <textarea name="comments"></textarea>
         </label>
+        <input id="scrollTo" type="hidden" name="scroll" value="<?php htmlout($_POST["scroll"]) ?>" /> 
         <input name="action" type="submit" class="button" value="Order">
 
     </form>
@@ -107,6 +108,8 @@ if (isset($_POST["action"]) && $_POST["action"] == "Submit") {
 if (isset($_POST["action"]) && $_POST["action"] == "Order") {
 
 ?>
+    <input id="scrollTo" type="hidden" name="scroll" value="<?php htmlout($_POST["scroll"]) ?>" /> 
+    
     <span class="badge primary">1</span>
     <span class="badge primary">2</span>
     <span class="badge primary">3</span>
