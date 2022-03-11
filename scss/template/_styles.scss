@@ -34,9 +34,9 @@ h2 {
 }
 
 main {
-    min-height: 69vh;
+    min-height: 71.8vh;
     @include medium_and_up() {
-        min-height: 70vh;
+        min-height: 60.2vh;
         > * {
             margin-bottom: 50px;
         }
