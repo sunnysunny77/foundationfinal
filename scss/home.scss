@@ -23,6 +23,9 @@
 }
 
 .media-object {
+    @include medium_and_up() {   
+        @include setbox(null, null, null, auto auto 50px auto);
+    }
     .media-object-section:nth-child(2) img {
         @include setbox(96%, null, null, null);
         border-radius: 10px;
@@ -32,9 +35,7 @@
     }
     .media-object-section {
         @include setbox(null, null, 0, null);
-    @include medium_and_up() {
-        @include setbox(null, null, null, auto auto 50px auto);
-      
+        @include medium_and_up() {    
             &:nth-child(1) {
                 @include setbox(null, null, 2%, 2%);
             }
