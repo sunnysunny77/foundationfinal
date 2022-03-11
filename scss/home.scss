@@ -2,7 +2,7 @@
 
 .orbit {
     max-width: 1200px;
-    @include setbox(null, null, null, auto auto 2rem auto);
+    @include setbox(null, null, null, auto auto 1rem auto);
     h2 {
         @include setbox(null, null, 0.5%, null);
         position: absolute;
