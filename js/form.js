@@ -1,16 +1,29 @@
-$("#scrollTo").ready(function () {
-    window.scrollTo(0, $("#scrollTo").val())
-});
-
-$("#form").submit(function (event) {
-    const scroll = window.scrollY;
-    $(this).append('<input id="scrollTo" type="hidden" name="scroll" value="' + scroll + '" /> ');
+$('#form').submit(function (e) {
+    e.preventDefault();
     const form = $(this);
+    const url = form.attr('action');
     $.ajax({
         type: "POST",
+        url: url,
         data: form.serialize(),
+        success: function (response) {
+            $("#response").html(response);
+            $('#form').submit(function (e) {
+                e.preventDefault();
+                const form = $(this);
+                const url = form.attr('action');
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: form.serialize(),
+                    success: function (response) {
+                        $("#response").html(response);
+                        window.scrollTo(0, 0);
+                    }
+                });
+            });
+        }
     });
 });
-
 
 

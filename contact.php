@@ -77,8 +77,12 @@
         <i class="fi-clipboard"></i>
 
         <p class="text-center">Order products online and get a quote</p>
-
-        <?php require_once "./form_php/form.php"; ?>
+     
+        <span id="response">
+            
+            <?php  require_once "./form_php/order.php"; ?>
+        
+        </span>
 
         <div class="grid-x align-center text-center">
             <blockquote class="cell small-10 medium-6">

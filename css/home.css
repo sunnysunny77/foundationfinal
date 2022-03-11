@@ -27,9 +27,13 @@ h5 {
 }
 
 h2 {
-  padding: 0.5%;
-  margin: 40px auto auto auto;
+  margin: 25px auto;
   color: #326257;
+}
+@media screen and (min-width: 40em) {
+  h2 {
+    margin: 50px auto;
+  }
 }
 
 main {
@@ -104,6 +108,7 @@ footer a:hover, footer a:focus {
   margin: auto auto 2rem auto;
 }
 .orbit h2 {
+  padding: 0.5%;
   position: absolute;
   z-index: 999;
   right: 20px;

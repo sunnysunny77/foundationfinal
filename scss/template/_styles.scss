@@ -26,8 +26,11 @@ h5 {
 }
 
 h2 {
-    @include setbox(null, null, 0.5%, 40px auto auto auto);
+    @include setbox(null, null, null, 25px auto);
     color: $colorFive;
+    @include medium_and_up() {
+        @include setbox(null, null, null, 50px auto);
+    }
 }
 
 main {
