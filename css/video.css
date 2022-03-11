@@ -37,11 +37,11 @@ h2 {
 }
 
 main {
-  min-height: 69vh;
+  min-height: 71.8vh;
 }
 @media screen and (min-width: 40em) {
   main {
-    min-height: 70vh;
+    min-height: 60.2vh;
   }
   main > * {
     margin-bottom: 50px;
