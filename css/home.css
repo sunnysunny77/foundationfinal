@@ -27,7 +27,7 @@ h5 {
 }
 
 h2 {
-  margin: 25px auto;
+  margin: 1rem auto;
   color: #326257;
 }
 @media screen and (min-width: 40em) {
@@ -136,8 +136,11 @@ footer a:hover, footer a:focus {
     width: 100%;
   }
 }
+.media-object .media-object-section {
+  padding: 0;
+}
 @media screen and (min-width: 40em) {
-  .media-object {
+  .media-object .media-object-section {
     margin: auto auto 50px auto;
   }
   .media-object .media-object-section:nth-child(1) {
@@ -171,7 +174,7 @@ footer a:hover, footer a:focus {
   padding: 0;
 }
 .card img {
-  margin: 2% 2% 7% 2%;
+  margin: 2% 2% 1rem 2%;
   border-radius: 10px;
 }
 @media screen and (min-width: 40em) {

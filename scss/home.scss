@@ -30,16 +30,18 @@
             @include setbox(100%, null, null, null);
         }
     }
+    .media-object-section {
+        @include setbox(null, null, 0, null);
     @include medium_and_up() {
         @include setbox(null, null, null, auto auto 50px auto);
-        .media-object-section {
+      
             &:nth-child(1) {
                 @include setbox(null, null, 2%, 2%);
             }
             &:nth-child(2) {
                 @include setbox(null, null, 3%, null);
             }
-        }
+    }
     }
 }
 
@@ -60,7 +62,7 @@
         @include zerobox();
     }
     img {
-        @include setbox(null, null, null, 2% 2% 7% 2%);
+        @include setbox(null, null, null, 2% 2% 1rem 2%);
         border-radius: 10px;
          @include medium_and_up() {
             border-radius: unset;
