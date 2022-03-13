@@ -8,6 +8,8 @@ require_once  $root . '/inc/utilities.php';
 
 require_once  $root . '/inc/products.php';
 
+session_start();
+
 $_SESSION['token'] = md5(uniqid(rand(), TRUE));
 
 ?>

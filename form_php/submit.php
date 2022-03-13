@@ -4,11 +4,13 @@
 
 <?php
 
+session_start();
+
+if ($_POST["token"] === $_SESSION["token"]) {
+
 $root = $_POST["root"]; 
 
 require_once  $root . '/inc/utilities.php';
-
-if ($_POST["token"] === $_SESSION["token"]) {
 
 $_SESSION["product"] = $_POST["product"];
  
