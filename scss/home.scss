@@ -46,6 +46,20 @@
     }
 }
 
+.p-left,
+.p-right {
+    p {
+        @include medium_and_up {
+            @include setbox(null, null, 0 1rem 3rem 1rem, 0);
+        }
+    }
+    h4 {
+        @include medium_and_up {
+            @include setbox(null, null, 2rem 1rem 0 1rem, null);
+        }
+    }
+}
+
 .card {
     background-color: $transparent;
     border: none;
@@ -70,3 +84,5 @@
         }
     }
 }
+
+
