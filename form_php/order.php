@@ -4,10 +4,6 @@
 
 <?php
 
-$root = $_SERVER["DOCUMENT_ROOT"];
-            
-require_once  $root . '/inc/utilities.php';
-
 require_once  $root . '/inc/products.php';
 
 $_SESSION['token'] = md5(uniqid(rand(), TRUE));
@@ -34,6 +30,7 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
         ?>
         </select>
     </label>
+    <input type="hidden" name="root" value="<?php echo $root; ?>">
     <input type="hidden" name="token" value="<?php htmlout($_SESSION['token']); ?>">
     <input type="submit" class="button">
 </form>

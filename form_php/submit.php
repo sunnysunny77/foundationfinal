@@ -4,8 +4,8 @@
 
 <?php
 
-$root = $_SERVER["DOCUMENT_ROOT"];
-            
+$root = $_POST["root"]; 
+
 require_once  $root . '/inc/utilities.php';
 
 if ($_POST["token"] === $_SESSION["token"]) {
@@ -44,6 +44,7 @@ $_SESSION["product"] = $_POST["product"];
     <label class="cell"> Comments
         <textarea name="comments"></textarea>
     </label>
+    <input type="hidden" name="root" value="<?php echo $root ?>">
     <input type="hidden" name="token" value="<?php htmlout($_SESSION['token']); ?>">
     <input type="submit" class="button">
 

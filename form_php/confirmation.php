@@ -4,15 +4,9 @@
 
 <?php
 
-$root = $_SERVER["DOCUMENT_ROOT"];
-            
-require_once  $root . '/inc/utilities.php';
+require_once  $_POST["root"] . '/inc/utilities.php';
 
 if ($_POST["token"] === $_SESSION["token"]) {
-
-function htmlout($x) {
-    echo htmlspecialchars($x);
-}
 
 ?>
 

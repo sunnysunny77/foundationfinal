@@ -7,6 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Georges Garden Shop - Contact</title>
     <link rel="stylesheet" href="css/contact.css">
+
+    <?php
+
+    $root = $_SERVER["DOCUMENT_ROOT"] . "/foundationfinal";
+
+    require_once  $root . '/inc/utilities.php';
+
+    ?>
+    
 </head>
 
 <body>
@@ -77,17 +86,17 @@
         <i class="fi-clipboard"></i>
 
         <p class="text-center">Order products online and get a quote</p>
-    
+
 
         <span id="response">
-            
+
             <?php require_once "./form_php/order.php"; ?>
-        
+
         </span>
 
         <div class="grid-x align-center text-center">
             <blockquote class="cell small-10 medium-6">
-                A garden is a grand teacher. It teaches patience and careful watchfulness; 
+                A garden is a grand teacher. It teaches patience and careful watchfulness;
                 it teaches industry and thrift; above all it teaches entire trust.
                 <cite>Gertrude Jekyll</cite>
             </blockquote>
