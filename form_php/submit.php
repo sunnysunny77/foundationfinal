@@ -4,13 +4,11 @@
 
 <?php
 
-session_start();
+$root = $_SERVER["DOCUMENT_ROOT"];
+            
+require_once  $root . '/inc/utilities.php';
 
 if ($_POST["token"] === $_SESSION["token"]) {
-
-function htmlout($x) {
-    echo htmlspecialchars($x);
-}
 
 $_SESSION["product"] = $_POST["product"];
  

@@ -77,10 +77,11 @@
         <i class="fi-clipboard"></i>
 
         <p class="text-center">Order products online and get a quote</p>
-     
+    
+
         <span id="response">
             
-            <?php  require_once "./form_php/order.php"; ?>
+            <?php require_once "./form_php/order.php"; ?>
         
         </span>
 
