@@ -12,8 +12,6 @@
 
     $root = $_SERVER["DOCUMENT_ROOT"] . "/foundationfinal";
 
-    require_once  $root . '/inc/utilities.php';
-
     ?>
     
 </head>
