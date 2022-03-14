@@ -12,6 +12,8 @@ $root = $_POST["root"];
 
 require_once  $root . '/inc/utilities.php';
 
+require_once  $root . '/inc/products.php';
+
 $_SESSION["product"] = $_POST["product"];
  
 ?>
