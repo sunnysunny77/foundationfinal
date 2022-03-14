@@ -1,12 +1,19 @@
 Note: The doc root in contact contains a sub directory for local host 
 <br>
-To change scss:
+SCSS:
 <br>
-npm install in root
 <br>
-compile scss, with
 <br>
-npm run build
+To change scss: https://docs.npmjs.com/about-npm 
 <br>
-or npm run watch.
 <br>
+“npm install” in the terminal project root directory to install dart sass.
+<br>
+<br>
+Compile scss
+<br>
+<br>
+“npm run build”
+<br>
+<br>
+or “npm run watch”
