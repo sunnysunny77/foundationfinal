@@ -60,7 +60,7 @@
 
         </div>
 
-        <div class="grid-x top-bar-right">
+        <nav class="grid-x top-bar-right">
 
             <ul class="cell text-center vertical medium-horizontal dropdown menu" data-dropdown-menu>
 
@@ -73,7 +73,7 @@
 
             </ul>
 
-        </div>
+        </nav>
 
     </header>
 
