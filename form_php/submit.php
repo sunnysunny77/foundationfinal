@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-
 <?php
 
 session_start();
@@ -55,6 +51,3 @@ $_SESSION["product"] = $_POST["product"];
 </form>
 
 <?php } ?>
-
-</body>
-</html>

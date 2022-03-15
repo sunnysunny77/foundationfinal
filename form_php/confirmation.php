@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-
 <?php
 
 session_start();
@@ -63,6 +59,3 @@ require_once  $root . '/inc/products.php';
 </section>
 
 <?php } ?>
-
-</body>
-</html>

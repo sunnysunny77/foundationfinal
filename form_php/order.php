@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-
 <?php
 
 require_once  $root . '/inc/utilities.php';
@@ -38,6 +34,3 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
     <input type="hidden" name="token" value="<?php htmlout($_SESSION['token']); ?>">
     <input type="submit" class="button">
 </form>
-
-</body>
-</html>
