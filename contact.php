@@ -86,11 +86,11 @@
         <p class="text-center">Order products online and get a quote</p>
 
 
-        <span id="response">
+        <div id="response" role="region" aria-label="Dynamic progress form" >
 
             <?php require_once "./form_php/order.php"; ?>
 
-        </span>
+        </div>
 
         <div class="grid-x align-center text-center">
             <blockquote class="cell small-10 medium-6">
