@@ -32,5 +32,5 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
     </label>
     <input type="hidden" name="root" value="<?php echo $root; ?>">
     <input type="hidden" name="token" value="<?php htmlout($_SESSION['token']); ?>">
-    <input type="submit" class="button">
+    <input aria-label="Form submit" type="submit" class="button">
 </form>
