@@ -38,8 +38,8 @@ $_SESSION["product"] = $_POST["product"];
     <label class="cell">Email
         <input required name="email" type="email">
     </label>
-    <label data-tooltip title="Accepts +###############" class="cell">Phone
-        <input required name="phone" type="tel" pattern="[+]?[0-9]{3,15}">
+    <label class="cell">Phone
+        <input required name="phone" type="tel" pattern="[+]?[0-9]{3,15}" data-tooltip title="Accepts +###############">
     </label>
     <label class="cell"> Comments
         <textarea name="comments"></textarea>
