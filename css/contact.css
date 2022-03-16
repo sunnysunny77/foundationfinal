@@ -118,6 +118,9 @@ form .button:hover, form .button:focus {
 form textarea {
   resize: none;
 }
+form .has-tip-cursor {
+  cursor: inherit;
+}
 
 blockquote, blockquote cite {
   color: #6b6b6b;

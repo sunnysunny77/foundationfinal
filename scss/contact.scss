@@ -17,6 +17,9 @@ form {
     textarea {
         resize: none;
     }
+    .has-tip-cursor {
+        cursor: inherit;
+    }
 }
 
 blockquote {

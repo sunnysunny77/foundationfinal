@@ -16,7 +16,7 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
 
 <form class="grid-x align-center" method="post" action="./form_php/submit.php" id="form">
     <label class="cell">Purchase one or more products to proceed
-        <select required size="10" name="product[]" multiple data-tooltip data-position="top" data-alignment="right" data-h-offset="30" title="Cmd or Ctrl">
+        <select required size="10" name="product[]" class="has-tip-cursor" multiple data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
         <?php
         
             foreach ( $products as $key => $product) {
