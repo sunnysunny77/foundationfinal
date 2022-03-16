@@ -15,5 +15,6 @@
         background-image: url(../images/gallery/product-#{$i}.jpg);
         background-size: contain;
         border: 1px solid $grey;
+        box-sizing: content-box;
     }
 }
