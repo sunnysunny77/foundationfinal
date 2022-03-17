@@ -36,7 +36,6 @@ h2 {
 main {
     min-height: 72.5vh;
     @include medium_and_up() {
-        min-height: 64.2vh;
         > * {
             margin-bottom: 50px;
         }
@@ -48,7 +47,7 @@ main {
 }
 
 i {
-    display: contents;
+    @include setbox(null, null, null, 0 auto 1rem 0);
 }
 
 @import "header";

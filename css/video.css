@@ -38,9 +38,6 @@ main {
   min-height: 72.5vh;
 }
 @media screen and (min-width: 40em) {
-  main {
-    min-height: 64.2vh;
-  }
   main > * {
     margin-bottom: 50px;
   }
@@ -51,7 +48,7 @@ main {
 }
 
 i {
-  display: contents;
+  margin: 0 auto 1rem 0;
 }
 
 /* header */
