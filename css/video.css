@@ -35,11 +35,11 @@ h2 {
 }
 
 main {
-  min-height: 71.8vh;
+  min-height: 72.5vh;
 }
 @media screen and (min-width: 40em) {
   main {
-    min-height: 60.2vh;
+    min-height: 64.2vh;
   }
   main > * {
     margin-bottom: 50px;
@@ -48,6 +48,10 @@ main {
 
 .subheader {
   color: #6b6b6b;
+}
+
+i {
+  display: contents;
 }
 
 /* header */

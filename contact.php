@@ -79,9 +79,9 @@
 
     </header>
 
-    <main id="main" class="grid-container">
+    <main id="main" class="grid-container grid-y">
 
-        <h2 class="margin-bottom-3 text-center medium-text-right">Contact us</h2>
+        <h2 class="cell text-center medium-text-right">Contact us</h2>
 
         <i class="fi-clipboard"></i>
 

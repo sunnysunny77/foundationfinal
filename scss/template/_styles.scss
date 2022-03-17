@@ -34,9 +34,9 @@ h2 {
 }
 
 main {
-    min-height: 71.8vh;
+    min-height: 72.5vh;
     @include medium_and_up() {
-        min-height: 60.2vh;
+        min-height: 64.2vh;
         > * {
             margin-bottom: 50px;
         }
@@ -45,6 +45,10 @@ main {
 
 .subheader {
     color: darkShift($colorSix);
+}
+
+i {
+    display: contents;
 }
 
 @import "header";
