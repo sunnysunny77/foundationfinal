@@ -33,13 +33,13 @@ $_SESSION["product"] = $_POST["product"];
     <?php } ?>
 
     <label class="cell">Name
-        <input required name="name" type="text">
+        <input autocomplete="on" maxlength="40" required name="name" type="text">
     </label>
     <label class="cell">Email
-        <input required name="email" type="email">
+        <input autocomplete="on" required name="email" type="email">
     </label>
     <label class="cell">Phone
-        <input required name="phone" type="tel" pattern="[+]?[0-9]{3,15}" data-tooltip title="Accepts +###############">
+        <input autocomplete="on" required name="phone" type="tel" pattern="[+]?[0-9]{3,15}" data-tooltip title="Accepts +###############">
     </label>
     <label class="cell"> Comments
         <textarea name="comments"></textarea>
