@@ -8,6 +8,7 @@ form {
     .button {
         background-color: $colorOne;
         color: darkShift($colorFive);
+        @include setbox(null, null, null, 0);
         &:hover,
         &:focus {
             background-color: darkShift($colorOne);
