@@ -36,13 +36,13 @@ $_SESSION["product"] = $_POST["product"];
         <input autocomplete="on" maxlength="40" required name="name" type="text">
     </label>
     <label class="cell">Email
-        <input autocomplete="on" required name="email" type="email">
+        <input autocomplete="on" maxlength="40"  required name="email" type="email">
     </label>
     <label class="cell">Phone
         <input autocomplete="on" required name="phone" type="tel" pattern="[+]?[0-9]{3,15}" data-tooltip title="Accepts +###############">
     </label>
     <label class="cell"> Comments
-        <textarea name="comments"></textarea>
+        <textarea maxlength="1000"  name="comments"></textarea>
     </label>
     <input type="hidden" name="root" value="<?php echo $root ?>">
     <input type="hidden" name="token" value="<?php htmlout($_SESSION['token']); ?>">
