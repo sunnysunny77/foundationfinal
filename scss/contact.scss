@@ -1,5 +1,11 @@
 @import "variables";
 
+#main a {
+    &:hover, &:focus {
+        color: $colorFour;
+    }
+}
+
 .badge {
     @include setbox(null, null, null, 0 0 10px 0);
 }

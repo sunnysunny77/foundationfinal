@@ -85,7 +85,15 @@
 
         <i class="fi-clipboard"></i>
 
-        <p class="text-center">Order products online and get a quote</p>
+        <p class="text-center">
+            <a class="subheader" href="mailto:example@example.com">example@example.com</a>
+            <br>
+            <a class="subheader" href="tel:0412620989">0412620989</a>     
+            <br>
+            <a class="subheader" href="vcard.vcf">Download Contact</a>
+            <br>
+            Order products online and get a quote
+        </p>
 
 
         <div id="response" role="region" aria-label="Dynamic progress form" >

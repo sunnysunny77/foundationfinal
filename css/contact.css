@@ -102,6 +102,10 @@ footer a:hover, footer a:focus {
   color: snow;
 }
 
+#main a:hover, #main a:focus {
+  color: #5f5f9b;
+}
+
 .badge {
   margin: 0 0 10px 0;
 }
