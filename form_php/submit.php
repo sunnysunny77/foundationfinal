@@ -39,7 +39,7 @@ $_SESSION["product"] = $_POST["product"];
         <input autocomplete="on" maxlength="40"  required name="email" type="email">
     </label>
     <label class="cell">Phone
-        <input autocomplete="on" required name="phone" type="tel" pattern="[+]?[0-9]{3,15}" data-tooltip title="Accepts +###############">
+        <input autocomplete="on" required name="phone" type="tel" pattern="[+]?[0-9]{3,15}" title="Accepts +###############">
     </label>
     <label class="cell"> Comments
         <textarea maxlength="1000"  name="comments"></textarea>
