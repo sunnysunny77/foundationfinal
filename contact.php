@@ -90,7 +90,7 @@
             <br>
             <a class="subheader" href="tel:0412620989">0412620989</a>     
             <br>
-            <a class="subheader" href="vcard.vcf">Download Contact</a>
+            <a download class="subheader" href="vcard.vcf">Download Contact</a>
             <br>
             Order products online and get a quote
         </p>
