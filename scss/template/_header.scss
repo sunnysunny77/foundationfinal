@@ -3,7 +3,6 @@
 .top-bar {
     background-color: $colorFive;
     ul {
-        min-height: 100px;
         @extend .top-bar;
         h1 {
             font-size: inherit;
