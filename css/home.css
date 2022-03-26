@@ -1,4 +1,4 @@
-/* global */
+/* template */
 body {
   max-width: 1920px;
   margin: auto;
@@ -99,6 +99,7 @@ footer a:hover, footer a:focus {
   color: snow;
 }
 
+/* home */
 .orbit {
   max-width: 1200px;
   margin: auto auto 1rem auto;

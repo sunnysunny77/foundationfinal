@@ -1,4 +1,4 @@
-/* global */
+/* template */
 body {
   max-width: 1920px;
   margin: auto;
@@ -98,5 +98,7 @@ footer li, footer a {
 footer a:hover, footer a:focus {
   color: snow;
 }
+
+/* video */
 
 /*# sourceMappingURL=video.css.map */
