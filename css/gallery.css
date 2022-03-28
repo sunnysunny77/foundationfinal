@@ -55,6 +55,12 @@ i {
 .top-bar, .top-bar ul {
   background-color: #326257;
 }
+.top-bar .top-bar-left span {
+  display: inline-block;
+  background-image: url(../images/nav/icon.png);
+  width: 84px;
+  height: 84px;
+}
 .top-bar ul h1 {
   font-size: inherit;
   margin: 0;
@@ -65,16 +71,6 @@ i {
 }
 .top-bar ul a:hover, .top-bar ul a:focus {
   color: snow;
-}
-.top-bar ul .menu-text {
-  margin: 0;
-  padding: 0;
-}
-.top-bar ul .menu-text span {
-  display: inline-block;
-  background-image: url(../images/nav/icon.png);
-  width: 84px;
-  height: 84px;
 }
 
 .title-bar {

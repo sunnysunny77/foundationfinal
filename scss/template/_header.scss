@@ -2,6 +2,11 @@
 
 .top-bar {
     background-color: $colorFive;
+    .top-bar-left span {
+        display: inline-block;
+        background-image: url(../images/nav/icon.png);
+        @include setbox(84px, 84px, null, null);
+    }
     ul {
         @extend .top-bar;
         h1 {
@@ -13,14 +18,6 @@
             &:hover,
             &:focus {
                 color: $white;
-            }
-        }
-        .menu-text {
-            @include zerobox();
-            span {
-                display: inline-block;
-                background-image: url(../images/nav/icon.png);
-                @include setbox(84px, 84px, null, null);
             }
         }
     }

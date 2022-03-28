@@ -42,23 +42,15 @@
 
         <div class="top-bar-left show-for-medium">
 
-            <ul class="menu ">
+            <span role="img" aria-label="Georges Garden Shop">
 
-                <li class="menu-text">
+                <span class="hide">
 
-                    <span role="img" aria-label="Georges Garden Shop">
+                    Georges Garden Shop
 
-                        <span class="hide">
+                </span>
 
-                            Georges Garden Shop
-
-                        </span>
-
-                    </span>
-
-                </li>
-
-            </ul>
+            </span>
 
         </div>
 
