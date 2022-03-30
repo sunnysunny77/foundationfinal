@@ -6,22 +6,22 @@ $products = [
     'Hard Wood Mulch',
     'Tuff Turf'],
     
-    'Pots' => [
+    'pots' => [
     'Gardenia augusta',
     'Rhododendron',
     'Camellia Japonica'],
 
-    'Gifts' => [
+    'gifts' => [
     'X5 Axe',
     'Birds Garden Setting',
     'Ozito PXC'],
 
-    'Garden tools' => [
+    'garden tools' => [
     'Seedling Tray',
     'Plant Grow Light',
     'Fiskars Garden Scissors'],
 
-    'Fertilisers' => [
+    'fertilisers' => [
     'Water Filled Roller',
     'Garden Fork',
     'not']

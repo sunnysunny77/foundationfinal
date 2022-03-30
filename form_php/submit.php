@@ -10,7 +10,6 @@ if ($_POST["token"] === $_SESSION["token"]) {
 
     require_once  $root . '/inc/products.php';
 
-    $_SESSION["product"] = $_POST["product"];
 
 ?>
 
@@ -20,17 +19,39 @@ if ($_POST["token"] === $_SESSION["token"]) {
 
     <form class="grid-x" method="post" action="./form_php/confirmation.php" id="form">
 
-        <?php foreach ($_POST["product"] as $key => $product) { ?>
+        <?php if(!empty($_POST["plants"])) { 
 
-            <fieldset class="cell grid-x">
-                <legend class="cell">Choose your quantity</legend>
-                <label class="cell medium-3">
-                    <?php htmlout($products[$product]); ?>
-                    <input required name=" <?php htmlout($key); ?>" type="number" min="1" value="1">
-                </label>
-            </fieldset>
+            $_SESSION["plants"] = $_POST["plants"];
 
-        <?php } ?>
+            foreach ($_POST["plants"] as $key => $product) { ?>
+
+                <fieldset class="cell grid-x">
+                    <legend class="cell">Choose your quantity</legend>
+                    <label class="cell medium-3"> Plant:
+                        <?php htmlout($products["plants"][$product]); ?>
+                        <input required name="<?php htmlout($key); ?>" type="number" min="1" value="1">
+                    </label>
+                </fieldset>
+
+        <?php } 
+        } ?>
+
+        <?php if(!empty($_POST["pots"])) {
+            
+            $_SESSION["pots"] = $_POST["pots"];
+
+            foreach ($_POST["pots"] as $key => $product) { ?>
+
+                <fieldset class="cell grid-x">
+                    <legend class="cell">Choose your quantity</legend>
+                    <label class="cell medium-3"> Pot:
+                        <?php htmlout($products["pots"][$product]); ?>
+                        <input required name="<?php htmlout($key); ?>" type="number" min="1" value="1">
+                    </label>
+                </fieldset>
+
+        <?php } 
+        } ?>
 
         <label class="cell medium-3">
             Name

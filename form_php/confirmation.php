@@ -41,18 +41,37 @@ require_once  $root . '/inc/products.php';
             <tr>
                 <th id="product">Product</th>
                 <th id="quantity">Quantity</th>
+                <th id="category">Category</th>
+            </tr>
             </tr>
         </thead>
         <tbody>
 
-        <?php foreach ($_SESSION["product"] as $key => $product) { ?>
+        <?php if(!empty($_SESSION["plants"])) {
+            
+                foreach ($_SESSION["plants"] as $key => $product) { ?>
 
-            <tr>
-                <td headers="product"> <?php htmlout($products[$product]); ?> </td>
-                <td headers="quantity"> <?php htmlout($_POST[$key]); ?> </td>
-            </tr>
+                    <tr>
+                        <td headers="product"> <?php htmlout($products['plants'][$product]); ?> </td>
+                        <td headers="quantity"> <?php htmlout($_POST[$key]); ?> </td>
+                        <td headers="category"> Plant </td>
+                    </tr>
         
-        <?php } ?>
+        <?php } 
+        }?>
+        
+        <?php if(!empty($_SESSION["pots"])) {
+            
+                foreach ($_SESSION["pots"] as $key => $product) { ?>
+
+                    <tr>
+                        <td headers="product"> <?php htmlout($products['pots'][$product]); ?> </td>
+                        <td headers="quantity"> <?php htmlout($_POST[$key]); ?> </td>
+                        <td headers="category"> Pots </td>
+                    </tr>
+    
+        <?php } 
+        }?>
 
         </tbody>
     </table>

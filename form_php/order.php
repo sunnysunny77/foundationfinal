@@ -34,6 +34,22 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
             </select>
         </label>
 
+        <label>Pots
+            <select size="3" name="pots[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
+                <?php
+
+                foreach ($products['pots'] as $key => $product) {
+
+                ?>
+                    <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
+                <?php
+
+                }
+
+                ?>
+            </select>
+        </label>
+
     </fieldset>
     <input type="hidden" name="root" value="<?php echo $root; ?>">
     <input type="hidden" name="token" value="<?php htmlout($_SESSION['token']); ?>">
