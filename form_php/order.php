@@ -50,6 +50,54 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
             </select>
         </label>
 
+        <label>Gifts
+            <select size="3" name="gifts[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
+                <?php
+
+                foreach ($products['gifts'] as $key => $product) {
+
+                ?>
+                    <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
+                <?php
+
+                }
+
+                ?>
+            </select>
+        </label>
+
+        <label>Garden tools
+            <select size="3" name="garden_tools[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
+                <?php
+
+                foreach ($products['garden_tools'] as $key => $product) {
+
+                ?>
+                    <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
+                <?php
+
+                }
+
+                ?>
+            </select>
+        </label>
+
+        <label>Fertilisers
+            <select size="3" name="fertilisers[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
+                <?php
+
+                foreach ($products['fertilisers'] as $key => $product) {
+
+                ?>
+                    <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
+                <?php
+
+                }
+
+                ?>
+            </select>
+        </label>
+
     </fieldset>
     <input type="hidden" name="root" value="<?php echo $root; ?>">
     <input type="hidden" name="token" value="<?php htmlout($_SESSION['token']); ?>">

@@ -2,29 +2,29 @@
 
 $products = [
     'plants' => [
-    'Smyka',
-    'Hard Wood Mulch',
-    'Tuff Turf'],
+        'plant-1' => "Smyka",
+        'plant-2' => "Hard Wood Mulch",
+        'plant-3' => "Tuff Turf"],
     
     'pots' => [
-    'Gardenia augusta',
-    'Rhododendron',
-    'Camellia Japonica'],
+        'pot-1' => "Smyka pot",
+        'pot-2' => "Hard Wood Mulch pot",
+        'pot-3' => "Tuff Turf pot"],
 
     'gifts' => [
-    'X5 Axe',
-    'Birds Garden Setting',
-    'Ozito PXC'],
+        'gift-1' => "Smyka gift",
+        'gift-2' => "Hard Wood Mulch gift",
+        'gift-3' => "Tuff Turf gift"],
 
-    'garden tools' => [
-    'Seedling Tray',
-    'Plant Grow Light',
-    'Fiskars Garden Scissors'],
+    'garden_tools' => [
+        'garden_tool-1' => "Smyka tool",
+        'garden_tool-2' => "Hard Wood Mulch  tool",
+        'garden_tool-3' => "Tuff Turf  tool"],
 
     'fertilisers' => [
-    'Water Filled Roller',
-    'Garden Fork',
-    'not']
+        'fertiliser-1' => "Smyka fert",
+        'fertiliser-2' => "Hard Wood Mulch fert",
+        'fertiliser-3' => "Tuff Turf fert"],
 ];
 
 ?>
