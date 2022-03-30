@@ -100,20 +100,28 @@ footer a:hover, footer a:focus {
 }
 
 /* home */
-.orbit {
-  max-width: 1200px;
-  margin: auto auto 1rem auto;
-}
-.orbit h2 {
-  padding: 0.5%;
+h2 {
+  padding: 0.375rem;
   position: absolute;
   z-index: 999;
+  right: 20px;
+  right: 20px;
   right: 20px;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   color: snow;
   font-style: oblique;
   text-shadow: 0 0 2.5px black;
+}
+@media screen and (min-width: 1200px) {
+  h2 {
+    right: calc(50% - 580px);
+  }
+}
+
+.orbit {
+  max-width: 1200px;
+  margin: auto auto 1rem auto;
 }
 .orbit .orbit-container img {
   max-height: 700px;

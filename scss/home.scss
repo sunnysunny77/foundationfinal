@@ -1,20 +1,24 @@
 @import "variables";
 /* home */
 
+h2 {
+    @include setbox(null, null, 0.375rem, null);
+    position: absolute;
+    z-index: 999; right: 20px; right: 20px;
+    right: 20px;
+    @include twelve_and_up {
+        right: calc(50% - 580px);
+    }
+    background-color: darkShift(rgba($white, 0.3));
+    border-radius: 10px;
+    color: $white;
+    font-style: oblique;
+    text-shadow: 0 0 2.5px darkShift($black);
+}
+
 .orbit {
     max-width: 1200px;
     @include setbox(null, null, null, auto auto 1rem auto);
-    h2 {
-        @include setbox(null, null, 0.5%, null);
-        position: absolute;
-        z-index: 999;
-        right: 20px;
-        background-color: darkShift(rgba($white, 0.3));
-        border-radius: 10px;
-        color: $white;
-        font-style: oblique;
-        text-shadow: 0 0 2.5px darkShift($black);
-    }
     .orbit-container img {
         max-height: 700px;
     }
@@ -32,15 +36,14 @@
         border-radius: 10px;
     }
     .media-object-section {
-      
         &:nth-child(1) {
             @include setbox(null, null, 0, null);
             @include medium_and_up() {
-            @include setbox(null, null, 1rem, 1rem);
+                @include setbox(null, null, 1rem, 1rem);
             }
         }
         &:nth-child(2) {
-            @include setbox(null, null, 0 2%, null );
+            @include setbox(null, null, 0 2%, null);
             @include medium_and_up() {
                 @include setbox(null, null, 0 0 0 2rem, null);
                 @include large_and_up() {
