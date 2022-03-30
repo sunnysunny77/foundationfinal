@@ -30,6 +30,7 @@ $(document).ready(function () {
             });
         } else {
             const text = pre.text();
+            window.scrollTo(0, 0);
             pre.html("<b>Please select an option</b>")
                 sub.prop("disabled", true);
                 setTimeout(function () {

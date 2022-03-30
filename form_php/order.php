@@ -17,86 +17,119 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
 <form class="grid-x" method="post" action="./form_php/submit.php" id="form">
     <fieldset class="cell">
         <legend id="form-msg">Purchase one or more products to proceed</legend>
+
+        <ul class="tabs grid-x align-center" data-tabs id="tabs">
+            <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Plants</a></li>
+            <li class="tabs-title"><a data-tabs-target="panel2" href="#panel2">Pots</a></li>
+            <li class="tabs-title"><a data-tabs-target="panel3" href="#panel3">Gifts</a></li>
+            <li class="tabs-title"><a data-tabs-target="panel4" href="#panel4">Garden tools</a></li>
+            <li class="tabs-title"><a data-tabs-target="panel5" href="#panel5">Fertilisers</a></li>
+        </ul>
+
         
-        <label>Plants
-            <select size="3" name="plants[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
-                <?php
+        <div class="tabs-content" data-tabs-content="tabs">
 
-                foreach ($products['plants'] as $key => $product) {
+            <div class="tabs-panel is-active" id="panel1">
 
-                ?>
-                    <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
-                <?php
+                <label>Plants
+                    <select size="3" name="plants[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
+                        <?php
 
-                }
+                        foreach ($products['plants'] as $key => $product) {
 
-                ?>
-            </select>
-        </label>
+                        ?>
+                            <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
+                        <?php
 
-        <label>Pots
-            <select size="3" name="pots[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
-                <?php
+                        }
 
-                foreach ($products['pots'] as $key => $product) {
+                        ?>
+                    </select>
+                </label>
 
-                ?>
-                    <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
-                <?php
+            </div>
 
-                }
+            <div class="tabs-panel" id="panel2">
 
-                ?>
-            </select>
-        </label>
+                <label>Pots
+                    <select size="3" name="pots[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
+                        <?php
 
-        <label>Gifts
-            <select size="3" name="gifts[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
-                <?php
+                        foreach ($products['pots'] as $key => $product) {
 
-                foreach ($products['gifts'] as $key => $product) {
+                        ?>
+                            <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
+                        <?php
 
-                ?>
-                    <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
-                <?php
+                        }
 
-                }
+                        ?>
+                    </select>
+                </label>
 
-                ?>
-            </select>
-        </label>
+            </div>
 
-        <label>Garden tools
-            <select size="3" name="garden_tools[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
-                <?php
+            <div class="tabs-panel" id="panel3">
 
-                foreach ($products['garden_tools'] as $key => $product) {
+                <label>Gifts
+                    <select size="3" name="gifts[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
+                        <?php
 
-                ?>
-                    <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
-                <?php
+                        foreach ($products['gifts'] as $key => $product) {
 
-                }
+                        ?>
+                            <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
+                        <?php
 
-                ?>
-            </select>
-        </label>
+                        }
 
-        <label>Fertilisers
-            <select size="3" name="fertilisers[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
-                <?php
+                        ?>
+                    </select>
+                </label>
 
-                foreach ($products['fertilisers'] as $key => $product) {
+            </div>
 
-                ?>
-                    <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
-                <?php
+            <div class="tabs-panel" id="panel4">
 
-                }
+                <label>Garden tools
+                    <select size="3" name="garden_tools[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
+                        <?php
 
-                ?>
-            </select>
-        </label>
+                        foreach ($products['garden_tools'] as $key => $product) {
+
+                        ?>
+                            <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
+                        <?php
+
+                        }
+
+                        ?>
+                    </select>
+                </label>
+
+            </div>
+
+            <div class="tabs-panel" id="panel5">
+
+                <label>Fertilisers
+                    <select size="3" name="fertilisers[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
+                        <?php
+
+                        foreach ($products['fertilisers'] as $key => $product) {
+
+                        ?>
+                            <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
+                        <?php
+
+                        }
+
+                        ?>
+                    </select>
+                </label>
+
+            </div>
+
+        </div>
 
     </fieldset>
     <input type="hidden" name="root" value="<?php echo $root; ?>">

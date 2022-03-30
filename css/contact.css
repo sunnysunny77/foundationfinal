@@ -108,6 +108,31 @@ footer a:hover, footer a:focus {
   margin: 0 0 10px 0;
 }
 
+.tabs {
+  background-color: transparent;
+  border: none;
+}
+.tabs li a, .tabs footer a a, footer .tabs a a {
+  color: #6b6b6b;
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+}
+.tabs li a:hover, .tabs footer a a:hover, footer .tabs a a:hover, .tabs li a:focus, .tabs footer a a:focus, footer .tabs a a:focus {
+  color: #5f5f9b;
+}
+.tabs .tabs-title.is-active a {
+  background-color: rgba(138, 138, 138, 0.2);
+}
+
+.tabs-content {
+  background-color: transparent;
+  border: none;
+}
+.tabs-content .tabs-panel {
+  margin: 0;
+  padding: 0;
+}
+
 form .button {
   background-color: #84dcc6;
   color: #1d3933;
