@@ -24,7 +24,7 @@ if ($_POST["token"] === $_SESSION["token"]) {
 
             <fieldset class="cell grid-x">
                 <legend class="cell">Choose your quantity</legend>
-                <label class="cell medium-10">
+                <label class="cell medium-3">
                     <?php htmlout($products[$product]); ?>
                     <input required name=" <?php htmlout($key); ?>" type="number" min="1" value="1">
                 </label>
@@ -32,18 +32,18 @@ if ($_POST["token"] === $_SESSION["token"]) {
 
         <?php } ?>
 
-        <label class="cell medium-5">
+        <label class="cell medium-3">
             Name
             <input autocomplete="on" maxlength="40" required name="name" type="text">
         </label>
-        <label class="cell medium-5">
+        <label class="cell medium-3">
             email
             <input autocomplete="on" maxlength="40" required name="email" type="email">
         </label>
         <label for="phone" class="cell">
             Phone
         </label>
-        <input id="phone" class="cell medium-7" autocomplete="on" required name="phone" type="tel" pattern="[+]?[0-9]{3,15}" title="Accepts
+        <input id="phone" class="cell medium-6" autocomplete="on" required name="phone" type="tel" pattern="[+]?[0-9]{3,15}" title="Accepts
                         +###############">
 
         <label class="cell"> Comments
