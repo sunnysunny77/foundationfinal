@@ -100,213 +100,24 @@ footer a:hover, footer a:focus {
 }
 
 /* gallery */
-.gallery .cell {
+#main a {
+  font-size: 21px;
+}
+#main a:hover, #main a:focus {
+  color: #5f5f9b;
+}
+
+#main .menu {
+  margin: 3rem;
+}
+
+.gallery {
   width: 220px;
   height: 400px;
   margin: 1% 3%;
 }
-.gallery h3 {
+.gallery h4 {
   font-size: medium;
-}
-
-#product-1 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-1.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-2 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-2.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-3 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-3.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-4 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-4.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-5 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-5.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-6 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-6.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-7 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-7.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-8 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-8.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-9 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-9.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-10 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-10.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-11 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-11.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-12 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-12.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-13 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-13.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-14 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-14.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-15 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-15.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-16 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-16.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-17 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-17.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-18 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-18.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-19 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-19.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
-}
-
-#product-20 {
-  width: 220px;
-  height: 220px;
-  margin: auto auto 3% auto;
-  background-image: url(../images/gallery/product-20.jpg);
-  background-size: contain;
-  border: 1px solid #cacaca;
-  box-sizing: content-box;
 }
 
 /*# sourceMappingURL=gallery.css.map */

@@ -12,7 +12,7 @@
 
     <?php
 
-    $root = $_SERVER["DOCUMENT_ROOT"] . "/foundationfinal";
+        $root = $_SERVER["DOCUMENT_ROOT"] . "/foundationfinal";
 
     ?>
     
@@ -62,7 +62,7 @@
                 <li class="align-self-middle"><a accesskey="2" href="./contact.php">
                         <h1>CONTACT</h1>
                     </a></li>
-                <li class="align-self-middle"><a accesskey="3" href="./gallery.html">GALLERY</a></li>
+                <li class="align-self-middle"><a accesskey="3" href="./gallery.php">GALLERY</a></li>
                 <li class="align-self-middle"><a accesskey="4" href="./video.html">VIDEO</a></li>
 
             </ul>
@@ -112,7 +112,7 @@
                 <ul class="vertical menu text-left">
                     <li><a href="./index.html">HOME</a></li>
                     <li><a href="./contact.php">CONTACT</a></li>
-                    <li><a href="./gallery.html">GALLERY</a></li>
+                    <li><a href="./gallery.php">GALLERY</a></li>
                     <li><a href="./video.html">VIDEO</a></li>
                 </ul>
             </li>
