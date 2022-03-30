@@ -5,7 +5,7 @@ $(document).ready(function () {
         const url = form.attr('action');
         const sub = $("#sub");
         const pre =  $('#form-msg');
-        if (form[0][0].value) {
+        if (form[0][1].value) {
             $.ajax({
                 type: "POST",
                 url: url,
