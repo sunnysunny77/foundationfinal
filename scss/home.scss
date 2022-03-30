@@ -28,10 +28,10 @@
         @include setbox(null, null, null, auto auto 50px auto);
     }
     .media-object-section:nth-child(2) img {
-        @include setbox(96%, null, null, null);
+        @include setbox(96%, null, null, 2% 2% 1rem 2%);
         border-radius: 10px;
         @include medium_and_up() {
-            @include setbox(100%, null, null, null);
+            @include setbox(100%, null, null, 0);
         }
     }
     .media-object-section {
