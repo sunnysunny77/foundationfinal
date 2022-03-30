@@ -2,7 +2,7 @@
 
 $products = [
     'plants' => [
-        'plant-1' => "Smyka",
+        'plant-1' => "140mm Silver Lady Fern - Blechnum bibbum",
         'plant-2' => "Hard Wood Mulch",
         'plant-3' => "Tuff Turf",
         'plant-4' => "Tuff Turf",
