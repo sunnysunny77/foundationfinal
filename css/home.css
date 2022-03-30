@@ -130,26 +130,24 @@ footer a:hover, footer a:focus {
   }
 }
 .media-object .media-object-section:nth-child(2) img {
-  width: 96%;
-  margin: 2% 2% 1rem 2%;
+  width: 100%;
   border-radius: 10px;
 }
-@media screen and (min-width: 40em) {
-  .media-object .media-object-section:nth-child(2) img {
-    width: 100%;
-    margin: 0;
-  }
-}
-.media-object .media-object-section {
+.media-object .media-object-section:nth-child(1) {
   padding: 0;
 }
 @media screen and (min-width: 40em) {
   .media-object .media-object-section:nth-child(1) {
-    padding: 2%;
-    margin: 2%;
+    padding: 1rem;
+    margin: 1rem;
   }
+}
+.media-object .media-object-section:nth-child(2) {
+  padding: 0 2%;
+}
+@media screen and (min-width: 40em) {
   .media-object .media-object-section:nth-child(2) {
-    padding: 3% 0 3% 3%;
+    padding: 0 0 0 2rem;
   }
 }
 @media screen and (min-width: 40em) and (min-width: 64em) {
