@@ -14,7 +14,7 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
 <span class="badge secondary">2</span>
 <span class="badge secondary">3</span>
 
-<form class="grid-x align-center" method="post" action="./form_php/submit.php" id="form">
+<form class="grid-x" method="post" action="./form_php/submit.php" id="form">
     <label class="cell">Purchase one or more products to proceed
         <select required size="10" name="product[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
         <?php
@@ -32,5 +32,8 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
     </label>
     <input type="hidden" name="root" value="<?php echo $root; ?>">
     <input type="hidden" name="token" value="<?php htmlout($_SESSION['token']); ?>">
-    <input aria-label="Form submit" type="submit" class="button">
+    <label class="grid-x align-center cell">
+        <span class="show-for-sr">Submit</span>
+        <input name="action" type="submit" class="button" value="Submit">
+    </label>
 </form>
