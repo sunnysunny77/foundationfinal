@@ -12,32 +12,11 @@
     @include setbox(null, null, null, 0 0 10px 0);
 }
 
-.tabs {
-    background-color: $transparent;
-    border: none;
-    li a {
-        color: darkShift($colorSix);
-        font-size: 16px;
-        @include setbox(null, null, 0.5rem 1rem, null);
-        &:hover,
-        &:focus {
-            color: $colorFour;
-        }
-    }
-    .tabs-title.is-active a {
-        background-color: rgba($colorSix, 0.2);
-    }
-}
 
-.tabs-content {
-    background-color: $transparent;
-    border: none;
-    .tabs-panel {
-        @include zerobox();
-    }
-}
 
-form {
+
+
+#main form {
     .button {
         background-color: $colorOne;
         color: darkShift($colorFive);
@@ -53,6 +32,29 @@ form {
     }
     .has-tip-cursor {
         cursor: inherit;
+    }
+    .tabs {
+        background-color: $transparent;
+        border: none;
+        li a {
+            color: darkShift($colorSix);
+            font-size: 16px;
+            @include setbox(null, null, 0.5rem 1rem, null);
+            &:hover,
+            &:focus {
+                color: $colorFour;
+            }
+        }
+        .tabs-title.is-active a {
+            background-color: rgba($colorSix, 0.2);
+        }
+    }
+    .tabs-content {
+        background-color: $transparent;
+        border: none;
+        .tabs-panel {
+            @include zerobox();
+        }
     }
 }
 
