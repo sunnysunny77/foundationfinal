@@ -43,9 +43,7 @@ if ($_POST["token"] === $_SESSION["token"]) {
         <label for="phone" class="cell">
             Phone
         </label>
-        <input id="phone" class="cell medium-6" autocomplete="on" required name="phone" type="tel" pattern="[+]?[0-9]{3,15}" title="Accepts
-                        +###############">
-
+        <input id="phone" class="cell medium-6" autocomplete="on" required name="phone" type="tel" pattern="[+]?[0-9]{3,15}" title="Accepts +###############">
         <label class="cell"> Comments
             <textarea maxlength="1000" rows="8" name="comments"></textarea>
         </label>
