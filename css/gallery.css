@@ -157,8 +157,14 @@ footer a:hover, footer a:focus {
 
 section {
   border-bottom: 1px solid #cacaca;
-  padding: mull;
+  padding: 0 0 4% 0;
   margin: auto;
+}
+@media screen and (min-width: 64em) {
+  section {
+    padding: 0;
+    margin: auto;
+  }
 }
 section h3 {
   padding: 0 1rem 0 0;
