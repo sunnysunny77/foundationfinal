@@ -99,27 +99,27 @@
             foreach ($products["plants"] as $key => $product) { ?>
 
                 <div class="cell small-3 grid-x  align-center  gallery">
-                    <img   alt="<?php echo $product[0] ?>" src="./images/gallery/<?php echo $key ?>.jpg">
+                    <img alt="<?php echo $product[0] ?>" src="./images/gallery/<?php echo $key ?>.jpg">
                     <h4 class="subheader cell"><?php echo $product[0] ?></h4>
-                    <a  data-toggle="<?php echo $key ?>">Details</a>
+                    <a data-toggle="<?php echo $key ?>">Details</a>
                     <div class="cell small-3 dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
                         <ul class="text-left inline-list no-bullet">
                             <li>
                                 <b>Features:</b>
                                 <ul>
-                                    <li><?php echo $product[2] ?></li>    
+                                    <li><?php echo $product[2] ?></li>
                                 </ul>
                             </li>
                             <li>
                                 <b>Returns:</b>
                                 <ul>
-                                    <li><?php echo $product[3] ?></li>    
+                                    <li><?php echo $product[3] ?></li>
                                 </ul>
                             </li>
                             <li>
                                 <b>Price:</b>
                                 <ul>
-                                    <li>$<?php echo $product[1] ?></li>    
+                                    <li>$<?php echo $product[1] ?></li>
                                 </ul>
                             </li>
                         </ul>
@@ -140,16 +140,31 @@
 
             foreach ($products["pots"] as $key => $product) { ?>
 
-                <div class="cell gallery">
+                <div class="cell small-3 grid-x  align-center  gallery">
                     <img alt="<?php echo $product[0] ?>" src="./images/gallery/<?php echo $key ?>.jpg">
-                    <h4 class="subheader"><?php echo $product[0] ?></h4>
+                    <h4 class="subheader cell"><?php echo $product[0] ?></h4>
                     <a data-toggle="<?php echo $key ?>">Details</a>
-                    <div class="dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
-                        <p>
-                            <?php echo $product[2] ?>
-                            <br />
-                            <b>$:<?php echo $product[1] ?></b>
-                        </p>
+                    <div class="cell small-3 dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
+                        <ul class="text-left inline-list no-bullet">
+                            <li>
+                                <b>Features:</b>
+                                <ul>
+                                    <li><?php echo $product[2] ?></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>Returns:</b>
+                                <ul>
+                                    <li><?php echo $product[3] ?></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>Price:</b>
+                                <ul>
+                                    <li>$<?php echo $product[1] ?></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
@@ -167,16 +182,31 @@
 
             foreach ($products["gifts"] as $key => $product) { ?>
 
-                <div class="cell gallery">
+                <div class="cell small-3 grid-x  align-center  gallery">
                     <img alt="<?php echo $product[0] ?>" src="./images/gallery/<?php echo $key ?>.jpg">
-                    <h4 class="subheader"><?php echo $product[0] ?></h4>
+                    <h4 class="subheader cell"><?php echo $product[0] ?></h4>
                     <a data-toggle="<?php echo $key ?>">Details</a>
-                    <div class="dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
-                        <p>
-                            <?php echo $product[2] ?>
-                            <br />
-                            <b>$:<?php echo $product[1] ?></b>
-                        </p>
+                    <div class="cell small-3 dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
+                        <ul class="text-left inline-list no-bullet">
+                            <li>
+                                <b>Features:</b>
+                                <ul>
+                                    <li><?php echo $product[2] ?></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>Returns:</b>
+                                <ul>
+                                    <li><?php echo $product[3] ?></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>Price:</b>
+                                <ul>
+                                    <li>$<?php echo $product[1] ?></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
@@ -194,16 +224,31 @@
 
             foreach ($products["garden_tools"] as $key => $product) { ?>
 
-                <div class="cell gallery">
+                <div class="cell small-3 grid-x  align-center  gallery">
                     <img alt="<?php echo $product[0] ?>" src="./images/gallery/<?php echo $key ?>.jpg">
-                    <h4 class="subheader"><?php echo $product[0] ?></h4>
+                    <h4 class="subheader cell"><?php echo $product[0] ?></h4>
                     <a data-toggle="<?php echo $key ?>">Details</a>
-                    <div class="dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
-                        <p>
-                            <?php echo $product[2] ?>
-                            <br />
-                            <b>$:<?php echo $product[1] ?></b>
-                        </p>
+                    <div class="cell small-3 dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
+                        <ul class="text-left inline-list no-bullet">
+                            <li>
+                                <b>Features:</b>
+                                <ul>
+                                    <li><?php echo $product[2] ?></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>Returns:</b>
+                                <ul>
+                                    <li><?php echo $product[3] ?></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>Price:</b>
+                                <ul>
+                                    <li>$<?php echo $product[1] ?></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
@@ -221,16 +266,31 @@
 
             foreach ($products["fertilisers"] as $key => $product) { ?>
 
-                <div class="cell gallery">
+                <div class="cell small-3 grid-x  align-center  gallery">
                     <img alt="<?php echo $product[0] ?>" src="./images/gallery/<?php echo $key ?>.jpg">
-                    <h4 class="subheader"><?php echo $product[0] ?></h4>
+                    <h4 class="subheader cell"><?php echo $product[0] ?></h4>
                     <a data-toggle="<?php echo $key ?>">Details</a>
-                    <div class="dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
-                        <p>
-                            <?php echo $product[2] ?>
-                            <br />
-                            <b>$:<?php echo $product[1] ?></b>
-                        </p>
+                    <div class="cell small-3 dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
+                        <ul class="text-left inline-list no-bullet">
+                            <li>
+                                <b>Features:</b>
+                                <ul>
+                                    <li><?php echo $product[2] ?></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>Returns:</b>
+                                <ul>
+                                    <li><?php echo $product[3] ?></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>Price:</b>
+                                <ul>
+                                    <li>$<?php echo $product[1] ?></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
