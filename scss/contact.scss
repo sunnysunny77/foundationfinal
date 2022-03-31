@@ -55,6 +55,9 @@
             @include zerobox();
         }
     }
+    label p {
+        @include zerobox();
+    }
 }
 
 blockquote {

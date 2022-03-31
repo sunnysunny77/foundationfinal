@@ -149,6 +149,10 @@ footer a:hover, footer a:focus {
   margin: 0;
   padding: 0;
 }
+#main form label p {
+  margin: 0;
+  padding: 0;
+}
 
 blockquote, blockquote cite {
   color: #6b6b6b;

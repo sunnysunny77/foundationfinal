@@ -28,7 +28,7 @@ if ($_POST["token"] === $_SESSION["token"]) {
                 <fieldset class="cell grid-x">
                     <legend class="cell">Choose your quantity</legend>
                     <label class="cell medium-3"> Plant:
-                        <?php htmlout($products["plants"]["$product"][0]); ?>
+                        <p><?php htmlout($products["plants"]["$product"][0] . " ") ?></p> <b>  <?php htmlout( "$: " . $products["plants"]["$product"][1]); ?> </b>
                         <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
                     </label>
                 </fieldset>
@@ -45,8 +45,8 @@ if ($_POST["token"] === $_SESSION["token"]) {
                 <fieldset class="cell grid-x">
                     <legend class="cell">Choose your quantity</legend>
                     <label class="cell medium-3"> Pot:
-                        <?php htmlout($products["pots"]["$product"][0]); ?>
-                        <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
+                    <p><?php htmlout($products["pots"]["$product"][0] . " ") ?></p> <b>  <?php htmlout( "$: " . $products["pots"]["$product"][1]); ?> </b>
+                    <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
                     </label>
                 </fieldset>
 
@@ -63,7 +63,7 @@ if ($_POST["token"] === $_SESSION["token"]) {
                 <fieldset class="cell grid-x">
                     <legend class="cell">Choose your quantity</legend>
                     <label class="cell medium-3"> Gift:
-                        <?php htmlout($products["gifts"]["$product"][0]); ?>
+                        <p><?php htmlout($products["gifts"]["$product"][0] . " ") ?></p> <b>  <?php htmlout( "$: " . $products["gifts"]["$product"][1]); ?> </b>
                         <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
                     </label>
                 </fieldset>
@@ -80,7 +80,7 @@ if ($_POST["token"] === $_SESSION["token"]) {
                 <fieldset class="cell grid-x">
                     <legend class="cell">Choose your quantity</legend>
                     <label class="cell medium-3"> Garden tool:
-                        <?php htmlout($products["garden_tools"]["$product"][0]); ?>
+                        <p><?php htmlout($products["garden_tools"]["$product"][0] . " ") ?></p> <b>  <?php htmlout( "$: " . $products["garden_tools"]["$product"][1]); ?> </b>
                         <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
                     </label>
                 </fieldset>
@@ -97,8 +97,8 @@ if ($_POST["token"] === $_SESSION["token"]) {
                 <fieldset class="cell grid-x">
                     <legend class="cell">Choose your quantity</legend>
                     <label class="cell medium-3"> Fertiliser:
-                        <?php htmlout($products["fertilisers"]["$product"][0]); ?>
-                        <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
+                        <p><?php htmlout($products["fertilisers"]["$product"][0] . " ") ?></p> <b>  <?php htmlout( "$: " . $products["fertilisers"]["$product"][1]); ?> </b>
+                      <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
                     </label>
                 </fieldset>
 
