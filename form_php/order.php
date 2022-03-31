@@ -27,7 +27,6 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
             <li class="cell small-4 medium-2 tabs-title"><a data-tabs-target="panel5" href="#panel5">Fertilisers</a></li>
         </ul>
 
-        
         <div class="tabs-content" data-tabs-content="tabs">
 
             <div class="tabs-panel is-active" id="panel1">

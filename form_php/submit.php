@@ -49,8 +49,8 @@ if ($_POST["token"] === $_SESSION["token"]) {
                 foreach ($_POST["pots"] as $product) { ?>
                 
                         <label class="cell medium-3">
-                        <p><?php htmlout($products["pots"]["$product"][0] . " ") ?></p> <b>  <?php htmlout( "$: " . $products["pots"]["$product"][1]); ?> </b>
-                        <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
+                            <p><?php htmlout($products["pots"]["$product"][0] . " ") ?></p> <b>  <?php htmlout( "$: " . $products["pots"]["$product"][1]); ?> </b>
+                            <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
                         </label>
                 
                 <?php } ?>
@@ -107,13 +107,12 @@ if ($_POST["token"] === $_SESSION["token"]) {
 
                         <label class="cell medium-3"> 
                             <p><?php htmlout($products["fertilisers"]["$product"][0] . " ") ?></p> <b>  <?php htmlout( "$: " . $products["fertilisers"]["$product"][1]); ?> </b>
-                        <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
+                            <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
                         </label>
                  
                 <?php } ?>
             </fieldset>
         <?php } ?>
-
 
         <label class="cell medium-3">
             Name
