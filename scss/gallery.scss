@@ -38,6 +38,7 @@ h2 {
         font-size: medium;
     }
     a {
+        @include setbox(null, null,1rem 0 0.5rem 0, null);
         color: $colorFive;
         &:hover,
         &:focus {

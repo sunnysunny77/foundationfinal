@@ -44,7 +44,7 @@ $total;
                 <th id="product">Product</th>
                 <th id="quantity">Quantity</th>
                 <th id="category">Category</th>
-                <td id="price"> $ </td>
+                <td id="price"> Price </td>
             </tr>
             </tr>
         </thead>
@@ -53,15 +53,17 @@ $total;
         <?php if(!empty($_SESSION["plants"])) {
             
                 foreach ($_SESSION["plants"] as $product) { 
-                    $price = $products['plants']["$product"][1] * $_POST[$product];
+                    $item_price = $products['plants']["$product"][1];
+                    $quantity_price = $_POST[$product];
+                    $price = $item_price * $quantity_price;
                     $total += $price;
                     ?>
 
                     <tr>
                         <td headers="product"> <?php htmlout($products['plants']["$product"][0]); ?> </td>
-                        <td headers="quantity"> <?php htmlout($_POST[$product]); ?> </td>
+                        <td headers="quantity"> <?php htmlout($quantity_price); ?> </td>
                         <td headers="category"> Plant </td>
-                        <td headers="price"> <?php htmlout($price); ?> </td>
+                        <td headers="price"> <?php htmlout("$" . $item_price . " x " . $quantity_price . " = $" . $price); ?> </td>
                     </tr>
         
         <?php } 
@@ -70,15 +72,17 @@ $total;
         <?php if(!empty($_SESSION["pots"])) {
             
                 foreach ($_SESSION["pots"] as $product) { 
-                    $price = $products['pots']["$product"][1] * $_POST[$product];
+                    $item_price = $products['pots']["$product"][1];
+                    $quantity_price = $_POST[$product];
+                    $price = $item_price * $quantity_price;
                     $total += $price;
                     ?>
 
                     <tr>
                         <td headers="product"> <?php htmlout($products['pots']["$product"][0]); ?> </td>
-                        <td headers="quantity"> <?php htmlout($_POST[$product]); ?> </td>
+                        <td headers="quantity"> <?php htmlout($quantity_price); ?> </td>
                         <td headers="category"> Pots </td>
-                        <td headers="price"> <?php htmlout($price); ?> </td>
+                        <td headers="price"> <?php htmlout("$" . $item_price . " x " . $quantity_price . " = $" . $price); ?> </td>
                     </tr>
     
         <?php } 
@@ -87,15 +91,17 @@ $total;
         <?php if(!empty($_SESSION["gifts"])) {
             
                 foreach ($_SESSION["gifts"] as $product) {   
-                    $price = $products['gifts"']["$product"][1] * $_POST[$product];
+                    $item_price = $products['gifts']["$product"][1];
+                    $quantity_price = $_POST[$product];
+                    $price = $item_price * $quantity_price;
                     $total += $price;
                     ?>
 
                     <tr>
                         <td headers="product"> <?php htmlout($products['gifts']["$product"][0]); ?> </td>
-                        <td headers="quantity"> <?php htmlout($_POST[$product]); ?> </td>
+                        <td headers="quantity"> <?php htmlout($quantity_price); ?> </td>
                         <td headers="category"> Gift </td>
-                        <td headers="price"> <?php htmlout($$price); ?> </td>
+                        <td headers="price"> <?php htmlout("$" . $item_price . " x " . $quantity_price . " = $" . $price); ?> </td>
                     </tr>
 
         <?php } 
@@ -104,15 +110,17 @@ $total;
         <?php if(!empty($_SESSION["garden_tools"])) {
                 
                 foreach ($_SESSION["garden_tools"] as $product) {   
-                    $price = $products['garden_tools']["$product"][1] * $_POST[$product];
+                    $item_price = $products['garden_tools']["$product"][1];
+                    $quantity_price = $_POST[$product];
+                    $price = $item_price * $quantity_price;
                     $total += $price;
                     ?>
 
                     <tr>
                         <td headers="product"> <?php htmlout($products['garden_tools']["$product"][0]); ?> </td>
-                        <td headers="quantity"> <?php htmlout($_POST[$product]); ?> </td>
+                        <td headers="quantity"> <?php htmlout($quantity_price); ?> </td>
                         <td headers="category"> Garden tool </td>
-                        <td headers="price"> <?php htmlout($price); ?> </td>
+                        <td headers="price"> <?php htmlout("$" . $item_price . " x " . $quantity_price . " = $" . $price); ?> </td>
                     </tr>
 
         <?php } 
@@ -121,15 +129,17 @@ $total;
         <?php if(!empty($_SESSION["fertilisers"])) {
                 
                 foreach ($_SESSION["fertilisers"] as $product) { 
-                    $price = $products['fertilisers']["$product"][1] * $_POST[$product];
+                    $item_price = $products['fertilisers']["$product"][1];
+                    $quantity_price = $_POST[$product];
+                    $price = $item_price * $quantity_price;
                     $total += $price;
                     ?>
 
                     <tr>
                         <td headers="product"> <?php htmlout($products['fertilisers']["$product"][0]); ?> </td>
-                        <td headers="quantity"> <?php htmlout($_POST[$product]); ?> </td>
+                        <td headers="quantity"> <?php htmlout($quantity_price); ?> </td>
                         <td headers="category"> Fertiliser </td>
-                        <td headers="price"> <?php htmlout($price); ?> </td>
+                        <td headers="price"> <?php htmlout("$" . $item_price . " x " . $quantity_price . " = $" . $price); ?> </td>
                     </tr>
 
         <?php } 
