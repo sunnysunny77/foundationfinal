@@ -1,6 +1,15 @@
 @import "variables";
 /* gallery */
 
+h2 {
+    @include medium_and_up {
+        @include setbox(null, null, 0 1rem 0 0, 50px auto);
+    }
+    @include twelve_and_up {
+        @include setbox(null, null, 0 4% 0 0, null);
+    }
+}
+
 #main .menu {
     background-color: rgba($grey, 0.25);
     li {
@@ -41,7 +50,10 @@ section {
     border-bottom: 1px solid $grey;
     @include setbox(null, null, mull, auto);
     h3 {
-        @include setbox(null, null, mull, 1rem 0 0 0);
+        @include setbox(null, null, 0 1rem 0 0, 1rem 0 0 0);
+        @include twelve_and_up {
+            @include setbox(null, null, 0 4% 0 0, null);
+        }
     }
     .sticky-top {
         position: sticky;

@@ -100,6 +100,18 @@ footer a:hover, footer a:focus {
 }
 
 /* gallery */
+@media screen and (min-width: 40em) {
+  h2 {
+    padding: 0 1rem 0 0;
+    margin: 50px auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h2 {
+    padding: 0 4% 0 0;
+  }
+}
+
 #main .menu {
   background-color: rgba(202, 202, 202, 0.25);
 }
@@ -144,8 +156,13 @@ section {
   margin: auto;
 }
 section h3 {
-  padding: mull;
+  padding: 0 1rem 0 0;
   margin: 1rem 0 0 0;
+}
+@media screen and (min-width: 1200px) {
+  section h3 {
+    padding: 0 4% 0 0;
+  }
 }
 section .sticky-top {
   position: sticky;
