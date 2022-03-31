@@ -29,7 +29,7 @@ h2 {
 }
 
 .gallery {
-    @include setbox(null, null,  0 0 120px 0, 4% 0 0 0);
+    @include setbox(null, null,  0 0 120px 0, 3%  0 );
     img {
         border: 1px solid $grey;
         box-sizing: content-box;

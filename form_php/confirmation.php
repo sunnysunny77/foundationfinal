@@ -63,7 +63,7 @@ $total;
                         <td headers="product"> <?php htmlout($products['plants']["$product"][0]); ?> </td>
                         <td headers="quantity"> <?php htmlout($quantity_price); ?> </td>
                         <td headers="category"> Plant </td>
-                        <td headers="price"> <?php htmlout("$" . $item_price . " x " . $quantity_price . " = $" . $price); ?> </td>
+                        <td headers="price"> <?php htmlout("$" . $price); ?> </td>
                     </tr>
         
         <?php } 
@@ -82,7 +82,7 @@ $total;
                         <td headers="product"> <?php htmlout($products['pots']["$product"][0]); ?> </td>
                         <td headers="quantity"> <?php htmlout($quantity_price); ?> </td>
                         <td headers="category"> Pots </td>
-                        <td headers="price"> <?php htmlout("$" . $item_price . " x " . $quantity_price . " = $" . $price); ?> </td>
+                        <td headers="price"> <?php htmlout("$" . $price); ?> </td>
                     </tr>
     
         <?php } 
@@ -101,7 +101,7 @@ $total;
                         <td headers="product"> <?php htmlout($products['gifts']["$product"][0]); ?> </td>
                         <td headers="quantity"> <?php htmlout($quantity_price); ?> </td>
                         <td headers="category"> Gift </td>
-                        <td headers="price"> <?php htmlout("$" . $item_price . " x " . $quantity_price . " = $" . $price); ?> </td>
+                        <td headers="price"> <?php htmlout("$" . $price); ?> </td>
                     </tr>
 
         <?php } 
@@ -120,7 +120,7 @@ $total;
                         <td headers="product"> <?php htmlout($products['garden-tools']["$product"][0]); ?> </td>
                         <td headers="quantity"> <?php htmlout($quantity_price); ?> </td>
                         <td headers="category"> Garden tool </td>
-                        <td headers="price"> <?php htmlout("$" . $item_price . " x " . $quantity_price . " = $" . $price); ?> </td>
+                        <td headers="price"> <?php htmlout("$" . $price); ?> </td>
                     </tr>
 
         <?php } 
@@ -139,7 +139,7 @@ $total;
                         <td headers="product"> <?php htmlout($products['fertilisers']["$product"][0]); ?> </td>
                         <td headers="quantity"> <?php htmlout($quantity_price); ?> </td>
                         <td headers="category"> Fertiliser </td>
-                        <td headers="price"> <?php htmlout("$" . $item_price . " x " . $quantity_price . " = $" . $price); ?> </td>
+                        <td headers="price"> <?php htmlout("$" . $price); ?> </td>
                     </tr>
 
         <?php } 
