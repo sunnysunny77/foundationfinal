@@ -169,7 +169,13 @@ section .sticky-top {
   top: 0;
 }
 section .sticky-top i {
+  padding: 0 1rem 0 0;
   color: #cacaca;
+}
+@media screen and (min-width: 1200px) {
+  section .sticky-top i {
+    padding: 0 4% 0 0;
+  }
 }
 section .sticky-top i:hover, section .sticky-top i:focus {
   color: #5f5f9b;

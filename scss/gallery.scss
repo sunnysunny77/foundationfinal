@@ -59,6 +59,10 @@ section {
         position: sticky;
         top: 0;
         i {
+            @include setbox(null, null, 0 1rem 0 0, null);
+            @include twelve_and_up {
+                @include setbox(null, null, 0 4% 0 0, null);
+            }
             color: $grey;
             &:hover,
             &:focus {

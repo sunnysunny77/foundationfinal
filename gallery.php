@@ -90,7 +90,7 @@
 
         <section class="grid-x cell text-center align-center">
 
-            <h3 id="plants" class="cell text-right"> Plants </h3> <a class="cell sticky-top small-11 text-right" href="#top"><span class="invisible">Go to top</span><i class="fi-eject"></i></a>
+            <h3 id="plants" class="cell text-right"> Plants </h3> <a class="cell sticky-top  text-right" href="#top"><span class="invisible">Go to top</span><i class="fi-eject"></i></a>
 
             <?php
 
@@ -114,7 +114,7 @@
 
         <section class="grid-x cell text-center align-center">
 
-            <h3 id="pots" class="cell text-right"> Pots </h3> <a class="cell sticky-top small-11 text-right" href="#top"><span class="invisible">Go to top</span><i class="fi-eject"></i></a>
+            <h3 id="pots" class="cell text-right"> Pots </h3> <a class="cell sticky-top  text-right" href="#top"><span class="invisible">Go to top</span><i class="fi-eject"></i></a>
 
             <?php
 
@@ -134,7 +134,7 @@
 
         <section class="grid-x cell text-center align-center">
 
-            <h3 id="gifts" class="cell text-right"> Gifts </h3> <a class="cell sticky-top small-11 text-right" href="#top"><span class="invisible">Go to top</span><i class="fi-eject"></i></a>
+            <h3 id="gifts" class="cell text-right"> Gifts </h3> <a class="cell sticky-top  text-right" href="#top"><span class="invisible">Go to top</span><i class="fi-eject"></i></a>
 
             <?php
 
@@ -154,7 +154,7 @@
 
         <section class="grid-x cell text-center align-center">
 
-            <h3 id="garden-tools" class="cell text-right"> Garden Tools </h3> <a class="cell sticky-top small-11 text-right" href="#top"><span class="invisible">Go to top</span><i class="fi-eject"></i></a>
+            <h3 id="garden-tools" class="cell text-right"> Garden Tools </h3> <a class="cell sticky-top  text-right" href="#top"><span class="invisible">Go to top</span><i class="fi-eject"></i></a>
 
             <?php
 
@@ -174,7 +174,7 @@
 
         <section class="grid-x cell text-center align-center">
 
-            <h3 id="fertilisers" class="cell text-right"> Fertilisers </h3> <a class="cell sticky-top small-11 text-right" href="#top"><span class="invisible">Go to top</span><i class="fi-eject"></i></a>
+            <h3 id="fertilisers" class="cell text-right"> Fertilisers </h3> <a class="cell sticky-top  text-right" href="#top"><span class="invisible">Go to top</span><i class="fi-eject"></i></a>
 
             <?php
 
