@@ -29,10 +29,11 @@ h2 {
 }
 
 .gallery {
-    @include setbox(null, null,  0 0 220px 0, 6% 0);
+    @include setbox(null, null,  0 0 120px 0, 4% 0 0 0);
     img {
         border: 1px solid $grey;
         box-sizing: content-box;
+        width: 50.648%;
     }
     h4 {
         font-size: medium;
@@ -47,7 +48,7 @@ h2 {
     }
     .dropdown-pane {
         overflow-y: scroll;
-        @include setbox(null, 220px,null, null);
+        @include setbox(null, 120px,null, null);
     }
 }
 

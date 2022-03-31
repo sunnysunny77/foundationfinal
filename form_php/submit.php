@@ -76,17 +76,17 @@ if ($_POST["token"] === $_SESSION["token"]) {
             </fieldset>
         <?php } ?>
 
-        <?php if(!empty($_POST["garden_tools"])) { ?>
+        <?php if(!empty($_POST["garden-tools"])) { ?>
 
             <fieldset class="cell grid-x">
                 <legend class="cell">Garden tools quantity:</legend>
             
-                <?php $_SESSION["garden_tools"] = $_POST["garden_tools"];
+                <?php $_SESSION["garden-tools"] = $_POST["garden-tools"];
 
-                foreach ($_POST["garden_tools"] as $product) { ?>
+                foreach ($_POST["garden-tools"] as $product) { ?>
 
                         <label class="cell medium-3">
-                            <p><?php htmlout($products["garden_tools"]["$product"][0] . " ") ?></p> <b>  <?php htmlout( "$: " . $products["garden_tools"]["$product"][1]); ?> </b>
+                            <p><?php htmlout($products["garden-tools"]["$product"][0] . " ") ?></p> <b>  <?php htmlout( "$: " . $products["garden-tools"]["$product"][1]); ?> </b>
                             <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
                         </label>
                   

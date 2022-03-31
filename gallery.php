@@ -214,7 +214,7 @@
 
             <?php
 
-            foreach ($products["garden_tools"] as $key => $product) { ?>
+            foreach ($products["garden-tools"] as $key => $product) { ?>
 
                 <div class="cell small-12 medium-6 large-4 grid-x  align-center  gallery">
                     <img alt="<?php echo $product[0] ?>" src="./images/gallery/<?php echo $key ?>.jpg">

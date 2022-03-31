@@ -107,17 +107,17 @@ $total;
         <?php } 
         }?>
 
-        <?php if(!empty($_SESSION["garden_tools"])) {
+        <?php if(!empty($_SESSION["garden-tools"])) {
                 
-                foreach ($_SESSION["garden_tools"] as $product) {   
-                    $item_price = $products['garden_tools']["$product"][1];
+                foreach ($_SESSION["garden-tools"] as $product) {   
+                    $item_price = $products['garden-tools']["$product"][1];
                     $quantity_price = $_POST[$product];
                     $price = $item_price * $quantity_price;
                     $total += $price;
                     ?>
 
                     <tr>
-                        <td headers="product"> <?php htmlout($products['garden_tools']["$product"][0]); ?> </td>
+                        <td headers="product"> <?php htmlout($products['garden-tools']["$product"][0]); ?> </td>
                         <td headers="quantity"> <?php htmlout($quantity_price); ?> </td>
                         <td headers="category"> Garden tool </td>
                         <td headers="price"> <?php htmlout("$" . $item_price . " x " . $quantity_price . " = $" . $price); ?> </td>
@@ -156,6 +156,6 @@ $total;
 unset($_SESSION["plants"]);
 unset($_SESSION["pots"]);
 unset($_SESSION["gifts"]);
-unset($_SESSION["garden_tools"]);
+unset($_SESSION["garden-tools"]);
 unset($_SESSION["fertilisers"]);
 ?>

@@ -2,33 +2,62 @@
 
 $products = [
     'plants' => [
-        'plant-1' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, " Lorem DescpLorem Lorem DescpLorem Lorem DescpLorem Lorem DescpLorem Lorem DescpLoremLorem DescpLorem DescpLorem DescpLorem DescpLorem DescpLorem DescpLorem DescpLorem DescpLorem DescpLorem DescpLorem Descp","Lorem ret"],
-        'plant-2' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"],
-        'plant-3' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"],
-        'plant-4' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"],
-        'plant-5' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"],
-        'plant-6' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"],
-        'plant-7' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"],
-        'plant-8' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"],
-        'plant-9' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"],
-        'plant-10' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"]],
-    
+        'plant-1' => ["140mm Silver Lady Fern - Blechnum bibbum", 9.98, "The Blechnum Silver Lady Fern is a very attractive looking fern, requiring filtered light or shade for fast growing indoors or on the patio.", "
+        We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
+        'plant-2' => ["140mm Silver Lady Fern - Blechnum gibbum", 17.94, "A vibrant green, fast growing fern with fronds that arch upwards. Also known as the dwarf tree fern as it grows to 1m x 1m with a slender trunk. Ideal as an indoor plant in pots in a filtered light, warm position. Protect from frosts if planted in the garden.", "
+        We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
+        'plant-3' => ["125mm Silver Lady - Blechnum Silver Lady", 6.87, "Blechnum Silver Lady is a fast growing fern that can be used to create a great tropical atmosphere around your garden, patio and BBQ area. It needs a moist, shaded and protected position.", "
+        We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
+        'plant-4' => ["140mm Eared Lady Fern - Athyrium otophorum", 9.98, "Athyrium otophorum, the eared lady fern, is a species of fern in the family Athyriaceae, native to Japan and east Asia. Plants form a clump of arching triangular leaves. Old foliage should be trimmed to the ground in late winter. Plants benefit from a mulch of compost to help retain soil moisture. The eared lady fern thrives in most moist, partially-shaded spot with good drainage.", "We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
+        'plant-5' => ["140mm Silver Ribbon Fern - Pteris albo Lineata", 9.98, "Beautiful arched variegated leaf with a creamy white centre. Will make a unique addition to any fernery. This moderate to fast grower is a very popular house plant.", "
+        We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
+        'plant-6' => ["Plant 140mm- -Ophiopogon Silver Dragon", 13.98, "Ornamental foliage of white and green variegated leaves. Hardy for low light areas where it can fill narrow spaces, mass planted as a ground cover or happily grown in containers.", "
+        We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
+        'plant-7' => ["140mm Warrigal Greens - Tetragonia tetragonioides", 11.94, "A native plant whose leaves can be used like spinach, silverbeet or bok choy. Should be cooked before consumption. Flowers are also edible. Sprawling growth habit makes it good as a ground cover and gap filler, or in a pot. Position in full sun to part shade.", "
+        We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
+        'plant-8' => ["200mm Pisang Ceylan Banana - Musa Sapientum", 23.98, "Pisang Ceylan variety produces very sweet bananas which are bright yellow when ripe. Bananas need shelter from strong winds. They are heavy feeders and drinkers and are ideally suited to be \"Treated somewhat like a vegetable\" insofar as if they are planted near your vegetable plot, they will be easier to look after!", "
+        We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
+        'plant-9' => ["200mm Heritage Raspberry Advanced - Rubus idaeus", 14.97, "Nellie Kelly Heritage Raspberry has been specifically propagated to be free of the disease problems that can affect other raspberry varieties. This delightful, easy to grow plant can live up to five years, producing clusters of pretty white flowers, and sweet raspberries during the summer and autumn months. Raspberry bushes grow up to 180cm tall. They thrive in cool temperate zones and require a sheltered, sunny spot to produce optimum amounts of fruit. This advanced plant is ready to grow and fruit in its larger pot.", "
+        We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
+        'plant-10' => ["140mm Blueberry Burst - Blueberry Vaccinium hybrid", 24.98, "This Australian bred dwarf Blueberry is a perfect variety to plant in your garden.
+        Evergreen, Self pollinating, crisp, sweet and large fruit size with a constant supply of delicious and healthy fruit. Harvest is July to September in warmer climates and August to October in cooler climates.", "
+        We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."]
+    ],
+
     'pots' => [
-        'pot-1' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"],
-        'pot-2' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"],],
+        'pot-1' => ["Garden City Plastic Grow Plant Pot - 100mm Black", 0.65, "Garden City Plastics standard range of pots offer a superior solution for your growing needs. This growers pot is perfect for seedlings. This is a lightweight, black plastic grow pot. Pot and saucers sold separately.", "
+        We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
+        'pot-2' => ["Eden 52cm Whiskey Half Barrel Planter", 19, "Eden Half Whiskey Barrel Planters are made from recycled resin materials. The product is sturdy but lightweight. It is perfect for indoor or outdoor use. This product is more durable than wood and not prone to rot as well as being the best choice if you wish to use a wine barrel planter as a water garden or feature.", "
+        We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
+    ],
 
     'gifts' => [
-        'gift-1' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"],
-        'gift-2' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"],],
-        
+        'gift-1' => ["Tuscan Path White Square Oriental Lantern", 16.98, "Tuscan Path’s lantern collection adds elegance and beauty to a garden and creates excellent ambience. They can be placed within the garden to softly accentuate pathways, delineate areas of the garden or gently illuminate an outdoor entertaining area.", "
+        We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
+        'gift-2' => ["Tuscan Path 31cm x 22.5xm Yoga Frog", 30.98, "The new range of garden statues by Tuscan Path are a great way to bring your garden to life for Summer. Ideal for small gardens or courtyards to add a touch of fun to your yard.", "We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
+    ],
 
-    'garden_tools' => [
-        'garden_tool-1' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"],
-        'garden_tool-2' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"],
-        'garden_tool-3' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"]],
+
+    'garden-tools' => [
+        'garden-tool-1' => ["Ryobi 18V 5.0Ah 25cm/30cm Line Trimmer Kit", 229, "
+        Kit includes a 5.0Ah battery and 2A charger
+        Adjustable 25/30cm cutting path with 1.6mm trimming line ideal for small-to-medium lawns
+        Telescopic shaft and adjustable front handle help you cut comfortably at various heights and angles
+        EasyEdge shaft rotates easily for quick changes between edging and trimming 3-position pivoting head helps you trim tricky areas such as under hedges and around garden furniture
+        Up to 50 minutes runtime with a 5.0Ah battery
+        The RYOBI ONE+ 18V 25/30cm Line Trimmer 5.0Ah Kit includes a 5.0Ah battery and 2A charger – so you’ll be ready to neaten up your small-to-medium backyard or garden as soon as you get home. The battery is also compatible with over 100 other tools and accessories in the RYOBI ONE+ range. The line trimmer is lightweight and easy to control with a telescopic shaft and adjustable front handle to help you find a comfortable height and angle. Its EasyEdge shaft rotates easily for quick changes between trimming and edging. The 3-position pivoting head enables you to trim hard-to-reach areas such as under decks or around garden furniture. The guard has an adjustable cutting width of 25 or 30cm, offering great versatility for cutting grass and weeds. The tool auto-feeds the trimming line, so there’s no need to bump the head. The RYOBI line trimmer will run for up to 50 minutes on the included 5.0Ah battery. Give your lawn a nice, neat finish by picking up a RYOBI ONE+ 18V 25/30cm Line Trimmer 5.0Ah Kit today.", "
+        We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
+        'garden-tool-2' => ["Ozito PXC 18V Brushless Lawn Mower Kit", 199, "The Ozito PXCLMK-1418 Brushless Lawn Mower is powerful, lightweight and portable making it easy to manoeuvre, it is ideal for maintaining lawn areas up to 200m² with the 4.0Ah battery included. The brushless motor technology eliminates friction and wear for a more efficient operation which means a cooler motor and longer runtime. Featuring a three-position cutting height adjustment that allows a simple, individual adjustment of the cutting height while the 25-litre plastic grass catcher collects lawn clippings to give your lawn a neat and tidy finish. A safety switch to help avoid accidental start-up and the integrated carry handle provides easy transportation. This kit includes an 18V 4.0Ah battery featuring Lithium Ion technology that provides cordless convenience and eliminates the need for long extension cords.", "5 Year Replacement Warranty – Tool. 3 Year Replacement Warranty – Batteries & Chargers. Ozito tools are intended for DIY use only. We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
+        'garden-tool-3' => ["Ozito 2400W Rapid Garden Shredder", 175, "35mm Cutting capacity provides ample capacity for shredding plant waste, sticks & branches.
+        Steel reversible blades improves cutting performance & prolonged service life. The shredder is equipped with a built in motor circuit-breaker that prevents the motor from being overloaded.
+        The debris collection bag collects all of your shredded material for easy disposal or composting straight to your garden. 10:1 Mulching ratio breaks waste into small pieces which helps accelerate the composting process and provides nutritional value to plants and garden beds. The Ozito RSH-2535 Rapid Shredder is ideal for shredding garden material such as tree cuttings, hedge cuttings and garden waste and is best suited for green, soft materials up to 35mm thick. The Shredder features two hardened steel blades for maximum cutting performance which cuts and chops your waste into fine pieces helping accelerate the composting process. The shredded material can be recycled, used for composting purposes, or spread over garden beds to provide nutrients to your plants. Tool-free access to the blades allows for quick and easy cleaning. The blades can easily be reversed for longer service life while the transport handle and wheels allow for the shredder transported conveniently around the garden. This Product Is Intended For DIY Use Only.", "3 Year Replacement Warranty. We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."]
+    ],
 
     'fertilisers' => [
-        'fertiliser-1' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"],
-        'fertiliser-2' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"],
-        'fertiliser-3' => ["140mm Silver Lady Fern - Blechnum bibbum", 50, "Lorem Descp","Lorem ret"]],
+        'fertiliser-1' => ["Richgro 5kg Blood And Bone Based Fertiliser - Blechnum bibbum", 13.93, "Richgro Blood and Bone Based Premium Garden Fertiliser contains the best of organic plant boosters - organic blood and bone, organic phosphorus and natural potash for extra strength and plant colour, particularly fruits and vegetables.These beneficial ingredients have all been used for generations in Australian gardens and Richgro is bringing it all to you in one magic mix that will boost the growth, the quality and the yield of your plants.", "
+        We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
+        'fertiliser-2' => ["Amgrow 1L Nitrosol Concentrate Liquid Fertiliser", 12.26, "Amgrow liquid Nitrosol is a highly concentrated liquid plant food that promotes healthy growth in all plants.", "
+        We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
+        'fertiliser-3' => ["Garden Basics 3kg All Purpose NPK Fertiliser", 9.98, "Garden Basics All Purpose NPK Fertiliser is a premium, fully granular NPK complex fertiliser that provides the essential nutrients to a wide range of indoor and outdoor plants. The fertiliser is free flowing and dust free making it easy to clean and use.", "We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."]
+    ],
 ];

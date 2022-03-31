@@ -92,10 +92,10 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
             <div class="tabs-panel" id="panel4">
 
                 <label>Garden tools
-                    <select size="6" name="garden_tools[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
+                    <select size="6" name="garden-tools[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
                         <?php
 
-                        foreach ($products['garden_tools'] as $key => $product) {
+                        foreach ($products['garden-tools'] as $key => $product) {
 
                         ?>
                             <option value="<?php htmlout($key); ?>"><?php htmlout($product[0]); ?></option>
