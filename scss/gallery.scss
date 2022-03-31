@@ -1,22 +1,20 @@
 @import "variables";
 /* gallery */
 
-#main a {
-    font-size: 18px;
-    &:hover,
-    &:focus {
-        color: $colorFour;
-    }
-}
-
 #main .menu {
-    @include setbox(null, null, 0, 3rem 0);
-    background-color: rgba($grey,0.25);
+    background-color: rgba($grey, 0.25);
     li {
-        @include setbox(20%, null, null, null);
-        min-width: 200px;
         a {
-            @include setbox(null, null, 1rem 2rem, null);
+            font-size: 16px;
+            @include setbox(100%, fit-content, 1rem 2rem, 0);
+            &:hover,
+            &:focus {
+                color: $colorFour;
+                background-color: $white;
+            }
+        }
+        &:nth-child(1) i {
+            @include setbox(null, null, 0.8rem 2rem, 0);
         }
     }
 }
@@ -35,6 +33,25 @@
         &:hover,
         &:focus {
             color: $colorFour;
+        }
+    }
+}
+
+section {
+    border-bottom: 1px solid $grey;
+    @include setbox(null, null, mull, auto);
+    h3 {
+        @include setbox(null, null, mull, 1rem 0 0 0);
+    }
+    .sticky-top {
+        position: sticky;
+        top: 0;
+        i {
+            color: $grey;
+            &:hover,
+            &:focus {
+                color: $colorFour;
+            }
         }
     }
 }

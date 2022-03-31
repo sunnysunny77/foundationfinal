@@ -100,24 +100,23 @@ footer a:hover, footer a:focus {
 }
 
 /* gallery */
-#main a {
-  font-size: 18px;
-}
-#main a:hover, #main a:focus {
-  color: #5f5f9b;
-}
-
 #main .menu {
-  padding: 0;
-  margin: 3rem 0;
   background-color: rgba(202, 202, 202, 0.25);
 }
-#main .menu li, #main .menu footer a, footer #main .menu a {
-  width: 20%;
-  min-width: 200px;
-}
 #main .menu li a, #main .menu footer a a, footer #main .menu a a {
+  font-size: 16px;
+  width: 100%;
+  height: fit-content;
   padding: 1rem 2rem;
+  margin: 0;
+}
+#main .menu li a:hover, #main .menu footer a a:hover, footer #main .menu a a:hover, #main .menu li a:focus, #main .menu footer a a:focus, footer #main .menu a a:focus {
+  color: #5f5f9b;
+  background-color: snow;
+}
+#main .menu li:nth-child(1) i, #main .menu footer a:nth-child(1) i, footer #main .menu a:nth-child(1) i {
+  padding: 0.8rem 2rem;
+  margin: 0;
 }
 
 .gallery {
@@ -136,6 +135,26 @@ footer a:hover, footer a:focus {
   color: #326257;
 }
 .gallery a:hover, .gallery a:focus {
+  color: #5f5f9b;
+}
+
+section {
+  border-bottom: 1px solid #cacaca;
+  padding: mull;
+  margin: auto;
+}
+section h3 {
+  padding: mull;
+  margin: 1rem 0 0 0;
+}
+section .sticky-top {
+  position: sticky;
+  top: 0;
+}
+section .sticky-top i {
+  color: #cacaca;
+}
+section .sticky-top i:hover, section .sticky-top i:focus {
   color: #5f5f9b;
 }
 

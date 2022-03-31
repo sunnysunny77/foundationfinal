@@ -76,24 +76,25 @@
 
         </header>
 
-        <main id="main" class="grid-container grid-y">
+        <main id="main" class="grid-x align-center">
 
-            <h2 class="cell text-center medium-text-right">Products</h2>
+            <h2 class="cell small-11 text-center medium-text-right">Products</h2>
 
-            <i class="fi-thumbnails"></i>
+        
 
-            <ul class="grid-x text-center align-center menu">
-                <li><a class="cell subheader" href="#plants">Plants</a></li>
-                <li><a class="cell subheader" href="#pots">Pots</a></li>
-                <li><a class="cell subheader" href="#gifts">Gifts</a></li>
-                <li><a class="cell subheader" href="#garden-tools">Garden tools</a></li>
-                <li><a class="cell subheader" href="#fertilisers">Fertilisers</a></li>
+            <ul class="cell grid-x text-center align-center menu">
+                <li class="cell small-4 large-2" ><i class="subheader fi-thumbnails"></i></li>
+                <li class="cell small-4 large-2"><a class="subheader" href="#plants">Plants</a></li>
+                <li class="cell small-4 large-2"><a class="subheader" href="#pots">Pots</a></li>
+                <li class="cell small-4 large-2"><a class="subheader" href="#gifts">Gifts</a></li>
+                <li class="cell small-4 large-2"><a class="subheader" href="#garden-tools">Garden tools</a></li>
+                <li class="cell small-4 large-2"><a class="subheader" href="#fertilisers">Fertilisers</a></li>
 
             </ul>
 
-            <section class="grid-x text-center align-center">
+            <section class="grid-x cell text-center align-center">
 
-                <h3 id="plants" class="cell text-right"> Plants </h3>
+                <h3 id="plants" class="cell small-11 text-right"> Plants </h3> <a class="cell sticky-top small-11 text-right" href="#top"><span class="invisible">Go to top</span><i class="fi-eject"></i></a>
 
                 <?php 
 
@@ -115,9 +116,9 @@
                 
             </section>
 
-            <section class="grid-x text-center align-center">
+            <section class="grid-x cell text-center align-center">
                 
-                <h3 id="pots" class="cell text-right"> Pots </h3>
+                <h3 id="pots" class="cell small-11 text-right"> Pots </h3> <a class="cell sticky-top small-11 text-right" href="#top"><span class="invisible">Go to top</span><i class="fi-eject"></i></a> 
 
                 <?php 
 
@@ -135,9 +136,9 @@
                 
             </section>
 
-            <section class="grid-x text-center align-center">
+            <section class="grid-x cell text-center align-center">
                 
-                <h3 id="gifts" class="cell text-right"> Gifts </h3>
+                <h3 id="gifts" class="cell small-11 text-right"> Gifts </h3> <a class="cell sticky-top small-11 text-right" href="#top"><span class="invisible">Go to top</span><i class="fi-eject"></i></a>
 
                 <?php 
 
@@ -155,9 +156,9 @@
                 
             </section>
 
-            <section class="grid-x text-center align-center">
+            <section class="grid-x cell text-center align-center">
                 
-                <h3 id="garden-tools" class="cell text-right"> Garden Tools </h3>
+                <h3 id="garden-tools" class="cell small-11 text-right"> Garden Tools </h3> <a class="cell sticky-top small-11 text-right" href="#top"><span class="invisible">Go to top</span><i class="fi-eject"></i></a>
 
                 <?php 
 
@@ -175,9 +176,9 @@
                 
             </section>
 
-            <section class="grid-x text-center align-center">
+            <section class="grid-x cell text-center align-center">
                 
-                <h3 id="fertilisers" class="cell text-right"> Fertilisers </h3>
+                <h3 id="fertilisers" class="cell small-11 text-right"> Fertilisers </h3> <a class="cell sticky-top small-11 text-right" href="#top"><span class="invisible">Go to top</span><i class="fi-eject"></i></a>
 
                 <?php 
 
