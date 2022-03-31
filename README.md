@@ -1,4 +1,4 @@
-Note: The doc root in contact contains a sub directory for local host 
+Note: The doc root in contact and gallery contains a sub directory for local host 
 <br>
 https://foundation.sunnyhome.site/ the live domain is only doc root
 <br>
