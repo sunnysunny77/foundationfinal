@@ -14,6 +14,8 @@
 
     $root = $_SERVER["DOCUMENT_ROOT"] . "/foundationfinal";
 
+    require_once  $root . '/inc/products.php';
+
     ?>
 
 </head>
@@ -76,8 +78,6 @@
 
         <h2 class="cell text-center medium-text-right">Products</h2>
 
-
-
         <ul class="cell grid-x text-center align-center menu">
             <li class="cell small-4 large-2"><i class="fi-thumbnails"></i></li>
             <li class="cell small-4 large-2"><a class="subheader" href="#plants">Plants</a></li>
@@ -94,15 +94,13 @@
 
             <?php
 
-            require_once  $root . '/inc/products.php';
-
             foreach ($products["plants"] as $key => $product) { ?>
 
-                <div class="cell small-3 grid-x  align-center  gallery">
+                <div class="cell small-12 medium-6 large-4 grid-x  align-center  gallery">
                     <img alt="<?php echo $product[0] ?>" src="./images/gallery/<?php echo $key ?>.jpg">
-                    <h4 class="subheader cell"><?php echo $product[0] ?></h4>
-                    <a data-toggle="<?php echo $key ?>">Details</a>
-                    <div class="cell small-3 dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
+                    <h4 class="cell small-10 subheader cell"><?php echo $product[0] ?></h4>
+                    <a class="cell small-12" data-toggle="<?php echo $key ?>">Details</a>
+                    <div class="cell  small-10 medium-5 large-3 dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
                         <ul class="text-left inline-list no-bullet">
                             <li>
                                 <b>Features:</b>
@@ -136,15 +134,13 @@
 
             <?php
 
-            require_once  $root . '/inc/products.php';
-
             foreach ($products["pots"] as $key => $product) { ?>
 
-                <div class="cell small-3 grid-x  align-center  gallery">
+                <div class="cell small-12 medium-6 large-4 grid-x  align-center  gallery">
                     <img alt="<?php echo $product[0] ?>" src="./images/gallery/<?php echo $key ?>.jpg">
-                    <h4 class="subheader cell"><?php echo $product[0] ?></h4>
-                    <a data-toggle="<?php echo $key ?>">Details</a>
-                    <div class="cell small-3 dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
+                    <h4 class="cell small-10 subheader cell"><?php echo $product[0] ?></h4>
+                    <a class="cell small-12" data-toggle="<?php echo $key ?>">Details</a>
+                    <div class="cell  small-10 medium-5 large-3 dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
                         <ul class="text-left inline-list no-bullet">
                             <li>
                                 <b>Features:</b>
@@ -178,15 +174,13 @@
 
             <?php
 
-            require_once  $root . '/inc/products.php';
-
             foreach ($products["gifts"] as $key => $product) { ?>
 
-                <div class="cell small-3 grid-x  align-center  gallery">
+                <div class="cell small-12 medium-6 large-4 grid-x  align-center  gallery">
                     <img alt="<?php echo $product[0] ?>" src="./images/gallery/<?php echo $key ?>.jpg">
-                    <h4 class="subheader cell"><?php echo $product[0] ?></h4>
-                    <a data-toggle="<?php echo $key ?>">Details</a>
-                    <div class="cell small-3 dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
+                    <h4 class="cell small-10 subheader cell"><?php echo $product[0] ?></h4>
+                    <a class="cell small-12" data-toggle="<?php echo $key ?>">Details</a>
+                    <div class="cell  small-10 medium-5 large-3 dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
                         <ul class="text-left inline-list no-bullet">
                             <li>
                                 <b>Features:</b>
@@ -220,15 +214,13 @@
 
             <?php
 
-            require_once  $root . '/inc/products.php';
-
             foreach ($products["garden_tools"] as $key => $product) { ?>
 
-                <div class="cell small-3 grid-x  align-center  gallery">
+                <div class="cell small-12 medium-6 large-4 grid-x  align-center  gallery">
                     <img alt="<?php echo $product[0] ?>" src="./images/gallery/<?php echo $key ?>.jpg">
-                    <h4 class="subheader cell"><?php echo $product[0] ?></h4>
-                    <a data-toggle="<?php echo $key ?>">Details</a>
-                    <div class="cell small-3 dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
+                    <h4 class="cell small-10 subheader cell"><?php echo $product[0] ?></h4>
+                    <a class="cell small-12" data-toggle="<?php echo $key ?>">Details</a>
+                    <div class="cell  small-10 medium-5 large-3 dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
                         <ul class="text-left inline-list no-bullet">
                             <li>
                                 <b>Features:</b>
@@ -260,17 +252,15 @@
 
             <h3 id="fertilisers" class="cell text-right"> Fertilisers </h3> <a class="cell sticky-top  text-right" href="#top"><span class="invisible">Go to top</span><i class="fi-eject"></i></a>
 
-            <?php
-
-            require_once  $root . '/inc/products.php';
+            <?php       
 
             foreach ($products["fertilisers"] as $key => $product) { ?>
 
-                <div class="cell small-3 grid-x  align-center  gallery">
+                <div class="cell small-12 medium-6 large-4 grid-x  align-center  gallery">
                     <img alt="<?php echo $product[0] ?>" src="./images/gallery/<?php echo $key ?>.jpg">
-                    <h4 class="subheader cell"><?php echo $product[0] ?></h4>
-                    <a data-toggle="<?php echo $key ?>">Details</a>
-                    <div class="cell small-3 dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
+                    <h4 class="cell small-10 subheader cell"><?php echo $product[0] ?></h4>
+                    <a class="cell small-12" data-toggle="<?php echo $key ?>">Details</a>
+                    <div class="cell  small-10 medium-5 large-3 dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
                         <ul class="text-left inline-list no-bullet">
                             <li>
                                 <b>Features:</b>
