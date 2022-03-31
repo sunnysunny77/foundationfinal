@@ -133,8 +133,7 @@ footer a:hover, footer a:focus {
 
 .gallery {
   width: 220px;
-  height: 400px;
-  margin: 1% 3%;
+  margin: 6%;
 }
 .gallery img {
   border: 1px solid #cacaca;
@@ -148,6 +147,16 @@ footer a:hover, footer a:focus {
 }
 .gallery a:hover, .gallery a:focus {
   color: #5f5f9b;
+}
+.gallery .dropdown-pane {
+  width: 220px;
+  height: fit-content;
+  padding: 0.5rem;
+  margin: 1% 3%;
+}
+.gallery .dropdown-pane p {
+  margin: 0;
+  padding: 0;
 }
 
 section {

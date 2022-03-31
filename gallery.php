@@ -101,11 +101,14 @@
                 <div class="cell gallery">
                     <img alt="<?php echo $product ?>" src="./images/gallery/<?php echo $key ?>.jpg">
                     <h4 class="subheader"><?php echo $product ?></h4>
-                    <?php if ($key === "plant-1") { ?>
-                        <a href="./items/Silver-Lady-Fern.html">Details</a>
-                    <?php } else { ?>
-                        <a href="">Comming Soon</a>
-                    <?php } ?>
+                    <a data-toggle="<?php echo $key ?>">Details</a>
+                    <div class="dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
+                        <p> 
+                            <?php echo $product[2] ?>
+                            <br/>
+                            <b>$:<?php echo $product[1] ?></b>
+                        </p>
+                    </div>
                 </div>
 
             <?php } ?>
@@ -125,7 +128,14 @@
                 <div class="cell gallery">
                     <img alt="<?php echo $product ?>" src="./images/gallery/<?php echo $key ?>.jpg">
                     <h4 class="subheader"><?php echo $product ?></h4>
-                    <a href="">Comming Soon</a>
+                    <a data-toggle="<?php echo $key ?>">Details</a>
+                    <div class="dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
+                        <p> 
+                            <?php echo $product[2] ?>
+                            <br/>
+                            <b>$:<?php echo $product[1] ?></b>
+                        </p>
+                    </div>
                 </div>
 
             <?php } ?>
@@ -145,7 +155,14 @@
                 <div class="cell gallery">
                     <img alt="<?php echo $product ?>" src="./images/gallery/<?php echo $key ?>.jpg">
                     <h4 class="subheader"><?php echo $product ?></h4>
-                    <a href="">Comming Soon</a>
+                    <a data-toggle="<?php echo $key ?>">Details</a>
+                    <div class="dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
+                        <p> 
+                            <?php echo $product[2] ?>
+                            <br/>
+                            <b>$:<?php echo $product[1] ?></b>
+                        </p>
+                    </div>
                 </div>
 
             <?php } ?>
@@ -165,7 +182,14 @@
                 <div class="cell gallery">
                     <img alt="<?php echo $product ?>" src="./images/gallery/<?php echo $key ?>.jpg">
                     <h4 class="subheader"><?php echo $product ?></h4>
-                    <a href="">Comming Soon</a>
+                    <a data-toggle="<?php echo $key ?>">Details</a>
+                    <div class="dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
+                        <p> 
+                            <?php echo $product[2] ?>
+                            <br/>
+                            <b>$:<?php echo $product[1] ?></b>
+                        </p>
+                    </div>
                 </div>
 
             <?php } ?>
@@ -185,7 +209,14 @@
                 <div class="cell gallery">
                     <img alt="<?php echo $product ?>" src="./images/gallery/<?php echo $key ?>.jpg">
                     <h4 class="subheader"><?php echo $product ?></h4>
-                    <a href="">Comming Soon</a>
+                    <a data-toggle="<?php echo $key ?>">Details</a>
+                    <div class="dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
+                        <p> 
+                            <?php echo $product[2] ?>
+                            <br/>
+                            <b>$:<?php echo $product[1] ?></b>
+                        </p>
+                    </div>
                 </div>
 
             <?php } ?>
