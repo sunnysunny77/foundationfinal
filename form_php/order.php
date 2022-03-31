@@ -18,12 +18,13 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
     <fieldset class="cell">
         <legend id="form-msg">Purchase one or more products to proceed</legend>
 
-        <ul class="tabs grid-x align-center" data-tabs id="tabs">
-            <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Plants</a></li>
-            <li class="tabs-title"><a data-tabs-target="panel2" href="#panel2">Pots</a></li>
-            <li class="tabs-title"><a data-tabs-target="panel3" href="#panel3">Gifts</a></li>
-            <li class="tabs-title"><a data-tabs-target="panel4" href="#panel4">Garden tools</a></li>
-            <li class="tabs-title"><a data-tabs-target="panel5" href="#panel5">Fertilisers</a></li>
+        <ul class="tabs grid-x text-center align-center" data-tabs id="tabs">
+            <li class="cell small-4 medium-2"> <i class="fi-widget"></i></li>
+            <li class="cell small-4 medium-2 tabs-title is-active"><a href="#panel1" aria-selected="true">Plants</a></li>
+            <li class="cell small-4 medium-2 tabs-title"><a data-tabs-target="panel2" href="#panel2">Pots</a></li>
+            <li class="cell small-4 medium-2 tabs-title"><a data-tabs-target="panel3" href="#panel3">Gifts</a></li>
+            <li class="cell small-4 medium-2 tabs-title"><a data-tabs-target="panel4" href="#panel4">Garden tools</a></li>
+            <li class="cell small-4 medium-2 tabs-title"><a data-tabs-target="panel5" href="#panel5">Fertilisers</a></li>
         </ul>
 
         
@@ -32,7 +33,7 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
             <div class="tabs-panel is-active" id="panel1">
 
                 <label>Plants
-                    <select size="3" name="plants[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
+                    <select size="6" name="plants[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
                         <?php
 
                         foreach ($products['plants'] as $key => $product) {
@@ -52,7 +53,7 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
             <div class="tabs-panel" id="panel2">
 
                 <label>Pots
-                    <select size="3" name="pots[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
+                    <select size="6" name="pots[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
                         <?php
 
                         foreach ($products['pots'] as $key => $product) {
@@ -72,7 +73,7 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
             <div class="tabs-panel" id="panel3">
 
                 <label>Gifts
-                    <select size="3" name="gifts[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
+                    <select size="6" name="gifts[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
                         <?php
 
                         foreach ($products['gifts'] as $key => $product) {
@@ -92,7 +93,7 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
             <div class="tabs-panel" id="panel4">
 
                 <label>Garden tools
-                    <select size="3" name="garden_tools[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
+                    <select size="6" name="garden_tools[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
                         <?php
 
                         foreach ($products['garden_tools'] as $key => $product) {
@@ -112,7 +113,7 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
             <div class="tabs-panel" id="panel5">
 
                 <label>Fertilisers
-                    <select size="3" name="fertilisers[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
+                    <select size="6" name="fertilisers[]" multiple data-trigger-class data-tooltip data-position="bottom" data-alignment="left" data-h-offset="15" title="Cmd or Ctrl">
                         <?php
 
                         foreach ($products['fertilisers'] as $key => $product) {

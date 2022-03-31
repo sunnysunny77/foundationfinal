@@ -127,16 +127,19 @@ footer a:hover, footer a:focus {
   background-color: transparent;
   border: none;
 }
+#main form .tabs li, #main form .tabs footer a, footer #main form .tabs a {
+  background-color: rgba(138, 138, 138, 0.1);
+}
 #main form .tabs li a, #main form .tabs footer a a, footer #main form .tabs a a {
+  font-size: 14px;
   color: #6b6b6b;
-  font-size: 16px;
   padding: 0.5rem 1rem;
 }
 #main form .tabs li a:hover, #main form .tabs footer a a:hover, footer #main form .tabs a a:hover, #main form .tabs li a:focus, #main form .tabs footer a a:focus, footer #main form .tabs a a:focus {
   color: #5f5f9b;
 }
 #main form .tabs .tabs-title.is-active a {
-  background-color: rgba(138, 138, 138, 0.2);
+  background-color: rgba(138, 138, 138, 0.25);
 }
 #main form .tabs-content {
   background-color: transparent;

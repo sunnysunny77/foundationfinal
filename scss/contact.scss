@@ -32,17 +32,20 @@
     .tabs {
         background-color: $transparent;
         border: none;
-        li a {
-            color: darkShift($colorSix);
-            font-size: 16px;
-            @include setbox(null, null, 0.5rem 1rem, null);
-            &:hover,
-            &:focus {
-                color: $colorFour;
+        li {
+            background-color: rgba($colorSix, 0.1);
+            a {
+                font-size: 14px;
+                color: darkShift($colorSix);
+                @include setbox(null, null, 0.5rem 1rem, null);
+                &:hover,
+                &:focus {
+                    color: $colorFour;
+                }
             }
         }
         .tabs-title.is-active a {
-            background-color: rgba($colorSix, 0.2);
+            background-color: rgba($colorSix, 0.25);
         }
     }
     .tabs-content {
