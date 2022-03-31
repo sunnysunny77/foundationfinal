@@ -127,7 +127,7 @@ footer a:hover, footer a:focus {
   background-color: snow;
 }
 #main .menu li:nth-child(1) i, #main .menu footer a:nth-child(1) i, footer #main .menu a:nth-child(1) i {
-  padding: 0.8rem 2rem;
+  padding: 0.7rem 2rem;
   margin: 0;
 }
 
