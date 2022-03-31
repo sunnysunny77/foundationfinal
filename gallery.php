@@ -99,8 +99,8 @@
             foreach ($products["plants"] as $key => $product) { ?>
 
                 <div class="cell gallery">
-                    <img alt="<?php echo $product ?>" src="./images/gallery/<?php echo $key ?>.jpg">
-                    <h4 class="subheader"><?php echo $product ?></h4>
+                    <img alt="<?php echo $product[0] ?>" src="./images/gallery/<?php echo $key ?>.jpg">
+                    <h4 class="subheader"><?php echo $product[0] ?></h4>
                     <a data-toggle="<?php echo $key ?>">Details</a>
                     <div class="dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
                         <p> 
@@ -126,8 +126,8 @@
             foreach ($products["pots"] as $key => $product) { ?>
 
                 <div class="cell gallery">
-                    <img alt="<?php echo $product ?>" src="./images/gallery/<?php echo $key ?>.jpg">
-                    <h4 class="subheader"><?php echo $product ?></h4>
+                    <img alt="<?php echo $product[0] ?>" src="./images/gallery/<?php echo $key ?>.jpg">
+                    <h4 class="subheader"><?php echo $product[0] ?></h4>
                     <a data-toggle="<?php echo $key ?>">Details</a>
                     <div class="dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
                         <p> 
@@ -153,8 +153,8 @@
             foreach ($products["gifts"] as $key => $product) { ?>
 
                 <div class="cell gallery">
-                    <img alt="<?php echo $product ?>" src="./images/gallery/<?php echo $key ?>.jpg">
-                    <h4 class="subheader"><?php echo $product ?></h4>
+                    <img alt="<?php echo $product[0] ?>" src="./images/gallery/<?php echo $key ?>.jpg">
+                    <h4 class="subheader"><?php echo $product[0] ?></h4>
                     <a data-toggle="<?php echo $key ?>">Details</a>
                     <div class="dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
                         <p> 
@@ -180,8 +180,8 @@
             foreach ($products["garden_tools"] as $key => $product) { ?>
 
                 <div class="cell gallery">
-                    <img alt="<?php echo $product ?>" src="./images/gallery/<?php echo $key ?>.jpg">
-                    <h4 class="subheader"><?php echo $product ?></h4>
+                    <img alt="<?php echo $product[0] ?>" src="./images/gallery/<?php echo $key ?>.jpg">
+                    <h4 class="subheader"><?php echo $product[0] ?></h4>
                     <a data-toggle="<?php echo $key ?>">Details</a>
                     <div class="dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
                         <p> 
@@ -207,8 +207,8 @@
             foreach ($products["fertilisers"] as $key => $product) { ?>
 
                 <div class="cell gallery">
-                    <img alt="<?php echo $product ?>" src="./images/gallery/<?php echo $key ?>.jpg">
-                    <h4 class="subheader"><?php echo $product ?></h4>
+                    <img alt="<?php echo $product[0] ?>" src="./images/gallery/<?php echo $key ?>.jpg">
+                    <h4 class="subheader"><?php echo $product[0] ?></h4>
                     <a data-toggle="<?php echo $key ?>">Details</a>
                     <div class="dropdown-pane" id="<?php echo $key ?>" data-position="bottom" data-alignment="center" data-dropdown>
                         <p> 
