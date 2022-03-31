@@ -5,7 +5,6 @@ $(document).ready(function () {
         const url = form.attr('action');
         const sub = $("#sub");
         const pre =  $('#form-msg');
-        console.log(form)
         if (form[0][1].value || form[0][2].value || form[0][3].value || form[0][4].value || form[0][5].value ) {
             $.ajax({
                 type: "POST",

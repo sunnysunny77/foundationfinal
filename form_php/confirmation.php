@@ -10,6 +10,8 @@ require_once  $root . '/inc/utilities.php';
 
 require_once  $root . '/inc/products.php';
 
+$total;
+
 ?>
 
 <span class="badge primary">1</span>
@@ -42,6 +44,7 @@ require_once  $root . '/inc/products.php';
                 <th id="product">Product</th>
                 <th id="quantity">Quantity</th>
                 <th id="category">Category</th>
+                <td id="price"> $ </td>
             </tr>
             </tr>
         </thead>
@@ -49,12 +52,16 @@ require_once  $root . '/inc/products.php';
 
         <?php if(!empty($_SESSION["plants"])) {
             
-                foreach ($_SESSION["plants"] as $product) { ?>
+                foreach ($_SESSION["plants"] as $product) { 
+                    $price = $products['plants']["$product"][1] * $_POST[$product];
+                    $total += $price;
+                    ?>
 
                     <tr>
-                        <td headers="product"> <?php htmlout($products['plants']["$product"]); ?> </td>
+                        <td headers="product"> <?php htmlout($products['plants']["$product"][0]); ?> </td>
                         <td headers="quantity"> <?php htmlout($_POST[$product]); ?> </td>
                         <td headers="category"> Plant </td>
+                        <td headers="price"> <?php htmlout($price); ?> </td>
                     </tr>
         
         <?php } 
@@ -62,12 +69,16 @@ require_once  $root . '/inc/products.php';
         
         <?php if(!empty($_SESSION["pots"])) {
             
-                foreach ($_SESSION["pots"] as $product) { ?>
+                foreach ($_SESSION["pots"] as $product) { 
+                    $price = $products['pots']["$product"][1] * $_POST[$product];
+                    $total += $price;
+                    ?>
 
                     <tr>
-                        <td headers="product"> <?php htmlout($products['pots']["$product"]); ?> </td>
+                        <td headers="product"> <?php htmlout($products['pots']["$product"][0]); ?> </td>
                         <td headers="quantity"> <?php htmlout($_POST[$product]); ?> </td>
                         <td headers="category"> Pots </td>
+                        <td headers="price"> <?php htmlout($price); ?> </td>
                     </tr>
     
         <?php } 
@@ -75,12 +86,16 @@ require_once  $root . '/inc/products.php';
 
         <?php if(!empty($_SESSION["gifts"])) {
             
-                foreach ($_SESSION["gifts"] as $product) { ?>
+                foreach ($_SESSION["gifts"] as $product) {   
+                    $price = $products['gifts"']["$product"][1] * $_POST[$product];
+                    $total += $price;
+                    ?>
 
                     <tr>
-                        <td headers="product"> <?php htmlout($products['gifts']["$product"]); ?> </td>
+                        <td headers="product"> <?php htmlout($products['gifts']["$product"][0]); ?> </td>
                         <td headers="quantity"> <?php htmlout($_POST[$product]); ?> </td>
                         <td headers="category"> Gift </td>
+                        <td headers="price"> <?php htmlout($$price); ?> </td>
                     </tr>
 
         <?php } 
@@ -88,12 +103,16 @@ require_once  $root . '/inc/products.php';
 
         <?php if(!empty($_SESSION["garden_tools"])) {
                 
-                foreach ($_SESSION["garden_tools"] as $product) { ?>
+                foreach ($_SESSION["garden_tools"] as $product) {   
+                    $price = $products['garden_tools']["$product"][1] * $_POST[$product];
+                    $total += $price;
+                    ?>
 
                     <tr>
-                        <td headers="product"> <?php htmlout($products['garden_tools']["$product"]); ?> </td>
+                        <td headers="product"> <?php htmlout($products['garden_tools']["$product"][0]); ?> </td>
                         <td headers="quantity"> <?php htmlout($_POST[$product]); ?> </td>
                         <td headers="category"> Garden tool </td>
+                        <td headers="price"> <?php htmlout($price); ?> </td>
                     </tr>
 
         <?php } 
@@ -101,12 +120,16 @@ require_once  $root . '/inc/products.php';
 
         <?php if(!empty($_SESSION["fertilisers"])) {
                 
-                foreach ($_SESSION["fertilisers"] as $product) { ?>
+                foreach ($_SESSION["fertilisers"] as $product) { 
+                    $price = $products['fertilisers']["$product"][1] * $_POST[$product];
+                    $total += $price;
+                    ?>
 
                     <tr>
-                        <td headers="product"> <?php htmlout($products['fertilisers']["$product"]); ?> </td>
+                        <td headers="product"> <?php htmlout($products['fertilisers']["$product"][0]); ?> </td>
                         <td headers="quantity"> <?php htmlout($_POST[$product]); ?> </td>
                         <td headers="category"> Fertiliser </td>
+                        <td headers="price"> <?php htmlout($price); ?> </td>
                     </tr>
 
         <?php } 
@@ -114,6 +137,9 @@ require_once  $root . '/inc/products.php';
 
         </tbody>
     </table>
+
+    <p> Total: $<?php htmlout($total); ?>  </p>
+
 </section>
 
 <?php }

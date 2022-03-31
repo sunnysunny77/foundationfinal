@@ -39,7 +39,7 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
                         foreach ($products['plants'] as $key => $product) {
 
                         ?>
-                            <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
+                            <option value="<?php htmlout($key); ?>"><?php htmlout($product[0]); ?></option>
                         <?php
 
                         }
@@ -59,7 +59,7 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
                         foreach ($products['pots'] as $key => $product) {
 
                         ?>
-                            <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
+                            <option value="<?php htmlout($key); ?>"><?php htmlout($product[0]); ?></option>
                         <?php
 
                         }
@@ -79,7 +79,7 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
                         foreach ($products['gifts'] as $key => $product) {
 
                         ?>
-                            <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
+                            <option value="<?php htmlout($key); ?>"><?php htmlout($product[0]); ?></option>
                         <?php
 
                         }
@@ -99,7 +99,7 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
                         foreach ($products['garden_tools'] as $key => $product) {
 
                         ?>
-                            <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
+                            <option value="<?php htmlout($key); ?>"><?php htmlout($product[0]); ?></option>
                         <?php
 
                         }
@@ -119,7 +119,7 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
                         foreach ($products['fertilisers'] as $key => $product) {
 
                         ?>
-                            <option value="<?php htmlout($key); ?>"><?php htmlout($product); ?></option>
+                            <option value="<?php htmlout($key); ?>"><?php htmlout($product[0]); ?></option>
                         <?php
 
                         }
