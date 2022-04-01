@@ -48,7 +48,7 @@ main {
 }
 
 .subheader {
-  color: #6b6b6b;
+  color: #646464;
 }
 
 i {
@@ -110,11 +110,11 @@ footer a:hover, footer a:focus {
 
 #main form .button {
   background-color: #84dcc6;
-  color: #1d3933;
+  color: #182f2a;
   margin: 0;
 }
 #main form .button:hover, #main form .button:focus {
-  background-color: #b4eadc;
+  background-color: #c0ede2;
   color: #0a0a0a;
 }
 #main form textarea {
@@ -128,11 +128,11 @@ footer a:hover, footer a:focus {
   border: none;
 }
 #main form .tabs li, #main form .tabs footer a, footer #main form .tabs a {
-  background-color: rgba(138, 138, 138, 0.1);
+  background-color: #f0f0f0;
 }
 #main form .tabs li a, #main form .tabs footer a a, footer #main form .tabs a a {
   font-size: 14px;
-  color: #6b6b6b;
+  color: #646464;
   padding: 0.5rem 1rem;
 }
 #main form .tabs li a:hover, #main form .tabs footer a a:hover, footer #main form .tabs a a:hover, #main form .tabs li a:focus, #main form .tabs footer a a:focus, footer #main form .tabs a a:focus {
@@ -154,7 +154,7 @@ footer a:hover, footer a:focus {
 }
 
 blockquote, blockquote cite {
-  color: #6b6b6b;
+  color: #646464;
 }
 @media screen and (min-width: 40em) {
   .callout {

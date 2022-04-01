@@ -48,7 +48,7 @@ main {
 }
 
 .subheader {
-  color: #6b6b6b;
+  color: #646464;
 }
 
 i {
@@ -112,8 +112,14 @@ footer a:hover, footer a:focus {
   }
 }
 
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
 #main .menu {
-  background-color: rgba(202, 202, 202, 0.25);
+  background-color: #f0f0f0;
 }
 #main .menu li a, #main .menu footer a a, footer #main .menu a a {
   font-size: 16px;
@@ -174,22 +180,6 @@ section h3 {
   section h3 {
     padding: 0 4% 0 0;
   }
-}
-section .sticky-top {
-  position: sticky;
-  top: 0;
-}
-section .sticky-top i {
-  padding: 0 1rem 0 0;
-  color: #cacaca;
-}
-@media screen and (min-width: 1200px) {
-  section .sticky-top i {
-    padding: 0 4% 0 0;
-  }
-}
-section .sticky-top i:hover, section .sticky-top i:focus {
-  color: #5f5f9b;
 }
 
 /*# sourceMappingURL=gallery.css.map */

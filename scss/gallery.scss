@@ -10,8 +10,14 @@ h2 {
     }
 }
 
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
 #main .menu {
-    background-color: rgba($grey, 0.25);
+    background-color: darkShift($grey);
     li {
         a {
             font-size: 16px;
@@ -62,21 +68,6 @@ section {
         @include setbox(null, null, 0 1rem 0 0, 1rem 0 0 0);
         @include twelve_and_up {
             @include setbox(null, null, 0 4% 0 0, null);
-        }
-    }
-    .sticky-top {
-        position: sticky;
-        top: 0;
-        i {
-            @include setbox(null, null, 0 1rem 0 0, null);
-            @include twelve_and_up {
-                @include setbox(null, null, 0 4% 0 0, null);
-            }
-            color: $grey;
-            &:hover,
-            &:focus {
-                color: $colorFour;
-            }
         }
     }
 }

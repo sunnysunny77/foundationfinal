@@ -33,7 +33,7 @@
         background-color: $transparent;
         border: none;
         li {
-            background-color: rgba($colorSix, 0.1);
+            background-color: darkShift($grey);
             a {
                 font-size: 14px;
                 color: darkShift($colorSix);

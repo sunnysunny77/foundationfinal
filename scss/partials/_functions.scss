@@ -1,7 +1,7 @@
 @function darkShift($color) {
     @if (lightness($color) > 60%) {
-        @return lighten($color, 12%);
+        @return lighten($color, 15%);
     } @else {
-        @return darken($color, 12%);
+        @return darken($color, 15%);
     }
 }
