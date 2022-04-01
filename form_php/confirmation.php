@@ -44,7 +44,7 @@ $total;
                 <th id="product">Product</th>
                 <th id="quantity">Quantity</th>
                 <th id="category">Category</th>
-                <td id="price"> Price </td>
+                <th id="price"> Price </th>
             </tr>
             </tr>
         </thead>

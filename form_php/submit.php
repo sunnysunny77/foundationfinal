@@ -19,97 +19,97 @@ if ($_POST["token"] === $_SESSION["token"]) {
 
     <form class="grid-x" method="post" action="./form_php/confirmation.php" id="form">
 
-        <?php if(!empty($_POST["plants"])) { ?>
+        <?php if (!empty($_POST["plants"])) { ?>
 
             <fieldset class="cell grid-x">
                 <legend class="cell">Plants quantity:</legend>
 
-                <?php  $_SESSION["plants"] = $_POST["plants"];
+                <?php $_SESSION["plants"] = $_POST["plants"];
 
                 foreach ($_POST["plants"] as $product) { ?>
 
-                
-                        <label class="cell medium-4"> 
-                            <p><?php htmlout($products["plants"]["$product"][0] . " ") ?></p> <b>  <?php htmlout( "$: " . $products["plants"]["$product"][1]); ?> </b>
-                            <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
-                        </label>
-                    
+
+                    <label class="cell medium-4">
+                        <?php htmlout($products["plants"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["plants"]["$product"][1]); ?> </b>
+                        <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
+                    </label>
+
 
                 <?php } ?>
             </fieldset>
         <?php } ?>
 
-        <?php if(!empty($_POST["pots"])) { ?>
+        <?php if (!empty($_POST["pots"])) { ?>
 
             <fieldset class="cell grid-x">
                 <legend class="cell">Pots quantity:</legend>
-            
+
                 <?php $_SESSION["pots"] = $_POST["pots"];
 
                 foreach ($_POST["pots"] as $product) { ?>
-                
-                        <label class="cell medium-4">
-                            <p><?php htmlout($products["pots"]["$product"][0] . " ") ?></p> <b>  <?php htmlout( "$: " . $products["pots"]["$product"][1]); ?> </b>
-                            <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
-                        </label>
-                
+
+                    <label class="cell medium-4">
+                        <?php htmlout($products["pots"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["pots"]["$product"][1]); ?> </b>
+                        <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
+                    </label>
+
                 <?php } ?>
             </fieldset>
         <?php } ?>
 
 
-        <?php if(!empty($_POST["gifts"])) {  ?>
+        <?php if (!empty($_POST["gifts"])) {  ?>
 
             <fieldset class="cell grid-x">
                 <legend class="cell">Gifts quantity:</legend>
-            
+
                 <?php $_SESSION["gifts"] = $_POST["gifts"];
 
                 foreach ($_POST["gifts"] as $product) { ?>
 
-                        <label class="cell medium-4"> 
-                            <p><?php htmlout($products["gifts"]["$product"][0] . " ") ?></p> <b>  <?php htmlout( "$: " . $products["gifts"]["$product"][1]); ?> </b>
-                            <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
-                        </label>
+                    <label class="cell medium-4">
+                        <?php htmlout($products["gifts"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["gifts"]["$product"][1]); ?> </b>
+                        <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
+                    </label>
 
-                 <?php } ?>
+                <?php } ?>
             </fieldset>
         <?php } ?>
 
-        <?php if(!empty($_POST["garden-tools"])) { ?>
+        <?php if (!empty($_POST["garden-tools"])) { ?>
 
             <fieldset class="cell grid-x">
                 <legend class="cell">Garden tools quantity:</legend>
-            
+
                 <?php $_SESSION["garden-tools"] = $_POST["garden-tools"];
 
                 foreach ($_POST["garden-tools"] as $product) { ?>
 
-                        <label class="cell medium-4">
-                            <p><?php htmlout($products["garden-tools"]["$product"][0] . " ") ?></p> <b>  <?php htmlout( "$: " . $products["garden-tools"]["$product"][1]); ?> </b>
-                            <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
-                        </label>
-                  
+                    <label class="cell medium-4">
+                        <?php htmlout($products["garden-tools"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["garden-tools"]["$product"][1]); ?> </b>
+                        <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
+                    </label>
+
 
                 <?php } ?>
             </fieldset>
         <?php } ?>
 
 
-        <?php if(!empty($_POST["fertilisers"])) { ?>
+        <?php if (!empty($_POST["fertilisers"])) { ?>
 
             <fieldset class="cell grid-x">
                 <legend class="cell">Fertilisers quantity:</legend>
-            
+
                 <?php $_SESSION["fertilisers"] = $_POST["fertilisers"];
 
                 foreach ($_POST["fertilisers"] as $product) { ?>
 
-                        <label class="cell medium-4"> 
-                            <p><?php htmlout($products["fertilisers"]["$product"][0] . " ") ?></p> <b>  <?php htmlout( "$: " . $products["fertilisers"]["$product"][1]); ?> </b>
-                            <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
-                        </label>
-                 
+                    <label class="cell medium-4">
+                        <?php htmlout($products["fertilisers"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["fertilisers"]["$product"][1]); ?> </b>
+                        <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
+                    </label>
+
                 <?php } ?>
             </fieldset>
         <?php } ?>
