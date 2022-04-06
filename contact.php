@@ -69,31 +69,32 @@
 
     </header>
 
-    <main id="main" class="grid-container grid-y">
+    <main id="main" class="grid-container grid-x">
 
         <h2 class="cell text-center medium-text-right">Contact us</h2>
 
-        <i class="fi-clipboard"></i>
+        <i class="cell fi-clipboard"></i>
 
-        <p class="text-center">
+        <p class="cell text-center">
             <a class="subheader" href="mailto:example@example.com">example@example.com</a>
             <br>
             <a class="subheader" href="tel:0412620989">0412620989</a>     
             <br>
             <a download class="subheader" href="vcard.vcf">Download Contact</a>
             <br>
+            <a class="subheader" target="map" href="./images/contact/map-full.jpg"> Open map</a>
+            <br>
             Order products online and get a quote
         </p>
 
-
-        <div id="response" role="region" aria-label="Dynamic progress form" >
+        <div class="cell" id="response" role="region" aria-label="Dynamic progress form" >
 
             <?php require_once "./form_php/order.php"; ?>
 
         </div>
 
-        <div class="grid-x align-center text-center">
-            <blockquote class="cell small-10 medium-6">
+        <div class="cell medium-order-2  grid-x align-center text-center">
+            <blockquote class="cell small-10 large-6">
                 A garden is a grand teacher. It teaches patience and careful watchfulness;
                 it teaches industry and thrift; above all it teaches entire trust.
                 <cite>Gertrude Jekyll</cite>

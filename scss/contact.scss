@@ -12,6 +12,25 @@
     @include setbox(null, null, null, 0 0 10px 0);
 }
 
+#map {
+    background-image: url(../images/contact/map-full.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+    position: relative;
+    max-height: 335px;
+    @include setbox(null, null, 31%, 0 0 2rem 0);
+    @include medium_and_up {
+        background-image: url(../images/contact/map.jpg);
+        @include setbox(null, null, 0, 0 0 50px 0);
+    }
+    address {
+        position: absolute;
+        bottom: -25px;
+        left: 0;
+    }
+}
+
 #main form {
     .button {
         background-color: $colorOne;
@@ -37,7 +56,7 @@
             a {
                 font-size: 14px;
                 color: darkShift($colorSix);
-                @include setbox(null, null, 0.5rem 1rem, null);
+                @include setbox(null, null, 0.5rem 0, null);
                 &:hover,
                 &:focus {
                     color: $colorFour;
