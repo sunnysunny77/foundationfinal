@@ -12,7 +12,7 @@
 
     <?php
 
-    $root = $_SERVER["DOCUMENT_ROOT"] . "/foundationfinal";
+    $root = $_SERVER["DOCUMENT_ROOT"] . "/foundationfinal-main";
 
     require_once  $root . '/inc/products.php';
 
@@ -60,13 +60,11 @@
 
             <ul class="cell text-center vertical medium-horizontal dropdown
                     menu" data-dropdown-menu>
-
+                   
                 <li class="align-self-middle"><a accesskey="1" href="./index.html">HOME</a></li>
-                <li class="align-self-middle"><a accesskey="2" href="./contact.php">CONTACT</a></li>
-                <li class="align-self-middle"><a accesskey="3" href="./gallery.php">
-                        <h1>GALLERY</h1>
-                    </a></li>
-                <li class="align-self-middle"><a accesskey="4" href="./video.html">VIDEO</a></li>
+                <li class="align-self-middle"><a accesskey="2" href="./video.html">VIDEO</a></li>
+                <li class="align-self-middle"><a accesskey="3" href="./gallery.php"><h1>GALLERY</h1></a></li>
+                <li class="align-self-middle"><a accesskey="4" href="./contact.php">CONTACT</a></li>
 
             </ul>
 
@@ -297,9 +295,9 @@
                 <i class="fi-link"></i>
                 <ul class="vertical menu text-left">
                     <li><a href="./index.html">HOME</a></li>
-                    <li><a href="./contact.php">CONTACT</a></li>
-                    <li><a href="./gallery.php">GALLERY</a></li>
                     <li><a href="./video.html">VIDEO</a></li>
+                    <li><a href="./gallery.php">GALLERY</a></li>
+                    <li><a href="./contact.php">CONTACT</a></li>
                 </ul>
             </li>
         </ul>

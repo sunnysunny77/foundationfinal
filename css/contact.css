@@ -25,12 +25,12 @@ body::before {
 h3,
 h4,
 h5 {
-  color: #326257;
+  color: rgb(50, 98, 87);
 }
 
 h2 {
   margin: 1rem auto;
-  color: #326257;
+  color: rgb(50, 98, 87);
 }
 @media screen and (min-width: 40em) {
   h2 {
@@ -57,7 +57,7 @@ i {
 
 /* header */
 .top-bar, .top-bar ul {
-  background-color: #326257;
+  background-color: rgb(50, 98, 87);
 }
 .top-bar .top-bar-left span {
   display: inline-block;
@@ -71,37 +71,37 @@ i {
   padding: 0;
 }
 .top-bar ul a {
-  color: #d6edff;
+  color: rgb(214, 237, 255);
 }
 .top-bar ul a:hover, .top-bar ul a:focus {
-  color: snow;
+  color: rgb(255, 250, 250);
 }
 
 .title-bar {
-  background-color: #326257;
+  background-color: rgb(50, 98, 87);
 }
 .title-bar .menu-icon {
-  color: #acd7ec;
+  color: rgb(172, 215, 236);
 }
 .title-bar .title-bar-title {
-  color: #d6edff;
+  color: rgb(214, 237, 255);
 }
 
 /* footer */
 footer {
   padding-top: 15px;
-  background-color: #5f5f9b;
+  background-color: rgb(95, 95, 155);
 }
 footer li, footer a {
-  color: #d6edff;
+  color: rgb(214, 237, 255);
 }
 footer a:hover, footer a:focus {
-  color: snow;
+  color: rgb(255, 250, 250);
 }
 
 /* contact */
 #main a:hover, #main a:focus {
-  color: #5f5f9b;
+  color: rgb(95, 95, 155);
 }
 
 .badge {
@@ -109,13 +109,13 @@ footer a:hover, footer a:focus {
 }
 
 #main form .button {
-  background-color: #84dcc6;
+  background-color: rgb(132, 220, 198);
   color: #182f2a;
   margin: 0;
 }
 #main form .button:hover, #main form .button:focus {
   background-color: #c0ede2;
-  color: #0a0a0a;
+  color: rgb(10, 10, 10);
 }
 #main form textarea {
   resize: none;
@@ -136,7 +136,7 @@ footer a:hover, footer a:focus {
   padding: 0.5rem 1rem;
 }
 #main form .tabs li a:hover, #main form .tabs footer a a:hover, footer #main form .tabs a a:hover, #main form .tabs li a:focus, #main form .tabs footer a a:focus, footer #main form .tabs a a:focus {
-  color: #5f5f9b;
+  color: rgb(95, 95, 155);
 }
 #main form .tabs .tabs-title.is-active a {
   background-color: rgba(138, 138, 138, 0.25);
