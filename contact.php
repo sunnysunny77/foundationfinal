@@ -69,13 +69,13 @@
 
     </header>
 
-    <main id="main" class="grid-container grid-x">
+    <main id="main" class="grid-container grid-x align-center">
 
         <h2 class="cell text-center medium-text-right">Contact us</h2>
 
         <i class="cell fi-clipboard"></i>
 
-        <p class="cell text-center">
+        <p class="cell small-12 medium-11 text-center medium-text-left">
             <a class="subheader" href="mailto:example@example.com">example@example.com</a>
             <br>
             <a class="subheader" href="tel:0412620989">0412620989</a>     
@@ -93,7 +93,7 @@
 
         </div>
 
-        <div class="cell grid-x align-center text-center">
+        <div class="cell grid-x align-center text-right">
             <blockquote class="cell small-10 large-6">
                 A garden is a grand teacher. It teaches patience and careful watchfulness;
                 it teaches industry and thrift; above all it teaches entire trust.
