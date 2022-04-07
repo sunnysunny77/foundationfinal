@@ -14,13 +14,13 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
 
 <div class="grid-x align-justify">
 
-    <div id="map" role="img" aria-label="Location Map" class="cell grid-x text-right small-12 medium-order-1 medium-4 large-3">
+    <div id="map" role="img" aria-label="Location Map" class="cell grid-x text-right small-12 medium-order-3 medium-4 large-3">
                 
         <address class="cell small-12">6 Odin Road Scarborough</address> 
 
     </div>
     
-    <div class="cell ">
+    <div class="cell medium-order-1 ">
 
         <span class="badge primary">1</span>
         <span class="badge secondary">2</span>
@@ -28,17 +28,17 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
         
     </div>
 
-    <form class="grid-x cell small-12 medium-7 large-8" method="post" action="./form_php/submit.php" id="form">
+    <form class="grid-x cell small-12 medium-order-2 medium-7 large-8" method="post" action="./form_php/submit.php" id="form">
         <fieldset class="cell">
             <legend id="form-msg">Purchase one or more products to proceed</legend>
 
             <ul class="tabs grid-x text-center align-center" data-tabs id="tabs">
-                <li class="cell small-4"> <i class="fi-widget"></i></li>
-                <li class="cell small-4 tabs-title is-active"><a href="#panel1" aria-selected="true">Plants</a></li>
-                <li class="cell small-4 tabs-title"><a data-tabs-target="panel2" href="#panel2">Pots</a></li>
-                <li class="cell small-4 tabs-title"><a data-tabs-target="panel3" href="#panel3">Gifts</a></li>
-                <li class="cell small-4 tabs-title"><a data-tabs-target="panel4" href="#panel4">Garden tools</a></li>
-                <li class="cell small-4 tabs-title"><a data-tabs-target="panel5" href="#panel5">Fertilisers</a></li>
+                <li class="cell small-4 large-2"> <i class="fi-widget"></i></li>
+                <li class="cell small-4 large-2 tabs-title is-active"><a href="#panel1" aria-selected="true">Plants</a></li>
+                <li class="cell small-4 large-2 tabs-title"><a data-tabs-target="panel2" href="#panel2">Pots</a></li>
+                <li class="cell small-4 large-2 tabs-title"><a data-tabs-target="panel3" href="#panel3">Gifts</a></li>
+                <li class="cell small-4 large-2 tabs-title"><a data-tabs-target="panel4" href="#panel4">Garden tools</a></li>
+                <li class="cell small-4 large-2 tabs-title"><a data-tabs-target="panel5" href="#panel5">Fertilisers</a></li>
             </ul>
 
             <div class="tabs-content" data-tabs-content="tabs">

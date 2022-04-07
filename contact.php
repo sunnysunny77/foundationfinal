@@ -93,7 +93,7 @@
 
         </div>
 
-        <div class="cell medium-order-2  grid-x align-center text-center">
+        <div class="cell grid-x align-center text-center">
             <blockquote class="cell small-10 large-6">
                 A garden is a grand teacher. It teaches patience and careful watchfulness;
                 it teaches industry and thrift; above all it teaches entire trust.
