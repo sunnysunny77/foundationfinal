@@ -87,11 +87,8 @@
             Order products online and get a quote
         </p>
 
-        <div class="cell" id="response" role="region" aria-label="Dynamic progress form" >
-
-            <?php require_once "./form_php/order.php"; ?>
-
-        </div>
+    
+        <?php require_once "./form_php/order.php"; ?>
 
         <div class="cell grid-x align-center text-right">
             <blockquote class="cell small-10 large-6">

@@ -13,12 +13,13 @@ require_once  $root . '/inc/products.php';
 $total;
 
 ?>
+<div class="cell" >
+    <span class="badge primary">1</span>
+    <span class="badge primary">2</span>
+    <span class="badge primary">3</span>
+</div>
 
-<span class="badge primary">1</span>
-<span class="badge primary">2</span>
-<span class="badge primary">3</span>
-
-<section class="callout">
+<section class="cell callout">
 
     <h3>Order</h3>
 

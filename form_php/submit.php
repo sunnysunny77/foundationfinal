@@ -13,129 +13,131 @@ if ($_POST["token"] === $_SESSION["token"]) {
 
 ?>
 
+<div class="cell" >
     <span class="badge primary">1</span>
     <span class="badge primary">2</span>
     <span class="badge secondary">3</span>
+</div>
 
-    <form class="grid-x" method="post" action="./form_php/confirmation.php" id="form">
+<form class="grid-x" method="post" action="./form_php/confirmation.php" id="form">
 
-        <?php if (!empty($_POST["plants"])) { ?>
+    <?php if (!empty($_POST["plants"])) { ?>
 
-            <fieldset class="cell grid-x">
-                <legend class="cell">Plants quantity:</legend>
+        <fieldset class="cell grid-x">
+            <legend class="cell">Plants quantity:</legend>
 
-                <?php $_SESSION["plants"] = $_POST["plants"];
+            <?php $_SESSION["plants"] = $_POST["plants"];
 
-                foreach ($_POST["plants"] as $product) { ?>
-
-
-                    <label class="cell medium-4">
-                        <?php htmlout($products["plants"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["plants"]["$product"][1]); ?> </b>
-                        <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
-                    </label>
+            foreach ($_POST["plants"] as $product) { ?>
 
 
-                <?php } ?>
-            </fieldset>
-        <?php } ?>
-
-        <?php if (!empty($_POST["pots"])) { ?>
-
-            <fieldset class="cell grid-x">
-                <legend class="cell">Pots quantity:</legend>
-
-                <?php $_SESSION["pots"] = $_POST["pots"];
-
-                foreach ($_POST["pots"] as $product) { ?>
-
-                    <label class="cell medium-4">
-                        <?php htmlout($products["pots"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["pots"]["$product"][1]); ?> </b>
-                        <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
-                    </label>
-
-                <?php } ?>
-            </fieldset>
-        <?php } ?>
+                <label class="cell medium-4">
+                    <?php htmlout($products["plants"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["plants"]["$product"][1]); ?> </b>
+                    <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
+                </label>
 
 
-        <?php if (!empty($_POST["gifts"])) {  ?>
+            <?php } ?>
+        </fieldset>
+    <?php } ?>
 
-            <fieldset class="cell grid-x">
-                <legend class="cell">Gifts quantity:</legend>
+    <?php if (!empty($_POST["pots"])) { ?>
 
-                <?php $_SESSION["gifts"] = $_POST["gifts"];
+        <fieldset class="cell grid-x">
+            <legend class="cell">Pots quantity:</legend>
 
-                foreach ($_POST["gifts"] as $product) { ?>
+            <?php $_SESSION["pots"] = $_POST["pots"];
 
-                    <label class="cell medium-4">
-                        <?php htmlout($products["gifts"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["gifts"]["$product"][1]); ?> </b>
-                        <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
-                    </label>
+            foreach ($_POST["pots"] as $product) { ?>
 
-                <?php } ?>
-            </fieldset>
-        <?php } ?>
+                <label class="cell medium-4">
+                    <?php htmlout($products["pots"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["pots"]["$product"][1]); ?> </b>
+                    <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
+                </label>
 
-        <?php if (!empty($_POST["garden-tools"])) { ?>
-
-            <fieldset class="cell grid-x">
-                <legend class="cell">Garden tools quantity:</legend>
-
-                <?php $_SESSION["garden-tools"] = $_POST["garden-tools"];
-
-                foreach ($_POST["garden-tools"] as $product) { ?>
-
-                    <label class="cell medium-4">
-                        <?php htmlout($products["garden-tools"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["garden-tools"]["$product"][1]); ?> </b>
-                        <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
-                    </label>
+            <?php } ?>
+        </fieldset>
+    <?php } ?>
 
 
-                <?php } ?>
-            </fieldset>
-        <?php } ?>
+    <?php if (!empty($_POST["gifts"])) {  ?>
+
+        <fieldset class="cell grid-x">
+            <legend class="cell">Gifts quantity:</legend>
+
+            <?php $_SESSION["gifts"] = $_POST["gifts"];
+
+            foreach ($_POST["gifts"] as $product) { ?>
+
+                <label class="cell medium-4">
+                    <?php htmlout($products["gifts"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["gifts"]["$product"][1]); ?> </b>
+                    <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
+                </label>
+
+            <?php } ?>
+        </fieldset>
+    <?php } ?>
+
+    <?php if (!empty($_POST["garden-tools"])) { ?>
+
+        <fieldset class="cell grid-x">
+            <legend class="cell">Garden tools quantity:</legend>
+
+            <?php $_SESSION["garden-tools"] = $_POST["garden-tools"];
+
+            foreach ($_POST["garden-tools"] as $product) { ?>
+
+                <label class="cell medium-4">
+                    <?php htmlout($products["garden-tools"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["garden-tools"]["$product"][1]); ?> </b>
+                    <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
+                </label>
 
 
-        <?php if (!empty($_POST["fertilisers"])) { ?>
+            <?php } ?>
+        </fieldset>
+    <?php } ?>
 
-            <fieldset class="cell grid-x">
-                <legend class="cell">Fertilisers quantity:</legend>
 
-                <?php $_SESSION["fertilisers"] = $_POST["fertilisers"];
+    <?php if (!empty($_POST["fertilisers"])) { ?>
 
-                foreach ($_POST["fertilisers"] as $product) { ?>
+        <fieldset class="cell grid-x">
+            <legend class="cell">Fertilisers quantity:</legend>
 
-                    <label class="cell medium-4">
-                        <?php htmlout($products["fertilisers"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["fertilisers"]["$product"][1]); ?> </b>
-                        <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
-                    </label>
+            <?php $_SESSION["fertilisers"] = $_POST["fertilisers"];
 
-                <?php } ?>
-            </fieldset>
-        <?php } ?>
+            foreach ($_POST["fertilisers"] as $product) { ?>
 
-        <label class="cell medium-4">
-            Name
-            <input autocomplete="on" maxlength="40" required name="name" type="text">
-        </label>
-        <label class="cell medium-4">
-            email
-            <input autocomplete="on" maxlength="40" required name="email" type="email">
-        </label>
-        <label for="phone" class="cell">
-            Phone
-        </label>
-        <input id="phone" class="cell medium-6" autocomplete="on" required name="phone" type="tel" pattern="[+]?[0-9]{3,15}" title="Accepts +###############">
-        <label class="cell"> Comments
-            <textarea maxlength="1000" rows="8" name="comments"></textarea>
-        </label>
-        <input type="hidden" name="root" value="<?php echo $root ?>">
-        <input type="hidden" name="token" value="<?php htmlout($_SESSION['token']); ?>">
-        <label class="grid-x align-center cell">
-            <span class="show-for-sr">Submit</span>
-            <input name="action" type="submit" class="button" value="Order">
-        </label>
+                <label class="cell medium-4">
+                    <?php htmlout($products["fertilisers"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["fertilisers"]["$product"][1]); ?> </b>
+                    <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
+                </label>
 
-    </form>
+            <?php } ?>
+        </fieldset>
+    <?php } ?>
+
+    <label class="cell medium-4">
+        Name
+        <input autocomplete="on" maxlength="40" required name="name" type="text">
+    </label>
+    <label class="cell medium-4">
+        email
+        <input autocomplete="on" maxlength="40" required name="email" type="email">
+    </label>
+    <label for="phone" class="cell">
+        Phone
+    </label>
+    <input id="phone" class="cell medium-6" autocomplete="on" required name="phone" type="tel" pattern="[+]?[0-9]{3,15}" title="Accepts +###############">
+    <label class="cell"> Comments
+        <textarea maxlength="1000" rows="8" name="comments"></textarea>
+    </label>
+    <input type="hidden" name="root" value="<?php echo $root ?>">
+    <input type="hidden" name="token" value="<?php htmlout($_SESSION['token']); ?>">
+    <label class="grid-x align-center cell">
+        <span class="show-for-sr">Submit</span>
+        <input name="action" type="submit" class="button" value="Order">
+    </label>
+
+</form>
 
 <?php } ?>

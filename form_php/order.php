@@ -12,7 +12,7 @@ $_SESSION['token'] = md5(uniqid(rand(), TRUE));
 
 
 
-<div class="grid-x align-justify">
+<div  id="response" role="region" aria-label="Dynamic progress form" class="cell grid-x align-justify">
 
     <div id="map" role="img" aria-label="Location Map" class="cell grid-x text-right small-12 medium-order-3 medium-4 large-3">
                 
