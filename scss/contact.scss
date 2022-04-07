@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
     background-position: center right;
     position: relative;
-    max-height: 335px;
+    max-height: 319px;
     @include setbox(null, null, 31%, 0 0 2rem 0);
     @include medium_and_up {
         background-image: url(../images/contact/map.jpg);
