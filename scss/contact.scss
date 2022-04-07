@@ -91,3 +91,33 @@ blockquote {
         @include setbox(null, null, null, 0 0 50px 0);
     }
 }
+
+@include large_and_down() {
+    table {
+        th {
+            position: absolute;
+            clip: rect(0 0 0 0);
+        }
+        tr {
+            display: block;
+            border-top: 1px solid $grey;
+        }
+        thead tr,
+        tr:nth-child(1) {
+            border: none;
+        }
+        td {
+            display: block;
+            text-align: right;
+            &::before {
+                content: attr(headers);
+                float: left;
+                font-weight: 600;
+                text-transform: capitalize;
+            }
+            &:nth-child(odd) {
+                background-color: $colorSeven;
+            }
+        }
+    }
+}

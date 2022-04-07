@@ -184,5 +184,32 @@ blockquote, blockquote cite {
     margin: 0 0 50px 0;
   }
 }
+@media only screen and (max-width: 64em) {
+  table th {
+    position: absolute;
+    clip: rect(0 0 0 0);
+  }
+  table tr {
+    display: block;
+    border-top: 1px solid rgb(202, 202, 202);
+  }
+  table thead tr,
+table tr:nth-child(1) {
+    border: none;
+  }
+  table td {
+    display: block;
+    text-align: right;
+  }
+  table td::before {
+    content: attr(headers);
+    float: left;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  table td:nth-child(odd) {
+    background-color: rgb(248, 248, 248);
+  }
+}
 
 /*# sourceMappingURL=contact.css.map */
