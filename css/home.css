@@ -162,6 +162,13 @@ h2 {
     margin: auto auto 50px auto;
   }
 }
+@media screen and (min-width: 1921px) {
+  .orbit {
+    box-sizing: content-box;
+    box-shadow: 1px 0 rgba(138, 138, 138, 0.2), -1px 0 rgba(138, 138, 138, 0.2);
+    padding: 0 360px;
+  }
+}
 
 @media screen and (min-width: 40em) {
   .media-object {

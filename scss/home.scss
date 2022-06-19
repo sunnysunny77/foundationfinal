@@ -25,6 +25,11 @@ h2 {
     @include medium_and_up() {
         @include setbox(null, null, null, auto auto 50px auto);
     }
+    @include x_large_and_up {
+        box-sizing: content-box;
+        box-shadow: 1px 0 rgba($colorSix, 0.2), -1px 0 rgba($colorSix, 0.2);
+        @include setbox(null, null, 0 360px, null);
+    }
 }
 
 .media-object {
