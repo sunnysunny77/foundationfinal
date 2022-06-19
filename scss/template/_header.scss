@@ -2,7 +2,17 @@
 
 .top-bar {
     background-color: $colorFive;
-    .top-bar-left span {
+    .top-bar-left {
+        @include x_large_and_up {
+            @include setbox(null, null, null,auto auto auto calc(50vw - 960px));
+        }
+    }
+    .top-bar-right {
+        @include x_large_and_up {
+            @include setbox(null, null, null, auto calc(50vw - 960px) auto auto);
+        }
+    }
+    span {
         display: inline-block;
         background-image: url(../images/nav/icon.png);
         @include setbox(84px, 84px, null, null);

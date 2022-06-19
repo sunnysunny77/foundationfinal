@@ -3,6 +3,16 @@
 footer {
     padding-top: 15px;
     background-color: $colorFour;
+    > ul.no-bullet {
+        @include x_large_and_up {
+            @include setbox(null, null, null,auto auto auto calc(50vw - 960px));
+        }
+    }
+    ul + ul.no-bullet {
+        @include x_large_and_up {
+            @include setbox(null, null, null,auto calc(50vw - 960px) auto auto);
+        }
+    }
     li {
         color: $colorTwo;
     }

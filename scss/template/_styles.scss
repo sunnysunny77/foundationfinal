@@ -1,7 +1,6 @@
 /* template */
 
 body {
-    max-width: 1920px;
     @include setbox(null, null, null, auto);
     position: relative;
     &::before {
@@ -38,11 +37,22 @@ h2 {
 }
 
 main {
-    min-height: 72.5vh;
+    min-height: 86vh;
     @include medium_and_up() {
         > * {
             margin-bottom: 50px;
         }
+    }
+    @include x_large_and_up {
+        @include setbox(1920px, null, null, auto);
+        box-shadow: 1px 0 rgba($colorSix, 0.2), -1px 0 rgba($colorSix, 0.2);
+    }
+}
+
+main.grid-container {
+    @include x_large_and_up {
+        box-sizing: content-box;
+        @include setbox(null, null, 0 360px, null);
     }
 }
 
