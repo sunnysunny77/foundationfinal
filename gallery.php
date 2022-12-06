@@ -86,9 +86,9 @@
 
         </ul>
 
-        <section class="grid-x cell text-center align-center">
+        <section id="plants" class="grid-x cell text-center align-center">
 
-            <h3 id="plants" class="cell text-right"> Plants </h3> 
+            <h3 class="cell text-right"> Plants </h3> 
 
             <?php
 
@@ -126,9 +126,9 @@
 
         </section>
 
-        <section class="grid-x cell text-center align-center">
+        <section id="pots" class="grid-x cell text-center align-center">
 
-            <h3 id="pots" class="cell text-right"> Pots </h3> 
+            <h3 class="cell text-right"> Pots </h3> 
 
             <?php
 
@@ -166,9 +166,9 @@
 
         </section>
 
-        <section class="grid-x cell text-center align-center">
+        <section id="gifts" class="grid-x cell text-center align-center">
 
-            <h3 id="gifts" class="cell text-right"> Gifts </h3> 
+            <h3 class="cell text-right"> Gifts </h3> 
 
             <?php
 
@@ -206,9 +206,9 @@
 
         </section>
 
-        <section class="grid-x cell text-center align-center">
+        <section id="garden-tools" class="grid-x cell text-center align-center">
 
-            <h3 id="garden-tools" class="cell text-right"> Garden Tools </h3> 
+            <h3 class="cell text-right"> Garden Tools </h3> 
 
             <?php
 
@@ -246,9 +246,9 @@
 
         </section>
 
-        <section class="grid-x cell text-center align-center">
+        <section id="fertilisers" class="grid-x cell text-center align-center">
 
-            <h3 id="fertilisers" class="cell text-right"> Fertilisers </h3> 
+            <h3 class="cell text-right"> Fertilisers </h3> 
 
             <?php       
 

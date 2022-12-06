@@ -227,7 +227,7 @@ blockquote, blockquote cite {
     border-top: 1px solid rgb(202, 202, 202);
   }
   table thead tr,
-table tr:nth-child(1) {
+  table tr:nth-child(1) {
     border: none;
   }
   table td {
@@ -245,4 +245,4 @@ table tr:nth-child(1) {
   }
 }
 
-/*# sourceMappingURL=contact.css.map */
+/*# sourceMappingURL=quote.css.map */

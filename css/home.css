@@ -204,14 +204,14 @@ h2 {
 
 @media screen and (min-width: 40em) {
   .p-left p,
-.p-right p {
+  .p-right p {
     padding: 0 1rem 3rem 1rem;
     margin: 0;
   }
 }
 @media screen and (min-width: 40em) {
   .p-left h4,
-.p-right h4 {
+  .p-right h4 {
     padding: 2rem 1rem 0 1rem;
   }
 }
