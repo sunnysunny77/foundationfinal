@@ -35,7 +35,7 @@ h2 {
 }
 
 .gallery {
-    @include setbox(null, null,  0 0 120px 0, 3%  0 );
+    @include setbox(null, null, 0 0 120px 0, 3% 0);
     img {
         border: 1px solid $grey;
         box-sizing: content-box;
@@ -45,7 +45,7 @@ h2 {
         font-size: medium;
     }
     a {
-        @include setbox(null, null,1rem 0 0.5rem 0, null);
+        @include setbox(null, null, 1rem 0 0.5rem 0, null);
         color: $colorFive;
         &:hover,
         &:focus {
@@ -54,20 +54,19 @@ h2 {
     }
     .dropdown-pane {
         overflow-y: scroll;
-        @include setbox(null, 120px,null, null);
+        @include setbox(null, 120px, null, null);
     }
 }
 
 section {
-    border-bottom: 1px solid $grey;
     @include setbox(null, null, 96px 0 4% 0, auto);
-    @include large_and_up {
-        @include setbox(null, null, 48px 0 0 0, auto);
-    }
     h3 {
-        @include setbox(null, null, 0 1rem 96px 0, 1rem 0 0 0);
+        @include setbox(null, null, 1rem 1rem 1rem 0, null);
         @include twelve_and_up {
-            @include setbox(null, null, 0 4% 0 0, null);
+            @include setbox(null, null, 1rem 4% 1rem 0, null);
         }
+    }
+    &:nth-child(even) {
+        background-color: $lightgrey;
     }
 }
