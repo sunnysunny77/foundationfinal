@@ -71,7 +71,7 @@
 
     <main id="main" class="grid-container grid-x align-center">
 
-        <h2 class="cell text-center medium-text-right">Contact us</h2>
+        <h2 class="cell text-center medium-text-right">Quote</h2>
 
         <i class="cell fi-clipboard"></i>
 
