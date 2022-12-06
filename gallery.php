@@ -64,7 +64,7 @@
                 <li class="align-self-middle"><a accesskey="1" href="./index.html">HOME</a></li>
                 <li class="align-self-middle"><a accesskey="2" href="./video.html">VIDEO</a></li>
                 <li class="align-self-middle"><a accesskey="3" href="./gallery.php"><h1>GALLERY</h1></a></li>
-                <li class="align-self-middle"><a accesskey="4" href="./contact.php">CONTACT</a></li>
+                <li class="align-self-middle"><a accesskey="4" href="./quote.php">QUOTE</a></li>
 
             </ul>
 
@@ -297,7 +297,7 @@
                     <li><a href="./index.html">HOME</a></li>
                     <li><a href="./video.html">VIDEO</a></li>
                     <li><a href="./gallery.php">GALLERY</a></li>
-                    <li><a href="./contact.php">CONTACT</a></li>
+                    <li><a href="./quote.php">QUOTE</a></li>
                 </ul>
             </li>
         </ul>
