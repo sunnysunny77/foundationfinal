@@ -54,7 +54,7 @@ $products = [
     ],
 
     'fertilisers' => [
-        'fertiliser-1' => ["Richgro 5kg Blood And Bone Based Fertiliser - Blechnum bibbum", 13.93, "Richgro Blood and Bone Based Premium Garden Fertiliser contains the best of organic plant boosters - organic blood and bone, organic phosphorus and natural potash for extra strength and plant colour, particularly fruits and vegetables.These beneficial ingredients have all been used for generations in Australian gardens and Richgro is bringing it all to you in one magic mix that will boost the growth, the quality and the yield of your plants.", "
+        'fertiliser-1' => ["Richgro 5kg Blood And Bone Based Fertiliser - Blechnum", 13.93, "Richgro Blood and Bone Based Premium Garden Fertiliser contains the best of organic plant boosters - organic blood and bone, organic phosphorus and natural potash for extra strength and plant colour, particularly fruits and vegetables.These beneficial ingredients have all been used for generations in Australian gardens and Richgro is bringing it all to you in one magic mix that will boost the growth, the quality and the yield of your plants.", "
         We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
         'fertiliser-2' => ["Amgrow 1L Nitrosol Concentrate Liquid Fertiliser", 12.26, "Amgrow liquid Nitrosol is a highly concentrated liquid plant food that promotes healthy growth in all plants.", "
         We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
