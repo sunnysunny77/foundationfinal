@@ -74,7 +74,7 @@
 
     <main id="main" class="grid-x align-center">
 
-        <h2 class="cell text-center medium-text-right">Products</h2>
+        <h2 class="cell text-center medium-text-right">Gallery</h2>
 
         <ul class="cell sticky-top grid-x text-center align-center menu">
             <li class="cell small-4 large-2"><i class="fi-thumbnails"></i></li>
