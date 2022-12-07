@@ -10,6 +10,11 @@ if ($_POST["token"] === $_SESSION["token"]) {
 
     require_once  $root . '/inc/products.php';
 
+    unset($_SESSION["plants"]);
+    unset($_SESSION["pots"]);
+    unset($_SESSION["gifts"]);
+    unset($_SESSION["garden-tools"]);
+    unset($_SESSION["fertilisers"]);
 
 ?>
 
