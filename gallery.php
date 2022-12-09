@@ -12,7 +12,7 @@
 
     <?php
 
-    $root = $_SERVER["DOCUMENT_ROOT"] . "/foundationfinal-main";
+    $root = $_SERVER["DOCUMENT_ROOT"];
 
     require_once  $root . '/inc/products.php';
 
@@ -77,7 +77,7 @@
         <h2 class="cell text-center medium-text-right">Gallery</h2>
 
         <ul class="cell sticky-top grid-x text-center align-center menu">
-            <li class="cell small-4 large-2"><a href="./gallery.php"><i aria-label="top" class="fi-thumbnails"></i></a></li>
+            <li class="cell small-4 large-2"><a href="./gallery.php"><i class="fi-thumbnails"></i><span class="hide">top</span></a></li>
             <li class="cell small-4 large-2"><a class="subheader" href="#plants">Plants</a></li>
             <li class="cell small-4 large-2"><a class="subheader" href="#pots">Pots</a></li>
             <li class="cell small-4 large-2"><a class="subheader" href="#gifts">Gifts</a></li>
