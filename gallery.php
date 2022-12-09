@@ -12,7 +12,7 @@
 
     <?php
 
-    $root = $_SERVER["DOCUMENT_ROOT"];
+    $root = $_SERVER["DOCUMENT_ROOT"] . "/foundationfinal-main";
 
     require_once  $root . '/inc/products.php';
 
