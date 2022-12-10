@@ -36,7 +36,7 @@ if ($_POST["token"] === $_SESSION["token"]) {
             foreach ($_POST["plants"] as $product) { ?>
 
 
-                <label class="cell medium-4">
+                <label class="cell align-self-bottom medium-4">
                     <?php htmlout($products["plants"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["plants"]["$product"][1]); ?> </b>
                     <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
                 </label>
@@ -55,7 +55,7 @@ if ($_POST["token"] === $_SESSION["token"]) {
 
             foreach ($_POST["pots"] as $product) { ?>
 
-                <label class="cell medium-4">
+                <label class="cell align-self-bottom medium-4">
                     <?php htmlout($products["pots"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["pots"]["$product"][1]); ?> </b>
                     <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
                 </label>
@@ -74,7 +74,7 @@ if ($_POST["token"] === $_SESSION["token"]) {
 
             foreach ($_POST["gifts"] as $product) { ?>
 
-                <label class="cell medium-4">
+                <label class="cell align-self-bottom medium-4">
                     <?php htmlout($products["gifts"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["gifts"]["$product"][1]); ?> </b>
                     <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
                 </label>
@@ -92,7 +92,7 @@ if ($_POST["token"] === $_SESSION["token"]) {
 
             foreach ($_POST["garden-tools"] as $product) { ?>
 
-                <label class="cell medium-4">
+                <label class="cell align-self-bottom medium-4">
                     <?php htmlout($products["garden-tools"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["garden-tools"]["$product"][1]); ?> </b>
                     <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
                 </label>
@@ -112,7 +112,7 @@ if ($_POST["token"] === $_SESSION["token"]) {
 
             foreach ($_POST["fertilisers"] as $product) { ?>
 
-                <label class="cell medium-4">
+                <label class="cell align-self-bottom medium-4">
                     <?php htmlout($products["fertilisers"]["$product"][0] . " ") ?> <b> <?php htmlout("$: " . $products["fertilisers"]["$product"][1]); ?> </b>
                     <input required name="<?php htmlout($product); ?>" type="number" min="1" value="1">
                 </label>
