@@ -1,14 +1,13 @@
 @font-face {
-  font-family: CormorantGaramond-Regular;
-  src: url(./CormorantGaramond-Regularttf);
+  font-family: Baskervville-Regular;
+  src: url(./Baskervville-Regular.ttf);
   font-display: swap;
 }
 /* template */
 body {
   margin: auto;
   position: relative;
-  font-family: CormorantGaramond-Regular;
-  font-size: 120%;
+  font-family: Baskervville-Regular;
 }
 body::before {
   position: absolute;

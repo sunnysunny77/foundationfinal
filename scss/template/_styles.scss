@@ -3,8 +3,7 @@
 body {
     @include setbox(null, null, null, auto);
     position: relative;
-    font-family: CormorantGaramond-Regular;
-    font-size: 120%;
+    font-family: Baskervville-Regular;
     &::before {
         position: absolute;
         content: "";
