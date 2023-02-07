@@ -1,7 +1,14 @@
+@font-face {
+  font-family: CormorantGaramond-Regular;
+  src: url(./CormorantGaramond-Regularttf);
+  font-display: swap;
+}
 /* template */
 body {
   margin: auto;
   position: relative;
+  font-family: CormorantGaramond-Regular;
+  font-size: 120%;
 }
 body::before {
   position: absolute;
@@ -25,16 +32,23 @@ h3,
 h4,
 h5 {
   color: rgb(50, 98, 87);
+  font-family: inherit;
 }
 
 h2 {
   margin: 1rem auto;
   color: rgb(50, 98, 87);
+  font-family: inherit;
 }
 @media screen and (min-width: 40em) {
   h2 {
     margin: 50px auto;
   }
+}
+
+h1 {
+  font-size: inherit;
+  font-family: inherit;
 }
 
 main {
@@ -89,7 +103,6 @@ i {
   height: 84px;
 }
 .top-bar ul h1 {
-  font-size: inherit;
   margin: 0;
   padding: 0;
 }
@@ -141,7 +154,7 @@ h2 {
   box-sizing: content-box;
   z-index: 999;
   right: 20px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
 }
 h2 > span {
