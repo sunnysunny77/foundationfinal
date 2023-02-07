@@ -2,12 +2,12 @@
 /* home */
 
 h2 {
-    @include setbox(220px, 24px, 0.375rem, null);
+    @include setbox(185px, 20px, 0.375rem, null);
     position: absolute;
     box-sizing: content-box;
     z-index: 999;
     right: 20px;
-    background-color: darkShift(rgba($white, 0.3));
+    background-color: darkShift(rgba($white, 0.4));
     border-radius: 10px;
     > span {
         display: flex;
@@ -18,9 +18,12 @@ h2 {
         background-position: center;
         background-repeat: no-repeat;
     }
+    @include medium_and_up {
+        @include setbox(412px, 45px, null, null);
+    } 
     @include twelve_and_up {
         right: calc(50% - 580px);
-        @include setbox(412px, 45px, null, null);
+       
     }
 }
 

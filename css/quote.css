@@ -84,7 +84,7 @@ i {
 }
 .top-bar span {
   display: inline-block;
-  background-image: url(../images/nav/icon.png);
+  background-image: url(../images/nav/icon.svg);
   width: 84px;
   height: 84px;
 }

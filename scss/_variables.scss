@@ -6,11 +6,13 @@ $colorFour: rgb(95, 95, 155);
 $colorFive: rgb(50, 98, 87);
 $colorSix: rgb(138, 138, 138);
 $colorSeven:rgb(248, 248, 248);
+$colorEight: rgb(166, 73, 66);
 $white: rgb(255, 250, 250);
 $black: rgb(10, 10, 10);
 $grey: rgb(202, 202, 202);
 $lightgrey: rgba($grey,0.075);
 $transparent: transparent;
+
 
 //import partials
 @import "./partials/mixins";

@@ -84,7 +84,7 @@ i {
 }
 .top-bar span {
   display: inline-block;
-  background-image: url(../images/nav/icon.png);
+  background-image: url(../images/nav/icon.svg);
   width: 84px;
   height: 84px;
 }
@@ -134,14 +134,14 @@ footer a:hover, footer a:focus {
 
 /* home */
 h2 {
-  width: 220px;
-  height: 24px;
+  width: 185px;
+  height: 20px;
   padding: 0.375rem;
   position: absolute;
   box-sizing: content-box;
   z-index: 999;
   right: 20px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 10px;
 }
 h2 > span {
@@ -153,11 +153,15 @@ h2 > span {
   background-position: center;
   background-repeat: no-repeat;
 }
+@media screen and (min-width: 40em) {
+  h2 {
+    width: 412px;
+    height: 45px;
+  }
+}
 @media screen and (min-width: 1200px) {
   h2 {
     right: calc(50% - 580px);
-    width: 412px;
-    height: 45px;
   }
 }
 
