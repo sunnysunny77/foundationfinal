@@ -4,7 +4,7 @@ $products = [
     'plants' => [
         'plant-1' => ["140mm Silver Lady Fern - Blechnum bibbum", 9.98, "The Blechnum Silver Lady Fern is a very attractive looking fern, requiring filtered light or shade for fast growing indoors or on the patio.", "
         We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
-        'plant-2' => ["140mm Silver Lady Fern - Blechnum gibbum", 17.94, "A vibrant green, fast growing fern with fronds that arch upwards. Also known as the dwarf tree fern as it grows to 1m x 1m with a slender trunk. Ideal as an indoor plant in pots in a filtered light, warm position. Protect from frosts if planted in the garden.", "
+        'plant-2' => ["140mm Silver Male Fern - Blechnum gibbum", 17.94, "A vibrant green, fast growing fern with fronds that arch upwards. Also known as the dwarf tree fern as it grows to 1m x 1m with a slender trunk. Ideal as an indoor plant in pots in a filtered light, warm position. Protect from frosts if planted in the garden.", "
         We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
         'plant-3' => ["125mm Silver Lady - Blechnum Silver Lady", 6.87, "Blechnum Silver Lady is a fast growing fern that can be used to create a great tropical atmosphere around your garden, patio and BBQ area. It needs a moist, shaded and protected position.", "
         We will gladly assist with returns and exchanges of this product in accordance with our returns and exchanges policy."],
