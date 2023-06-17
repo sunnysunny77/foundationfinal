@@ -145,5 +145,9 @@ footer a:hover, footer a:focus {
 }
 
 /* video */
+video {
+  height: 100vh;
+  object-fit: cover;
+}
 
 /*# sourceMappingURL=video.css.map */
